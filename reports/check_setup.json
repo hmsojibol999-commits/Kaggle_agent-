@@ -1,0 +1,70 @@
+{
+ "generated": "2026-10-22T11:22:19Z",
+ "overall": "red",
+ "checks": [
+  {
+   "id": "secret_groq",
+   "label": "Secret GROQ_API_KEY",
+   "status": "ok",
+   "detail": "set",
+   "fix": ""
+  },
+  {
+   "id": "secret_pixabay",
+   "label": "Secret PIXABAY_API_KEY",
+   "status": "ok",
+   "detail": "set",
+   "fix": ""
+  },
+  {
+   "id": "groq_models",
+   "label": "Groq model list",
+   "status": "fail",
+   "detail": "key rejected (401)",
+   "fix": "create a new Groq key"
+  },
+  {
+   "id": "groq_tts",
+   "label": "Groq TTS test",
+   "status": "warn",
+   "detail": "groq_no_key: {\"error\":{\"message\":\"Invalid API Key\",\"type\":\"invalid_request_error\",\"code\":\"invalid_api_key\"}}\n (edge-tts will be used instead)",
+   "fix": "accept the Orpheus terms in console.groq.com or ignore: fallback is automatic"
+  },
+  {
+   "id": "pixabay",
+   "label": "Pixabay search",
+   "status": "ok",
+   "detail": "5 photos returned",
+   "fix": ""
+  },
+  {
+   "id": "edge_tts",
+   "label": "edge-tts fallback voice",
+   "status": "ok",
+   "detail": "synthesis works",
+   "fix": ""
+  },
+  {
+   "id": "ffmpeg",
+   "label": "ffmpeg + libx264 + aac",
+   "status": "ok",
+   "detail": "ffmpeg version 6.1.1-3ubuntu5 Copyright (c) 2000-2023 the FFmpeg developers",
+   "fix": ""
+  },
+  {
+   "id": "ffprobe",
+   "label": "ffprobe",
+   "status": "ok",
+   "detail": "",
+   "fix": ""
+  },
+  {
+   "id": "fonts",
+   "label": "Fonts",
+   "status": "ok",
+   "detail": "bold=Poppins-Bold.ttf medium=Poppins-Medium.ttf",
+   "fix": ""
+  }
+ ],
+ "run": "39769812455"
+}
