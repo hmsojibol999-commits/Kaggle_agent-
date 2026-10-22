@@ -1,0 +1,23 @@
+# WordClip Studio settings (edit this file on GitHub: pencil icon -> Commit changes)
+# Model names and voices can ALSO be set as GitHub Actions Variables; a Variable wins over this file.
+
+channel_handle: "@YourChannel"     # shown at the end of every video
+words_per_video: 3                 # default 3 (timeline and checks are tuned for 3)
+theme: auto                        # auto | yellow | blue | green | purple | orange | teal
+use_vocal_tags: false              # true = add [cheerful] to Groq Orpheus text
+
+# Groq (can be overridden by Variables GROQ_TEXT_MODEL, GROQ_TTS_MODEL, ...)
+text_model: "llama-3.3-70b-versatile"
+tts_model: "canopylabs/orpheus-v1-english"
+voice_question: "autumn"           # female: autumn, diana, hannah
+voice_answer: "troy"               # male: austin, daniel, troy
+
+# Fallback voices (edge-tts)
+edge_voice_question: "en-US-AriaNeural"
+edge_voice_answer: "en-US-GuyNeural"
+
+# Optional music: put an .mp3 into assets/music/ (only music you have the right to use)
+music_volume_lufs: -26
+duck_db: -10
+
+categories: [kitchen, tools, garden, office, bathroom, clothing, furniture, toys, sports, vehicles, food, electronics]
