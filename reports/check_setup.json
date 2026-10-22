@@ -1,6 +1,6 @@
 {
- "generated": "2026-10-22T11:22:19Z",
- "overall": "red",
+ "generated": "2026-10-22T11:31:48Z",
+ "overall": "yellow",
  "checks": [
   {
    "id": "secret_groq",
@@ -19,15 +19,29 @@
   {
    "id": "groq_models",
    "label": "Groq model list",
-   "status": "fail",
-   "detail": "key rejected (401)",
-   "fix": "create a new Groq key"
+   "status": "ok",
+   "detail": "11 models; orpheus: canopylabs/orpheus-arabic-saudi, canopylabs/orpheus-v1-english",
+   "fix": ""
+  },
+  {
+   "id": "groq_text_model",
+   "label": "Text model llama-3.3-70b-versatile",
+   "status": "warn",
+   "detail": "not in the list: built-in word list will be used",
+   "fix": "set Variable GROQ_TEXT_MODEL to a model from the list"
+  },
+  {
+   "id": "groq_tts_model",
+   "label": "TTS model canopylabs/orpheus-v1-english",
+   "status": "ok",
+   "detail": "found",
+   "fix": ""
   },
   {
    "id": "groq_tts",
    "label": "Groq TTS test",
    "status": "warn",
-   "detail": "groq_no_key: {\"error\":{\"message\":\"Invalid API Key\",\"type\":\"invalid_request_error\",\"code\":\"invalid_api_key\"}}\n (edge-tts will be used instead)",
+   "detail": "groq_terms: {\"error\":{\"message\":\"The model `canopylabs/orpheus-v1-english` requires terms acceptance. Please have the org admin accept the terms at https://console.groq.com/playground?model=canopylabs%2Forpheus-v (edge-tts will be used instead)",
    "fix": "accept the Orpheus terms in console.groq.com or ignore: fallback is automatic"
   },
   {
@@ -66,5 +80,5 @@
    "fix": ""
   }
  ],
- "run": "39769812455"
+ "run": "39770737854"
 }
