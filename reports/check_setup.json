@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-22T11:31:48Z",
+ "generated": "2026-10-22T12:10:01Z",
  "overall": "yellow",
  "checks": [
   {
@@ -40,9 +40,9 @@
   {
    "id": "groq_tts",
    "label": "Groq TTS test",
-   "status": "warn",
-   "detail": "groq_terms: {\"error\":{\"message\":\"The model `canopylabs/orpheus-v1-english` requires terms acceptance. Please have the org admin accept the terms at https://console.groq.com/playground?model=canopylabs%2Forpheus-v (edge-tts will be used instead)",
-   "fix": "accept the Orpheus terms in console.groq.com or ignore: fallback is automatic"
+   "status": "ok",
+   "detail": "voice autumn works",
+   "fix": ""
   },
   {
    "id": "pixabay",
@@ -80,5 +80,5 @@
    "fix": ""
   }
  ],
- "run": "39770737854"
+ "run": "39776058153"
 }
