@@ -4,7 +4,7 @@ Format (kept small, well under 60k chars):
 {"v":1,"sid":"20261021-0930-ab12","theme":"auto",
  "w":[{"w":"umbrella stand","p":123456,"f":[0.41,0.62],"o":[0.5,0.5]},
       {"w":"wheelbarrow","u":"sessions/<sid>/uploads/a.jpg","f":[0.5,0.5]}]}
-p = Pexels photo id, u = uploaded path on the state branch (exactly one).
+p = Pixabay photo id, u = uploaded path on the state branch (exactly one).
 x = optional list of skipped words (they join bad_words.txt after a good build).
 """
 from __future__ import annotations

@@ -2,7 +2,7 @@
 
   python tests/ui_test.py [screenshot_dir]
 
-Nothing here talks to the real GitHub, Groq or Pexels.
+Nothing here talks to the real GitHub, Groq or Pixabay.
 """
 import base64
 import http.server
@@ -52,7 +52,7 @@ class FakeGitHub:
         self.video = Path("/tmp/o1/video.mp4")
 
     def photo_url(self, pid, kind="medium"):
-        return f"https://images.pexels.com/photos/{pid}/pexels-{pid}-{kind}.jpg"
+        return f"https://pixabay.com/photos/{pid}/pixabay-{pid}-{kind}.jpg"
 
     def make_run(self, wf, title):
         self.next_id += 1
@@ -68,7 +68,7 @@ class FakeGitHub:
             run = self.make_run(wf, f"Prepare {sid}")
             if self.mode == "prepare_fails":
                 run["conclusion"] = "failure"
-                self.files[f"sessions/{sid}/status.json"] = json.dumps({"state": "error", "code": "pexels_rate_limit", "detail": "429"})
+                self.files[f"sessions/{sid}/status.json"] = json.dumps({"state": "error", "code": "pixabay_rate_limit", "detail": "429"})
                 return
             st = State(self.tmp)
             cand = prep.build_candidates(C.Settings(), st, sid, inputs.get("category") or None, True)
@@ -195,7 +195,7 @@ def main():
         page.on("console", lambda m: console_errors.append(m.text) if m.type == "error" else None)
         page.on("pageerror", lambda e: console_errors.append("PAGEERROR " + str(e)))
         page.route("https://api.github.com/**", fake.handle)
-        page.route("https://images.pexels.com/**", lambda r, q: r.fulfill(status=200, content_type="image/jpeg",
+        page.route("https://pixabay.com/**", lambda r, q: r.fulfill(status=200, content_type="image/jpeg",
                    body=jpeg_bytes(int(q.url.split("/photos/")[1].split("/")[0]), *((350 * 4 // 3, 350) if "medium" in q.url else (940, 650)))))
         vid = fake.video.read_bytes() if fake.video.exists() else b""
         page.route("https://github.com/**", lambda r, q: r.fulfill(status=200, content_type="video/mp4" if q.url.endswith("mp4") else "image/jpeg",
@@ -247,12 +247,12 @@ def main():
         page.fill("#tok", "github_pat_TEST")
         page.click("button[data-act=save-settings]")
 
-        # 4. prepare fails with Pexels limit -> message
+        # 4. prepare fails with Pixabay limit -> message
         fake.mode = "prepare_fails"
         page.click("a[data-nav=home]")
         page.click("button[data-act=prepare]")
-        page.wait_for_selector("text=Pexels সীমা শেষ")
-        check("prepare failure shows plain-Bengali reason + action", page.locator("text=এক ঘণ্টা পরে").count() == 1)
+        page.wait_for_selector("text=Pixabay সীমা শেষ")
+        check("prepare failure shows plain-Bengali reason + action", page.locator("text=এক মিনিট পরে").count() == 1)
         shot("03-prepare-error")
         fake.mode = "ok"
 
@@ -414,7 +414,7 @@ def main():
                                    is_mobile=True, has_touch=True, service_workers="block")
         dp = dark.new_page()
         dp.route("https://api.github.com/**", fake.handle)
-        dp.route("https://images.pexels.com/**", lambda r, q: r.fulfill(status=200, content_type="image/jpeg", body=jpeg_bytes(3)))
+        dp.route("https://pixabay.com/**", lambda r, q: r.fulfill(status=200, content_type="image/jpeg", body=jpeg_bytes(3)))
         dp.goto(base + "#settings")
         dp.evaluate("localStorage.setItem('wc.token', JSON.stringify('github_pat_TEST')); localStorage.setItem('wc.repo', JSON.stringify('%s'))" % REPO)
         dp.goto(base + f"#s/{sid}")

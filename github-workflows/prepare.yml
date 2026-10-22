@@ -21,7 +21,7 @@ jobs:
     timeout-minutes: 15
     env:
       GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
-      PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+      PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
       GROQ_TEXT_MODEL: ${{ vars.GROQ_TEXT_MODEL }}
       GROQ_TTS_MODEL: ${{ vars.GROQ_TTS_MODEL }}
       GROQ_TTS_VOICE_QUESTION: ${{ vars.GROQ_TTS_VOICE_QUESTION }}

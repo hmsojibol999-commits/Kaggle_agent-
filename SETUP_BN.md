@@ -6,7 +6,7 @@
 ## ধাপ ০: দুটি key আগে নিয়ে রাখুন
 
 1. **Groq:** console.groq.com এ ঢুকে **API Keys** থেকে নতুন key বানান। এর পাশে **Models/Limits** পাতায় দেখে নিন কোন মডেল কত ব্যবহার করা যায়।
-2. **Pexels:** pexels.com/api এ গিয়ে ফর্ম পূরণ করলে key পাবেন।
+2. **Pixabay:** pixabay.com এ বিনামূল্যে account খুলে login করুন। তারপর pixabay.com/api/docs/ পাতা খুললে “Parameters” অংশে আপনার নিজের key দেখা যাবে।
 
 Key দুটি একটি নিরাপদ নোটে কপি করে রাখুন। চ্যাটে কাউকে পাঠাবেন না।
 
@@ -64,7 +64,7 @@ Repo খুলে ওপরে **Settings** ট্যাব।
 1. বাঁ দিকের মেনুতে **Secrets and variables → Actions**।
 2. **Secrets** ট্যাবে **New repository secret**।
 3. **Name:** `GROQ_API_KEY` (হুবহু, বড় হাতের), **Secret:** আপনার Groq key → **Add secret**।
-4. আবার **New repository secret**: **Name:** `PEXELS_API_KEY`, **Secret:** Pexels key → **Add secret**।
+4. আবার **New repository secret**: **Name:** `PIXABAY_API_KEY`, **Secret:** Pixabay key → **Add secret**। (আগে `PEXELS_API_KEY` দিয়ে থাকলে ওটা আর লাগবে না, মুছে ফেলতে পারেন।)
 
 **Variables (মডেল ও ভয়েসের নাম):** এগুলো ঐচ্ছিক। না দিলে নিচের ডিফল্ট চলবে।
 

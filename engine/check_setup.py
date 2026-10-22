@@ -1,4 +1,4 @@
-"""check_setup.yml: verifies secrets, Groq models, Pexels, ffmpeg, fonts, state branch.
+"""check_setup.yml: verifies secrets, Groq models, Pixabay, ffmpeg, fonts, state branch.
 
 Writes reports/check_setup.json on the state branch (the UI shows it) and exits
 non-zero when anything is red so the Actions run is red too.
@@ -27,7 +27,7 @@ def item(cid, label, status, detail="", fix=""):
 
 def check_secrets():
     out = []
-    for name, cid in (("GROQ_API_KEY", "secret_groq"), ("PEXELS_API_KEY", "secret_pexels")):
+    for name, cid in (("GROQ_API_KEY", "secret_groq"), ("PIXABAY_API_KEY", "secret_pixabay")):
         v = os.environ.get(name, "").strip()
         out.append(item(cid, f"Secret {name}", "ok" if v else "fail",
                         "set" if v else "empty or missing",
@@ -82,15 +82,15 @@ def check_groq_tts(settings):
         shutil.rmtree(d, ignore_errors=True)
 
 
-def check_pexels():
-    from .pexels import Pexels
+def check_pixabay():
+    from .pixabay import Pixabay
     try:
-        photos = Pexels().search_raw("umbrella", 1, 5)
-        return [item("pexels", "Pexels search", "ok" if photos else "fail", f"{len(photos)} photos returned",
+        photos = Pixabay().search_raw("umbrella", 1, 5)
+        return [item("pixabay", "Pixabay search", "ok" if photos else "fail", f"{len(photos)} photos returned",
                      "" if photos else "no result: retry")]
     except E.WCError as ex:
-        return [item("pexels", "Pexels search", "fail", f"{ex.code}: {ex.detail}",
-                     "check PEXELS_API_KEY" if ex.code == E.PEXELS_NO_KEY else "wait and retry (rate limit)")]
+        return [item("pixabay", "Pixabay search", "fail", f"{ex.code}: {ex.detail}",
+                     "check PIXABAY_API_KEY" if ex.code == E.PIXABAY_NO_KEY else "wait a minute and retry (rate limit)")]
 
 
 def check_edge():
@@ -136,7 +136,7 @@ def check_fonts():
 def run_checks(settings, mock=False):
     res = check_secrets()
     if not mock:
-        res += check_groq_models(settings) + check_groq_tts(settings) + check_pexels() + check_edge()
+        res += check_groq_models(settings) + check_groq_tts(settings) + check_pixabay() + check_edge()
     res += check_ffmpeg() + check_fonts()
     return res
 

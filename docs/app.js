@@ -234,7 +234,7 @@
   }
   const spareIdx = () => cur.cand.words.map((_, i) => i).filter((i) => !cur.ui.active.includes(i) && !cur.ui.skipped.includes(cur.cand.words[i].word));
 
-  /* candidate list for one word: own uploads first, then Pexels photos */
+  /* candidate list for one word: own uploads first, then Pixabay photos */
   function thumbsFor(ci) {
     const w = cur.cand.words[ci];
     const ups = (cur.ui.uploads[ci] || []).map((u) => ({ key: 'u:' + u.path, upload: u.path, src: u.preview, thumb: u.preview, w: u.w, h: u.h, mine: true }));
@@ -497,7 +497,7 @@
         ${a(b.cover, 'Cover')}${a(b.sheet, 'Contact sheet')}${a(b.credits, 'Credits')}
         ${b.rel ? `<a class="btn small" href="${esc(b.rel.html_url)}" target="_blank" rel="noopener">Release পাতা</a>` : ''}
       </div>
-      <p class="muted">ছবি Pexels থেকে। ফটোগ্রাফারদের নাম Release-এর নোটে আছে। পোস্টের বর্ণনায় দিলে ভালো।</p></section>`;
+      <p class="muted">ছবি Pixabay থেকে। ফটোগ্রাফারদের নাম Release-এর নোটে আছে। পোস্টের বর্ণনায় দিলে ভালো।</p></section>`;
   }
 
   /* ---------------- SETTINGS ---------------- */
@@ -529,7 +529,7 @@
       <select id="theme" aria-label="ভিডিওর থিম">${THEMES.map((t) => `<option value="${t}" ${cfg.theme === t ? 'selected' : ''}>${THEME_BN[t]}</option>`).join('')}</select>
     </section>
     <section class="card"><h2>Setup পরীক্ষা</h2>
-      <p class="muted">Key, মডেল, Pexels, ffmpeg সব ঠিক আছে কি দেখে নেয়। প্রায় ১ মিনিট লাগে।</p>
+      <p class="muted">Key, মডেল, Pixabay, ffmpeg সব ঠিক আছে কি দেখে নেয়। প্রায় ১ মিনিট লাগে।</p>
       <button class="btn primary" data-act="check-setup" ${busy ? 'disabled' : ''}>Setup পরীক্ষা চালান</button>
       ${setupReport ? `<div style="margin-top:12px"><span class="chip ${setupReport.overall === 'green' ? 'ok' : setupReport.overall === 'yellow' ? 'warn' : 'bad'}">${{ green: 'সব সবুজ', yellow: 'চলবে, কিছু সতর্কতা', red: 'সমস্যা আছে' }[setupReport.overall]}</span>
         <div style="margin-top:8px">${setupReport.checks.map(check).join('')}</div></div>` : ''}
@@ -541,8 +541,8 @@
         ${voiceReport.samples.map((s) => `<div class="voice"><strong style="min-width:150px">${s.engine === 'groq' ? 'Groq' : 'edge-tts'} · ${esc(s.voice)} (${s.gender === 'female' ? 'মহিলা' : 'পুরুষ'})</strong>
           ${s.ok ? `<audio controls preload="none" src="${esc(s.url)}"></audio>` : `<span class="muted">হয়নি: ${esc(s.error || '')}</span>`}</div>`).join('')}</div>` : ''}
     </section>
-    <section class="card"><h2>Pexels সম্মান</h2>
-      <p class="muted">সব ছবি <a href="https://www.pexels.com" target="_blank" rel="noopener">Pexels</a> থেকে। প্রতিটি ভিডিওর Release নোটে ফটোগ্রাফারের নাম আছে।</p></section>`;
+    <section class="card"><h2>Pixabay সম্মান</h2>
+      <p class="muted">সব ছবি <a href="https://pixabay.com" target="_blank" rel="noopener">Pixabay</a> থেকে। প্রতিটি ভিডিওর Release নোটে ফটোগ্রাফারের নাম আছে।</p></section>`;
   }
 
   async function checkTokenAction() {

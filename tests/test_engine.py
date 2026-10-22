@@ -18,7 +18,7 @@ from engine import config as C  # noqa: E402
 from engine import draw as D  # noqa: E402
 from engine import errors as E  # noqa: E402
 from engine import geometry as G  # noqa: E402
-from engine import pexels as P  # noqa: E402
+from engine import pixabay as P  # noqa: E402
 from engine import sfx, tts, words as Wd  # noqa: E402
 from engine.selection import parse_selection  # noqa: E402
 from engine.timeline import (WordAudio, audio_events, build_timeline, ease_out_back,  # noqa: E402
@@ -298,20 +298,21 @@ class WordTests(unittest.TestCase):
         self.assertEqual(cm.exception.code, E.GROQ_NO_KEY)
 
 
-class PexelsTests(unittest.TestCase):
+class PixabayTests(unittest.TestCase):
     def photos(self):
+        # sizes are what can really be downloaded from Pixabay (at most 1280 px)
         def ph(i, w, h, alt):
             return {"id": i, "width": w, "height": h, "alt": alt, "photographer": "P", "photographer_url": "u",
-                    "url": "x", "src": {"original": "o", "large2x": "l2", "large": "l", "medium": "m"}}
-        return [ph(1, 4000, 3000, "a wood chisel on a bench"), ph(2, 4000, 3000, "man holding a chisel"),
-                ph(3, 1700, 1300, "chisel"), ph(4, 800, 600, "tiny chisel"), ph(5, 5000, 3300, "carpenter tools"),
-                ph(6, 3000, 6000, "wood chisel tall"), ph(7, 2000, 2000, "wood chisel set")]
+                    "url": "x", "src": {"original": "o", "large": "l", "medium": "m"}}
+        return [ph(1, 1280, 960, "wood chisel, bench"), ph(2, 1280, 960, "man, holding, chisel"),
+                ph(3, 1100, 1000, "chisel"), ph(4, 640, 480, "tiny, chisel"), ph(5, 1280, 1000, "carpenter, tools"),
+                ph(6, 640, 1280, "wood chisel, tall"), ph(7, 1280, 1280, "wood chisel, set")]
 
     def test_ranking_and_person_penalty(self):
         out = P.filter_and_rank(self.photos(), "wood chisel", want=6)
         ids = [o["id"] for o in out]
         self.assertEqual(len(ids), 6)
-        self.assertNotIn(4, ids)                       # 800x600 is below every resolution level
+        self.assertNotIn(4, ids)                       # 640x480 would be enlarged 2x: below every level
         self.assertEqual(ids[0], 1)                    # exact phrase match, landscape
         self.assertLess(ids.index(1), ids.index(2))    # person photo ranked lower
         top4 = [o["id"] for o in P.filter_and_rank(self.photos(), "wood chisel", want=4)]
@@ -321,10 +322,11 @@ class PexelsTests(unittest.TestCase):
 
     def test_stepwise_relaxation(self):
         few = [p for p in self.photos() if p["id"] in (1, 4)]
-        few += [{"id": 10 + i, "width": 1400, "height": 1050, "alt": "chisel", "src": {}, "photographer": "a"} for i in range(4)]
+        few += [{"id": 10 + i, "width": 1000, "height": 800, "alt": "chisel", "src": {}, "photographer": "a"} for i in range(4)]
         out = P.filter_and_rank(few, "chisel", want=4)
         self.assertEqual(len(out), 4)
-        self.assertTrue(all(o["w"] >= 1300 for o in out))
+        self.assertNotIn(4, [o["id"] for o in out])
+        self.assertTrue(all(G.cover_scale(o["w"], o["h"]) <= 1.30 for o in out))   # second level was needed
 
     def test_exclude_ids(self):
         out = P.filter_and_rank(self.photos(), "wood chisel", want=4, exclude_ids=[1, 5])
@@ -332,14 +334,41 @@ class PexelsTests(unittest.TestCase):
 
     def test_no_key_error(self):
         with self.assertRaises(E.WCError) as cm:
-            P.Pexels(key="").search_raw("x")
-        self.assertEqual(cm.exception.code, E.PEXELS_NO_KEY)
+            P.Pixabay(key="").search_raw("x")
+        self.assertEqual(cm.exception.code, E.PIXABAY_NO_KEY)
 
     def test_mock_is_deterministic(self):
-        a = P.Pexels(mock=True).candidates("lamp", "table lamp")
-        b = P.Pexels(mock=True).candidates("lamp", "table lamp")
+        a = P.Pixabay(mock=True).candidates("lamp", "table lamp")
+        b = P.Pixabay(mock=True).candidates("lamp", "table lamp")
         self.assertEqual([x["id"] for x in a], [x["id"] for x in b])
         self.assertEqual(len(a), 4)
+
+    HIT = {"id": 195893, "pageURL": "https://pixabay.com/photos/blossom-bloom-flower-195893/", "type": "photo",
+           "tags": "blossom, bloom, flower", "webformatURL": "https://pixabay.com/get/w_640.jpg",
+           "largeImageURL": "https://pixabay.com/get/l_1280.jpg", "imageWidth": 4000, "imageHeight": 3000,
+           "user": "Josch13", "user_id": 1664300}
+
+    def test_normalize_hit(self):
+        p = P._normalize(self.HIT)
+        self.assertEqual((p["width"], p["height"]), (1280, 960))      # largeImageURL is capped at 1280 px
+        self.assertEqual(p["photographer"], "Josch13")
+        self.assertEqual(p["photographer_url"], "https://pixabay.com/users/Josch13-1664300/")
+        self.assertEqual(p["url"], self.HIT["pageURL"])
+        self.assertEqual(p["src"]["original"], self.HIT["largeImageURL"])   # no full API access
+        slim = P._slim(p, "flower")
+        self.assertEqual((slim["thumb"], slim["large"]), (self.HIT["webformatURL"], self.HIT["largeImageURL"]))
+
+    def test_normalize_full_access_keeps_original(self):
+        p = P._normalize(dict(self.HIT, imageURL="https://pixabay.com/get/orig.jpg"))
+        self.assertEqual((p["width"], p["height"]), (4000, 3000))
+        self.assertEqual(p["src"]["original"], "https://pixabay.com/get/orig.jpg")
+        p = P._normalize(dict(self.HIT, fullHDURL="https://pixabay.com/get/hd.jpg"))
+        self.assertEqual((p["width"], p["height"]), (1920, 1440))
+
+    def test_normalize_rejects_unusable_hits(self):
+        self.assertIsNone(P._normalize({"id": 1}))
+        self.assertIsNone(P._normalize(dict(self.HIT, largeImageURL="")))
+        self.assertIsNone(P._normalize(dict(self.HIT, imageWidth=0)))
 
 
 class SelectionTests(unittest.TestCase):
@@ -588,7 +617,7 @@ class GroqRequestShapeTests(unittest.TestCase):
 
 
 class HttpFlowTests(unittest.TestCase):
-    """Groq text + Pexels HTTP behaviour with stubbed `requests` (no network)."""
+    """Groq text + Pixabay HTTP behaviour with stubbed `requests` (no network)."""
 
     class Resp:
         def __init__(self, status=200, body=None, text=""):
@@ -677,57 +706,168 @@ class HttpFlowTests(unittest.TestCase):
         with mock.patch.object(Wd.requests, "post", lambda *a, **k: answers.pop(0)):
             self.assertEqual(Wd.groq_words(6, [], [], None, "m", key="k")[0]["word"], "ladle")
 
-    def pexels_body(self):
-        return {"photos": [{"id": 1, "width": 4000, "height": 3000, "alt": "ladle", "photographer": "A",
-                            "photographer_url": "u", "url": "p", "src": {"original": "o", "large2x": "l", "large": "l", "medium": "m"}}]}
+    def pixabay_hit(self, **over):
+        return dict({"id": 1, "pageURL": "p", "type": "photo", "tags": "ladle, spoon", "webformatURL": "w",
+                     "largeImageURL": "l", "imageWidth": 4000, "imageHeight": 3000, "user": "A", "user_id": 7}, **over)
 
-    def test_pexels_request_shape(self):
+    def pixabay_body(self, **over):
+        return {"total": 1, "totalHits": 1, "hits": [self.pixabay_hit(**over)]}
+
+    def test_pixabay_request_shape(self):
         seen = {}
 
-        def get(url, headers=None, params=None, timeout=None):
-            seen.update(url=url, headers=headers, params=params)
-            return self.Resp(200, self.pexels_body())
+        def get(url, params=None, headers=None, timeout=None):
+            seen.update(url=url, params=params, headers=headers)
+            return self.Resp(200, self.pixabay_body())
 
         with mock.patch.object(P.requests, "get", get):
-            photos = P.Pexels(key="PKEY").search_raw("ladle spoon", page=2)
+            photos = P.Pixabay(key="PKEY").search_raw("ladle spoon", page=2)
         self.assertEqual(len(photos), 1)
-        self.assertEqual(seen["url"], "https://api.pexels.com/v1/search")
-        self.assertEqual(seen["headers"], {"Authorization": "PKEY"})
-        self.assertEqual(seen["params"], {"query": "ladle spoon", "per_page": 15, "page": 2})
+        self.assertEqual(seen["url"], "https://pixabay.com/api/")
+        self.assertEqual(seen["params"], {"key": "PKEY", "q": "ladle spoon", "image_type": "photo",
+                                          "safesearch": "true", "page": 2, "per_page": 30})
+        self.assertIn("User-Agent", seen["headers"])
 
-    def test_pexels_rate_limit_retry_then_ok(self):
-        answers = [self.Resp(429), self.Resp(200, self.pexels_body())]
+    def test_pixabay_rate_limit_retry_then_ok(self):
+        answers = [self.Resp(429), self.Resp(200, self.pixabay_body())]
         with mock.patch.object(P.requests, "get", lambda *a, **k: answers.pop(0)):
-            self.assertEqual(len(P.Pexels(key="k").search_raw("x")), 1)
+            self.assertEqual(len(P.Pixabay(key="k").search_raw("x")), 1)
 
-    def test_pexels_rate_limit_exhausted(self):
+    def test_pixabay_rate_limit_waits_for_window_reset(self):
+        class Limited(self.Resp):
+            headers = {"X-RateLimit-Reset": "17"}
+        waits = []
+        answers = [Limited(429), self.Resp(200, self.pixabay_body())]
+        with mock.patch.object(P.requests, "get", lambda *a, **k: answers.pop(0)), \
+                mock.patch("time.sleep", waits.append):
+            P.Pixabay(key="k").search_raw("x")
+        self.assertEqual(waits, [18])
+
+    def test_pixabay_rate_limit_exhausted(self):
         with mock.patch.object(P.requests, "get", lambda *a, **k: self.Resp(429)):
             with self.assertRaises(E.WCError) as cm:
-                P.Pexels(key="k").search_raw("x")
-        self.assertEqual(cm.exception.code, E.PEXELS_RATE)
+                P.Pixabay(key="k").search_raw("x")
+        self.assertEqual(cm.exception.code, E.PIXABAY_RATE)
 
-    def test_pexels_bad_key(self):
-        with mock.patch.object(P.requests, "get", lambda *a, **k: self.Resp(401)):
+    def test_pixabay_bad_key(self):
+        for resp in (self.Resp(401), self.Resp(403), self.Resp(400, text='[ERROR 400] "key" is invalid')):
+            with mock.patch.object(P.requests, "get", lambda *a, r=resp, **k: r):
+                with self.assertRaises(E.WCError) as cm:
+                    P.Pixabay(key="k").search_raw("x")
+            self.assertEqual(cm.exception.code, E.PIXABAY_NO_KEY)
+
+    def test_pixabay_page_out_of_range_means_no_more(self):
+        calls = []
+
+        def get(*a, **k):
+            calls.append(1)
+            return self.Resp(400, text='[ERROR 400] "page" is out of valid range.')
+
+        with mock.patch.object(P.requests, "get", get):
+            self.assertEqual(P.Pixabay(key="k").search_raw("x", page=99), [])
+        self.assertEqual(len(calls), 1)
+
+    def test_pixabay_other_bad_request_is_not_retried(self):
+        calls = []
+
+        def get(*a, **k):
+            calls.append(1)
+            return self.Resp(400, text="[ERROR 400] something else")
+
+        with mock.patch.object(P.requests, "get", get):
             with self.assertRaises(E.WCError) as cm:
-                P.Pexels(key="k").search_raw("x")
-        self.assertEqual(cm.exception.code, E.PEXELS_NO_KEY)
+                P.Pixabay(key="k").search_raw("x")
+        self.assertEqual((len(calls), cm.exception.code), (1, E.PIXABAY_EMPTY))
+
+    def test_pixabay_key_never_leaks_into_errors(self):
+        # the key is part of the URL, and requests puts the URL into its exception text
+        def get(*a, **k):
+            raise P.requests.ConnectionError("Max retries exceeded with url: /api/?key=SECRET123&q=x")
+
+        with mock.patch.object(P.requests, "get", get):
+            with self.assertRaises(E.WCError) as cm:
+                P.Pixabay(key="SECRET123").search_raw("x")
+        self.assertNotIn("SECRET123", cm.exception.detail)
+        self.assertNotIn("SECRET123", str(cm.exception))
+        self.assertNotIn("SECRET123", json.dumps(cm.exception.to_dict()))
+
+    def test_pixabay_candidates_top_up_with_the_bare_word(self):
+        queries = []
+
+        def get(url, params=None, headers=None, timeout=None):
+            queries.append(params["q"])
+            narrow = params["q"] == "wood chisel tool"
+            ids = range(2) if narrow else range(100, 108)       # the long query finds only two photos
+            return self.Resp(200, {"hits": [self.pixabay_hit(id=i) for i in ids]})
+
+        with mock.patch.object(P.requests, "get", get):
+            out = P.Pixabay(key="k").candidates("wood chisel", "wood chisel tool")
+        self.assertEqual(queries, ["wood chisel tool", "wood chisel"])
+        self.assertEqual(len(out), 4)
+        self.assertEqual(len({o["id"] for o in out}), 4)
+
+    def test_pixabay_by_id_returns_fresh_links(self):
+        seen = {}
+
+        def get(url, params=None, headers=None, timeout=None):
+            seen.update(params)
+            return self.Resp(200, self.pixabay_body(id=42, largeImageURL="https://fresh/l.jpg"))
+
+        with mock.patch.object(P.requests, "get", get):
+            fresh = P.Pixabay(key="k").by_id(42)
+            self.assertEqual(seen["id"], 42)
+            self.assertEqual((fresh["large"], fresh["original"]), ("https://fresh/l.jpg", "https://fresh/l.jpg"))
+            self.assertIsNone(P.Pixabay(key="k").by_id(43))       # answer was for another id
+
+    def test_build_refreshes_expired_pixabay_links(self):
+        from engine import build
+        from engine.selection import parse_selection as parse
+        from PIL import Image
+
+        buf = tempfile.NamedTemporaryFile(suffix=".jpg", delete=False)
+        buf.close()
+        noise = np.random.RandomState(1).randint(0, 255, (640, 640, 3), dtype=np.uint8)
+        Image.fromarray(noise).save(buf.name, "JPEG", quality=90)
+        jpeg = Path(buf.name).read_bytes()
+        os.unlink(buf.name)
+
+        class Img:
+            def __init__(self, status, content=b""):
+                self.status_code, self.content = status, content
+
+        asked = []
+
+        def get(url, params=None, headers=None, timeout=None):
+            asked.append(url)
+            if url == "https://pixabay.com/api/":
+                return self.Resp(200, self.pixabay_body(id=5, largeImageURL="https://fresh/l.jpg"))
+            return Img(200, jpeg) if url == "https://fresh/l.jpg" else Img(403)
+
+        sel = parse('{"v":1,"sid":"20261021-1000-aa11","w":[{"w":"ladle","p":5}]}', 1)
+        cand = {"words": [{"photos": [{"id": 5, "original": "https://old/o.jpg", "large": "https://old/l.jpg",
+                                       "photographer": "A", "photographer_url": "u", "url": "p"}]}]}
+        with tempfile.TemporaryDirectory() as d, mock.patch.object(P.requests, "get", get), \
+                mock.patch.dict(os.environ, {"PIXABAY_API_KEY": "k"}):
+            _words, _infos, credits = build.collect_images(sel, cand, None, Path(d), False)
+        self.assertIn("https://fresh/l.jpg", asked)
+        self.assertEqual((credits[0]["source"], credits[0]["pixabay_id"]), ("Pixabay", 5))
 
     def test_prepare_drops_words_with_too_few_photos_and_uses_spares(self):
         from engine import prepare
-        poor = {"photos": [dict(self.pexels_body()["photos"][0], id=i) for i in range(2)]}   # only 2 usable photos
+        poor = {"hits": [self.pixabay_hit(id=i) for i in range(2)]}   # only 2 usable photos
         rich_words = {"ladle", "whisk", "teapot", "kettle", "toaster", "blender"}
 
-        def get(url, headers=None, params=None, timeout=None):
-            q = params["query"].split()[0]
+        def get(url, params=None, headers=None, timeout=None):
+            q = params["q"].split()[0]
             if q in rich_words:
-                body = {"photos": [dict(self.pexels_body()["photos"][0], id=hash(q) % 1000 * 10 + i) for i in range(8)]}
+                body = {"hits": [self.pixabay_hit(id=hash(q) % 1000 * 10 + i) for i in range(8)]}
             else:
                 body = poor
             return self.Resp(200, body)
 
         raw = [{"word": w, "search_query": w} for w in ("hammer", "ladle", "whisk", "wrench", "teapot", "kettle", "toaster", "blender")]
         with tempfile.TemporaryDirectory() as d, mock.patch.object(P.requests, "get", get), \
-                mock.patch.object(prepare, "groq_words", lambda *a, **k: raw), mock.patch.dict(os.environ, {"PEXELS_API_KEY": "k", "GROQ_API_KEY": "k"}):
+                mock.patch.object(prepare, "groq_words", lambda *a, **k: raw), mock.patch.dict(os.environ, {"PIXABAY_API_KEY": "k", "GROQ_API_KEY": "k"}):
             from engine.state import State
             cand = prepare.build_candidates(C.Settings(), State(d), "20261021-1000-aa11", None, False)
         words = [w["word"] for w in cand["words"]]
@@ -815,7 +955,7 @@ class PrepareFlowTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as d:
             remote = f"{d}/remote.git"
             subprocess.run(["git", "init", "-q", "--bare", remote], check=True)
-            env = {k: os.environ.pop(k, None) for k in ("GROQ_API_KEY", "PEXELS_API_KEY")}
+            env = {k: os.environ.pop(k, None) for k in ("GROQ_API_KEY", "PIXABAY_API_KEY")}
             try:
                 rc = prepare.main(["--session", "20261021-1000-cc33", "--state-dir", f"{d}/s",
                                    "--remote", f"file://{remote}"])      # not mock, no keys
@@ -827,7 +967,7 @@ class PrepareFlowTests(unittest.TestCase):
             st = State(f"{d}/v", f"file://{remote}").init()
             status = st.read_json("sessions/20261021-1000-cc33/status.json")
             self.assertEqual(status["state"], "error")
-            self.assertEqual(status["code"], E.PEXELS_NO_KEY)    # Groq failure falls back; Pexels key is fatal
+            self.assertEqual(status["code"], E.PIXABAY_NO_KEY)    # Groq failure falls back; Pixabay key is fatal
 
 
 if __name__ == "__main__":

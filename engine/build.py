@@ -29,6 +29,7 @@ from . import media, quality, sfx
 from . import render as R
 from . import tts
 from .mock import mock_photo
+from .pixabay import USER_AGENT, Pixabay
 from .selection import SID_RE, Selection, parse_selection
 from .state import State
 from .timeline import WordAudio, build_timeline
@@ -55,7 +56,7 @@ def _download(urls: list, dest: Path) -> str:
             continue
         for attempt in range(3):
             try:
-                r = requests.get(url, timeout=120)
+                r = requests.get(url, headers={"User-Agent": USER_AGENT}, timeout=120)
                 if r.status_code == 200 and len(r.content) > 5000:
                     dest.write_bytes(r.content)
                     return url
@@ -95,15 +96,27 @@ def collect_images(sel: Selection, cand: dict | None, state: State | None, workd
                 if meta is None:
                     raise E.WCError(E.SELECTION_BAD,
                                     f"photo {pick.photo_id} not in candidates.json", "download")
-                _download([meta.get("original"), meta.get("large")], raw)
+                try:
+                    _download([meta.get("original"), meta.get("large")], raw)
+                except E.WCError as first:
+                    # Pixabay image links expire after ~24 h: ask for fresh ones by id, retry once
+                    try:
+                        fresh = Pixabay().by_id(pick.photo_id)
+                    except E.WCError:
+                        fresh = None
+                    if not fresh:
+                        raise first
+                    log(f"   fresh Pixabay links fetched for {pick.word}")
+                    meta = {**meta, "original": fresh["original"], "large": fresh["large"]}
+                    _download([meta.get("original"), meta.get("large")], raw)
             credits.append({
                 "word": pick.word,
-                "pexels_id": pick.photo_id,
+                "pixabay_id": pick.photo_id,
                 "photographer": (meta or {}).get("photographer", "Mock Photographer"),
                 "photographer_url": (meta or {}).get("photographer_url", ""),
                 "photo_url": (meta or {}).get("url", ""),
-                "source": "Pexels",
-                "license": "https://www.pexels.com/license/",
+                "source": "Pixabay",
+                "license": "https://pixabay.com/service/license-summary/",
             })
         try:
             info = R.prep_image(raw, workdir / f"work{i}.png")
@@ -174,10 +187,10 @@ def release_notes(tag: str, sel: Selection, theme: dict, credits: list, engine: 
              f"Theme: {theme['name']}  |  Voices: {engine.engines_summary()}"]
     if engine.fallback_notes:
         lines += ["", "Voice notes:"] + [f"- {n}" for n in engine.fallback_notes]
-    lines += ["", "## Photo credits", "Photos provided by [Pexels](https://www.pexels.com)."]
+    lines += ["", "## Photo credits", "Photos provided by [Pixabay](https://pixabay.com)."]
     for c in credits:
         if c.get("photographer"):
-            lines.append(f"- {c['word']}: [{c['photographer']}]({c.get('photographer_url', '')}) on Pexels"
+            lines.append(f"- {c['word']}: [{c['photographer']}]({c.get('photographer_url', '')}) on Pixabay"
                          + (f" ([photo]({c['photo_url']}))" if c.get("photo_url") else ""))
         else:
             lines.append(f"- {c['word']}: {c.get('credit', '')}")
@@ -245,7 +258,7 @@ def run_build(sel: Selection, settings, state: State | None, mock: bool, out_dir
         make_contact_sheet(video, tl, sheet, work)
         credits_path = out_dir / "credits.json"
         credits_path.write_text(json.dumps(
-            {"generated": _now(), "photos_source": "Pexels (https://www.pexels.com)",
+            {"generated": _now(), "photos_source": "Pixabay (https://pixabay.com)",
              "words": [p.word for p in sel.picks], "credits": credits,
              "voice_engines": engine.engines_used}, ensure_ascii=False, indent=1), encoding="utf-8")
         checks = quality.check_video(video, len(sel.picks), [p.word for p in sel.picks], infos, tl.total)

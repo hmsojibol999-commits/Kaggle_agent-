@@ -17,7 +17,7 @@ import traceback
 
 from . import config as C
 from . import errors as E
-from .pexels import Pexels
+from .pixabay import Pixabay
 from .selection import SID_RE
 from .state import State
 from .words import (builtin_words, fallback_words, filter_candidates, groq_words,
@@ -57,7 +57,7 @@ def build_candidates(settings, state: State, sid: str, category: str | None,
     rng = random.Random(sid)
     total = settings.words_per_video * 2
     items, source, warnings = pick_words(settings, used, bad, category, rng, mock, total)
-    px = Pexels(mock=mock)
+    px = Pixabay(mock=mock)
     out, seen = [], set()
     topped_up = False
     queue = list(items)
@@ -69,9 +69,9 @@ def build_candidates(settings, state: State, sid: str, category: str | None,
         try:
             photos = px.candidates(it["word"], it["search_query"], page=1, want=PHOTOS_PER_WORD)
         except E.WCError as ex:
-            if ex.code in (E.PEXELS_NO_KEY, E.PEXELS_RATE):
+            if ex.code in (E.PIXABAY_NO_KEY, E.PIXABAY_RATE):
                 raise
-            print(f"[prepare] Pexels failed for {it['word']}: {ex.detail}", flush=True)
+            print(f"[prepare] Pixabay failed for {it['word']}: {ex.detail}", flush=True)
             continue
         if len(photos) < PHOTOS_PER_WORD:
             print(f"[prepare] drop '{it['word']}': only {len(photos)} usable photos", flush=True)
@@ -86,7 +86,7 @@ def build_candidates(settings, state: State, sid: str, category: str | None,
             warnings.append({"code": "topped_up", "detail": "extra words added from fallback list",
                              "stage": "words"})
     if len(out) < settings.words_per_video:
-        raise E.WCError(E.PEXELS_EMPTY,
+        raise E.WCError(E.PIXABAY_EMPTY,
                         f"only {len(out)} usable words found (need {settings.words_per_video})",
                         "prepare")
     return {
@@ -112,7 +112,7 @@ def more_images(state: State, sid: str, word: str, mock: bool) -> dict:
             break
     if target is None:
         raise E.WCError(E.SELECTION_BAD, f"unknown word '{word}'", "more_images")
-    px = Pexels(mock=mock)
+    px = Pixabay(mock=mock)
     have = {p["id"] for p in target["photos"]}
     added = []
     page = target.get("page", 1)
@@ -128,7 +128,7 @@ def more_images(state: State, sid: str, word: str, mock: bool) -> dict:
         if len(added) >= PHOTOS_PER_WORD:
             break
     if not added:
-        raise E.WCError(E.PEXELS_EMPTY, f"no more photos for '{word}'", "more_images")
+        raise E.WCError(E.PIXABAY_EMPTY, f"no more photos for '{word}'", "more_images")
     target["photos"].extend(added[:PHOTOS_PER_WORD])
     data["updated"] = _now()
     state.write_json(path, data)
