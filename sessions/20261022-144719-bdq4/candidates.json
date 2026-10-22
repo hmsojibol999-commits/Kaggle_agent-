@@ -69,9 +69,61 @@
      "large": "https://pixabay.com/get/ga1a7a6d368ca5837f237ae66cff3475896941dddc6e31728feaa99b1cd8d05ad616f92fd69d7046a8dd4de23fa7504a870595f269d08c0095e0b979f8323ec9a_1280.jpg",
      "original": "https://pixabay.com/get/ga1a7a6d368ca5837f237ae66cff3475896941dddc6e31728feaa99b1cd8d05ad616f92fd69d7046a8dd4de23fa7504a870595f269d08c0095e0b979f8323ec9a_1280.jpg",
      "score": 4.141
+    },
+    {
+     "id": 4020883,
+     "w": 1280,
+     "h": 954,
+     "alt": "united states air force academy, military, chapel, church, landmark, religion, faith, landscape, america, colorado springs, hdr, architectur",
+     "photographer": "1778011",
+     "photographer_url": "https://pixabay.com/users/1778011-1778011/",
+     "url": "https://pixabay.com/photos/united-states-air-force-academy-4020883/",
+     "thumb": "https://pixabay.com/get/g0ae69e5b4fe648d6c46cf478fb4cb6a6002b3b4d47aee3a259fdbad9ba43dd9e48c7f51c95cee248fb8ee11b3635a3d8d7f3ed2070d6d6dcdf807e1b8f4fa2e7_640.jpg",
+     "large": "https://pixabay.com/get/gef50211952c463557f86dfec63ea084f12b7d2d4abdead737f1b712f740a20d8fe62b8a18ca530f0bbdb35e6551d390eda2d55ee3de4dba4486b8c1c70b7194c_1280.jpg",
+     "original": "https://pixabay.com/get/gef50211952c463557f86dfec63ea084f12b7d2d4abdead737f1b712f740a20d8fe62b8a18ca530f0bbdb35e6551d390eda2d55ee3de4dba4486b8c1c70b7194c_1280.jpg",
+     "score": 5.713
+    },
+    {
+     "id": 89606,
+     "w": 1280,
+     "h": 914,
+     "alt": "night, evening, building, structure, air force academy, colorado springs, colorado, sculpture, sky, clouds, lights, nature, lighting, night ",
+     "photographer": "12019",
+     "photographer_url": "https://pixabay.com/users/12019-12019/",
+     "url": "https://pixabay.com/photos/night-evening-building-structure-89606/",
+     "thumb": "https://pixabay.com/get/gf652fadd4411a4e14fe7ad5debf14445e44c64646f1774d3f6ffab463ba80fb598975d72b1ee707895f45d08c9425a87_640.jpg",
+     "large": "https://pixabay.com/get/g4543d03bca4e231fac65d82bb525e031d664f0761ae66e8d91903bd43942ead7808886fcc33e4ed7d332fb37e27e9115_1280.jpg",
+     "original": "https://pixabay.com/get/g4543d03bca4e231fac65d82bb525e031d664f0761ae66e8d91903bd43942ead7808886fcc33e4ed7d332fb37e27e9115_1280.jpg",
+     "score": 5.713
+    },
+    {
+     "id": 2817246,
+     "w": 1280,
+     "h": 960,
+     "alt": "fire and ambulance services academy, fire engine, fire truck, collapse, rescue, disaster, accident, earthquake, earthquake, earthquake, eart",
+     "photographer": "Cassty1",
+     "photographer_url": "https://pixabay.com/users/Cassty1-6620595/",
+     "url": "https://pixabay.com/photos/fire-and-ambulance-services-academy-2817246/",
+     "thumb": "https://pixabay.com/get/gf843d24cb89efa05c3aa186ec76b97fef2cbb153325f5418fa9e436f486907acc34cc00bcdb4a8db3a3ffd49dc072cc297f576f77e751641eb95be6fb6ce4441_640.jpg",
+     "large": "https://pixabay.com/get/g49df1fe4f5304fb3314694469e012e254a0b1d588ffbfbca96bcd03776548a0a2cd12816ca3a03eb83575d8e0e70734687d2b7cd17e8a7ad92fd836a582d73da_1280.jpg",
+     "original": "https://pixabay.com/get/g49df1fe4f5304fb3314694469e012e254a0b1d588ffbfbca96bcd03776548a0a2cd12816ca3a03eb83575d8e0e70734687d2b7cd17e8a7ad92fd836a582d73da_1280.jpg",
+     "score": 5.713
+    },
+    {
+     "id": 100734,
+     "w": 1280,
+     "h": 972,
+     "alt": "shoes, building, air force academy, outside, training, left behind, field, brown training, brown shoes, left behind, left behind, left behin",
+     "photographer": "12019",
+     "photographer_url": "https://pixabay.com/users/12019-12019/",
+     "url": "https://pixabay.com/photos/shoes-building-air-force-academy-100734/",
+     "thumb": "https://pixabay.com/get/g9f7a01284d8be5556568ae25f7c2405e6c3b2028fadcd3c028e34c2a49abe7542de391519ec924e3a5719eb7207a4729_640.jpg",
+     "large": "https://pixabay.com/get/gf7cd57b80fc68c187ac8981153dd5a4f39827d3f8facb10022af3ebaabc814dbc283f734d21a8532779adee892840383da206334778e291a8350191ae628e9ff_1280.jpg",
+     "original": "https://pixabay.com/get/gf7cd57b80fc68c187ac8981153dd5a4f39827d3f8facb10022af3ebaabc814dbc283f734d21a8532779adee892840383da206334778e291a8350191ae628e9ff_1280.jpg",
+     "score": 5.713
     }
    ],
-   "page": 1
+   "page": 2
   },
   {
    "word": "ski boot",
@@ -378,5 +430,6 @@
    ],
    "page": 1
   }
- ]
+ ],
+ "updated": "2026-10-22T14:49:30Z"
 }
