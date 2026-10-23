@@ -9,6 +9,11 @@
    "code": "vision_unavailable",
    "stage": "vision",
    "detail": "vision model could not be used; photos were NOT checked"
+  },
+  {
+   "code": "vision_unavailable",
+   "stage": "vision",
+   "detail": "vision model could not be used; photos were NOT checked"
   }
  ],
  "words": [
@@ -401,6 +406,202 @@
     }
    ],
    "page": 1
+  },
+  {
+   "word": "axolotl",
+   "search_query": "axolotl salamander",
+   "category": "animal",
+   "difficulty": 2,
+   "photos": [
+    {
+     "id": 38317,
+     "w": 1280,
+     "h": 960,
+     "alt": "axolotl, salamander, exotic pets, salamanders, amphibians, aquarium, nature, creature, pet, water, amphibia, aquatic, reptile",
+     "photographer": "Jerrico",
+     "photographer_url": "https://pixabay.com/users/Jerrico-4034/",
+     "url": "https://pixabay.com/photos/axolotl-salamander-exotic-pets-38317/",
+     "thumb": "https://pixabay.com/get/g0ae28154183f4c3cbdc1387e56138bde53cb24e7a57f6a1bca028690ce0102689ce58942009ccc807882134dac3fa119_640.jpg",
+     "large": "https://pixabay.com/get/ge8f5d65a591bd3d4786a11506e47df1acaa47ebdf0b170d7c7cf7a99899bebf734aa13ce01ebdf3976636f6022db196d_1280.jpg",
+     "original": "https://pixabay.com/get/ge8f5d65a591bd3d4786a11506e47df1acaa47ebdf0b170d7c7cf7a99899bebf734aa13ce01ebdf3976636f6022db196d_1280.jpg",
+     "score": 5.713,
+     "vision": "unsure"
+    },
+    {
+     "id": 2193331,
+     "w": 1280,
+     "h": 960,
+     "alt": "axolotl, leucistique, male, ambystoma, mexicanum, axolotl, axolotl, axolotl, axolotl, axolotl",
+     "photographer": "LaDameBucolique",
+     "photographer_url": "https://pixabay.com/users/LaDameBucolique-4228283/",
+     "url": "https://pixabay.com/photos/axolotl-leucistique-male-ambystoma-2193331/",
+     "thumb": "https://pixabay.com/get/gcf359b3b6516f56f0a321956376b3aab6690c02fe151284ab53702c3d433e4f6d8924abc6929b8c16b13471d590ec18b4c33d0e9200eb9249d9420692853a797_640.jpg",
+     "large": "https://pixabay.com/get/g22d40055c2b4c5b9166c05350303669a4494e49e7127b81e5c63fe6d4ea16cadc128fcca3ec8f63504ecbfcf5a3555b888d13f1892f88c7d7e73cc0f9a3e22a9_1280.jpg",
+     "original": "https://pixabay.com/get/g22d40055c2b4c5b9166c05350303669a4494e49e7127b81e5c63fe6d4ea16cadc128fcca3ec8f63504ecbfcf5a3555b888d13f1892f88c7d7e73cc0f9a3e22a9_1280.jpg",
+     "score": 5.713,
+     "vision": "unsure"
+    },
+    {
+     "id": 5415386,
+     "w": 1280,
+     "h": 853,
+     "alt": "axolotl, wild, wetland, nature, marsh, scenic, sky, landscape, environment, animals, mexico, axolotl, axolotl, axolotl, axolotl, axolotl",
+     "photographer": "KinEnriquez",
+     "photographer_url": "https://pixabay.com/users/KinEnriquez-1522280/",
+     "url": "https://pixabay.com/photos/axolotl-wild-wetland-nature-marsh-5415386/",
+     "thumb": "https://pixabay.com/get/g1d364270e7e6ab905dd558f59a8fa0c0fa7359ba64ae397a7d98432d0bbb4ef9ab05accbbc18ce339844959edbf7563f9956f32012239a033e80762fc631147a_640.jpg",
+     "large": "https://pixabay.com/get/gaddf0babdfd2a5ee95598781d34e9b6a8dc4506cd367713220f449e8b4e5ce575155a7911d3658cf93358212f014b773d9f798ca2a11305d842b8700567a06f5_1280.jpg",
+     "original": "https://pixabay.com/get/gaddf0babdfd2a5ee95598781d34e9b6a8dc4506cd367713220f449e8b4e5ce575155a7911d3658cf93358212f014b773d9f798ca2a11305d842b8700567a06f5_1280.jpg",
+     "score": 5.713,
+     "vision": "unsure"
+    },
+    {
+     "id": 2412189,
+     "w": 1280,
+     "h": 960,
+     "alt": "axolotl, cute, weird, axolotl, axolotl, axolotl, axolotl, axolotl",
+     "photographer": "uthlas",
+     "photographer_url": "https://pixabay.com/users/uthlas-5660052/",
+     "url": "https://pixabay.com/photos/axolotl-cute-weird-2412189/",
+     "thumb": "https://pixabay.com/get/gf5aafaccd585f1dfe925651fcd589256d03ad44f2d9519a48e8eda63a4cdc64ad194b48ae9f31248584b34391ba6e5fc32d3263a52c34bce6d648e4df68acfef_640.jpg",
+     "large": "https://pixabay.com/get/g8e1ad1a999bafce7f8c1772ef7b481dd34d72c31b858ded638f0cc43496567916d7b6776cbed69b4a8012adddb2307075e9dff0a96fad69a1118754a0c514964_1280.jpg",
+     "original": "https://pixabay.com/get/g8e1ad1a999bafce7f8c1772ef7b481dd34d72c31b858ded638f0cc43496567916d7b6776cbed69b4a8012adddb2307075e9dff0a96fad69a1118754a0c514964_1280.jpg",
+     "score": 5.713,
+     "vision": "unsure"
+    }
+   ],
+   "page": 1
+  },
+  {
+   "word": "didgeridoo",
+   "search_query": "didgeridoo wind instrument",
+   "category": "instrument",
+   "difficulty": 2,
+   "photos": [
+    {
+     "id": 389074,
+     "w": 1280,
+     "h": 960,
+     "alt": "didgeridoo, blowpipe, musical instrument, australia, wood, painting, wood painting, multicoloured, aboriginal, didgeridu, yedaki, didgeridoo",
+     "photographer": "Didgeman",
+     "photographer_url": "https://pixabay.com/users/Didgeman-153208/",
+     "url": "https://pixabay.com/photos/didgeridoo-blowpipe-389074/",
+     "thumb": "https://pixabay.com/get/g7dd462cc7ac6e11a3aed23b71ef98a2bd37738a7a733454cd52d146e23d8ab7706e74dbd7c5dbb702cba9042d27f87e6_640.jpg",
+     "large": "https://pixabay.com/get/g709fd94ade85881a5168607533c1e06cc49c6239df56ca8f70f74f1868babf75bfdc62208c1bc72bc07700b50f80727ed08e4141078c3ef53cbde3cc08bf5199_1280.jpg",
+     "original": "https://pixabay.com/get/g709fd94ade85881a5168607533c1e06cc49c6239df56ca8f70f74f1868babf75bfdc62208c1bc72bc07700b50f80727ed08e4141078c3ef53cbde3cc08bf5199_1280.jpg",
+     "score": 5.713,
+     "vision": "unsure"
+    },
+    {
+     "id": 1005468,
+     "w": 1280,
+     "h": 853,
+     "alt": "children, people, didgeridoo, music, boy, girl, blow, children, didgeridoo, didgeridoo, didgeridoo, didgeridoo, didgeridoo",
+     "photographer": "Ben_Kerckx",
+     "photographer_url": "https://pixabay.com/users/Ben_Kerckx-69781/",
+     "url": "https://pixabay.com/photos/children-people-didgeridoo-music-1005468/",
+     "thumb": "https://pixabay.com/get/ge5568f2ccecfd65bd64bd416300eec14a0aef7a0d59ffc1584ca7aacd083693861dcd4c9f36547300840c4a1d1ca77f57eb4c9226e74a693f5ba632f8c267d63_640.jpg",
+     "large": "https://pixabay.com/get/g73356a545f14940bccd64cb173f70a845305b8f377a3c75c82cf7c01299b9ab666df7ef90109ac43a79af80eb9e07b75aecc2923b0767b30ff71d0a19262694f_1280.jpg",
+     "original": "https://pixabay.com/get/g73356a545f14940bccd64cb173f70a845305b8f377a3c75c82cf7c01299b9ab666df7ef90109ac43a79af80eb9e07b75aecc2923b0767b30ff71d0a19262694f_1280.jpg",
+     "score": 3.713,
+     "vision": "unsure"
+    },
+    {
+     "id": 546303,
+     "w": 1280,
+     "h": 853,
+     "alt": "saxophone, instrument, music, sheet music, golden saxophone, musical notes, reflection, brass, classical music, musical instrument, saxophon",
+     "photographer": "schuetz-mediendesign",
+     "photographer_url": "https://pixabay.com/users/schuetz-mediendesign-608937/",
+     "url": "https://pixabay.com/photos/saxophone-instrument-music-546303/",
+     "thumb": "https://pixabay.com/get/gc222a057cae4233b78406228f95752a4f50dd50d122d47ec7d927c1262fa86a813fe5396fc0bd49973de6fbff42ddfd7_640.jpg",
+     "large": "https://pixabay.com/get/g671e88251f62364a8858e057394df6711221a5b4792d6c2c15714499fc78515f3a6af724896c353581950213b19f2ae40c91049bc4b6a6f4f2edb76c8a390ed5_1280.jpg",
+     "original": "https://pixabay.com/get/g671e88251f62364a8858e057394df6711221a5b4792d6c2c15714499fc78515f3a6af724896c353581950213b19f2ae40c91049bc4b6a6f4f2edb76c8a390ed5_1280.jpg",
+     "score": 1.213,
+     "vision": "unsure"
+    },
+    {
+     "id": 9762992,
+     "w": 1280,
+     "h": 853,
+     "alt": "wind energy, offshore, wind farm, baltic sea, pinwheels, wind power, power generation, energy transition",
+     "photographer": "Sinousxl",
+     "photographer_url": "https://pixabay.com/users/Sinousxl-7554155/",
+     "url": "https://pixabay.com/photos/wind-energy-offshore-wind-farm-9762992/",
+     "thumb": "https://pixabay.com/get/g439e21478464b5e079eb0850e8721db0040704aa4842587683a4b7b98533890b8bd85383a62b329d5702eb05d2b2fcc5f2f658667ff9146241194b9db2b904e1_640.jpg",
+     "large": "https://pixabay.com/get/g49b3e05603f05ea55b33bdcb6cbcf4651f906579ac491e9ff7acf3389e443f10c72285ec2ad6d11d98d0fa1d2e8160c1a0bb1e77a74b4615d1f0d8f3173e9184_1280.jpg",
+     "original": "https://pixabay.com/get/g49b3e05603f05ea55b33bdcb6cbcf4651f906579ac491e9ff7acf3389e443f10c72285ec2ad6d11d98d0fa1d2e8160c1a0bb1e77a74b4615d1f0d8f3173e9184_1280.jpg",
+     "score": 1.213,
+     "vision": "unsure"
+    }
+   ],
+   "page": 1
+  },
+  {
+   "word": "sundial",
+   "search_query": "sundial garden timepiece",
+   "category": "tool",
+   "difficulty": 1,
+   "photos": [
+    {
+     "id": 2720656,
+     "w": 1280,
+     "h": 960,
+     "alt": "sundial, nature, garden, time",
+     "photographer": "artyangel",
+     "photographer_url": "https://pixabay.com/users/artyangel-5887741/",
+     "url": "https://pixabay.com/photos/sundial-garden-time-2720656/",
+     "thumb": "https://pixabay.com/get/gffc733f53b5a27a13aa97dd6e1275390ca05ffdca5c1e14dcadddf66b719f9d199eec93deb8f7931888fde52c652b2ec87bba8176ec18eb6b4c4a3aaba6fceed_640.jpg",
+     "large": "https://pixabay.com/get/g7c03ea2a3a07daf14f209a3d91d35c181ec430aeb932180ed7e96415ffee7678a4b045076dff271a3b8b49e7347d9b520fb2509407885101fbae2f8efd78deb3_1280.jpg",
+     "original": "https://pixabay.com/get/g7c03ea2a3a07daf14f209a3d91d35c181ec430aeb932180ed7e96415ffee7678a4b045076dff271a3b8b49e7347d9b520fb2509407885101fbae2f8efd78deb3_1280.jpg",
+     "score": 5.713,
+     "vision": "unsure"
+    },
+    {
+     "id": 620107,
+     "w": 1280,
+     "h": 960,
+     "alt": "sun dial, gnomon, shadow, time, sundial, sun, hour, dial, timepiece, sun dial, sun dial, sun dial, sun dial, sun dial, gnomon, gnomon, sundi",
+     "photographer": "aitoff",
+     "photographer_url": "https://pixabay.com/users/aitoff-388338/",
+     "url": "https://pixabay.com/photos/sun-dial-gnomon-shadow-time-620107/",
+     "thumb": "https://pixabay.com/get/g4754828b41ebdf120c2be157c65c3ad77d71b4a92db2f5e3864c5b5ee8b8b24aac45955a100ba0454f07ccdb8341e69e_640.jpg",
+     "large": "https://pixabay.com/get/g171f117bb2ac7bf7c4823f7d014b45a88f49fdccadeda0acfa4e7e6ed552c17ee698d5e15892bf600bfb90c53b71364dd2fada65557ce142fbf79e5f5ec5096d_1280.jpg",
+     "original": "https://pixabay.com/get/g171f117bb2ac7bf7c4823f7d014b45a88f49fdccadeda0acfa4e7e6ed552c17ee698d5e15892bf600bfb90c53b71364dd2fada65557ce142fbf79e5f5ec5096d_1280.jpg",
+     "score": 5.713,
+     "vision": "unsure"
+    },
+    {
+     "id": 1076743,
+     "w": 1280,
+     "h": 1013,
+     "alt": "sundial, clock, time, pointer, time display, old, sun course, timepiece, historic center, sundial, sundial, sundial, sundial, sundial",
+     "photographer": "PeterKraayvanger",
+     "photographer_url": "https://pixabay.com/users/PeterKraayvanger-10776/",
+     "url": "https://pixabay.com/photos/sundial-clock-time-pointer-1076743/",
+     "thumb": "https://pixabay.com/get/g33f15c6bc80c6bb81e71a0bb5e2f4d8e6e9e933f6989fef53337225fef3b7d107321c1bd1d6269031e95ce417b969680875ea4de905a7cf9aba55d4ba2167ee9_640.jpg",
+     "large": "https://pixabay.com/get/gd75c75cabf4c1319df869f468dc803f84d37437792827290422c26ab37f35840c0fded829c3222d05baa30a124b0a481f271dfd3ef827891cd12b136746bea31_1280.jpg",
+     "original": "https://pixabay.com/get/gd75c75cabf4c1319df869f468dc803f84d37437792827290422c26ab37f35840c0fded829c3222d05baa30a124b0a481f271dfd3ef827891cd12b136746bea31_1280.jpg",
+     "score": 5.713,
+     "vision": "unsure"
+    },
+    {
+     "id": 2680935,
+     "w": 960,
+     "h": 1280,
+     "alt": "sundial, clock, time, sun, time display, pointer, timepiece, nature, sun course, time of day, summer time",
+     "photographer": "moritz320",
+     "photographer_url": "https://pixabay.com/users/moritz320-1260270/",
+     "url": "https://pixabay.com/photos/sundial-clock-time-sun-2680935/",
+     "thumb": "https://pixabay.com/get/g21c16f4bdba52036d3b8209d1a403fb1a29a7fdc1656a46a62dd8a97ba011009719d0aa9a2332f3956f724c247b4706cf537554e88e8db19a36fd789fa87d7f9_640.jpg",
+     "large": "https://pixabay.com/get/g95296a582962b368fe26b19fdf2a3e934c01097806bbb3df089d41d26e00aa1fa168ded6e6080fa732d7686afafc4e96e4c99bfb91ebd2fa623dca326ab9eec8_1280.jpg",
+     "original": "https://pixabay.com/get/g95296a582962b368fe26b19fdf2a3e934c01097806bbb3df089d41d26e00aa1fa168ded6e6080fa732d7686afafc4e96e4c99bfb91ebd2fa623dca326ab9eec8_1280.jpg",
+     "score": 4.66,
+     "vision": "unsure"
+    }
+   ],
+   "page": 1
   }
- ]
+ ],
+ "updated": "2026-10-23T10:24:48Z"
 }
