@@ -12,7 +12,7 @@ vision_model: "qwen/qwen3.6-27b"   # checks that each photo really shows the wor
 vision_check: true                 # Prepare: drop photos that do not show the word
 vision_gate: true                  # Build: stop if a chosen photo clearly is not the word
 tts_model: "canopylabs/orpheus-v1-english"
-voice_question: "autumn"           # female: autumn, diana, hannah
+voice_question: "troy"           # female: autumn, diana, hannah
 voice_answer: "troy"               # male: austin, daniel, troy
 
 # Fallback voices (edge-tts)
