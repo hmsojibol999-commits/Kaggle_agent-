@@ -1,0 +1,60 @@
+name: Prepare
+run-name: "Prepare ${{ inputs.session_id }}"
+on:
+  workflow_dispatch:
+    inputs:
+      session_id:
+        description: "Session id (made by the web app)"
+        required: true
+      category:
+        description: "Optional category, e.g. kitchen"
+        required: false
+        default: ""
+      refill:
+        description: "true = add fresh words to an existing session (used by the Skip button)"
+        required: false
+        default: "false"
+      exclude:
+        description: "Comma separated words to avoid (skipped words), used with refill"
+        required: false
+        default: ""
+concurrency:
+  group: wordclip
+  cancel-in-progress: false
+permissions:
+  contents: write
+jobs:
+  prepare:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+      PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
+      GROQ_TEXT_MODEL: ${{ vars.GROQ_TEXT_MODEL }}
+      GROQ_TTS_MODEL: ${{ vars.GROQ_TTS_MODEL }}
+      GROQ_TTS_VOICE_QUESTION: ${{ vars.GROQ_TTS_VOICE_QUESTION }}
+      GROQ_TTS_VOICE_ANSWER: ${{ vars.GROQ_TTS_VOICE_ANSWER }}
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      PYTHONUNBUFFERED: "1"
+      SESSION: ${{ inputs.session_id }}
+      CATEGORY: ${{ inputs.category }}
+      REFILL: ${{ inputs.refill }}
+      EXCLUDE: ${{ inputs.exclude }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+      - name: Install Python packages
+        run: pip install -r requirements.txt
+      - name: Download WordNet (word fallback)
+        run: python -m nltk.downloader -q wordnet omw-1.4 || true
+      - name: Prepare words and photos
+        run: |
+          if [ "$REFILL" = "true" ]; then
+            python -m engine.prepare --session "$SESSION" --category "$CATEGORY" --refill --exclude "$EXCLUDE"
+          else
+            python -m engine.prepare --session "$SESSION" --category "$CATEGORY"
+          fi

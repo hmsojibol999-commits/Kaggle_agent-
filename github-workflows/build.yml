@@ -1,0 +1,52 @@
+name: Build
+run-name: "Build ${{ inputs.session_id }}"
+on:
+  workflow_dispatch:
+    inputs:
+      session_id:
+        description: "Session id"
+        required: true
+      selection:
+        description: "Compact selection JSON made by the web app"
+        required: true
+concurrency:
+  group: wordclip
+  cancel-in-progress: false
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    env:
+      GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+      PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
+      GROQ_TEXT_MODEL: ${{ vars.GROQ_TEXT_MODEL }}
+      GROQ_TTS_MODEL: ${{ vars.GROQ_TTS_MODEL }}
+      GROQ_TTS_VOICE_QUESTION: ${{ vars.GROQ_TTS_VOICE_QUESTION }}
+      GROQ_TTS_VOICE_ANSWER: ${{ vars.GROQ_TTS_VOICE_ANSWER }}
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      PYTHONUNBUFFERED: "1"
+      SESSION: ${{ inputs.session_id }}
+      SELECTION: ${{ inputs.selection }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+      - name: Install Python packages
+        run: pip install -r requirements.txt
+      - name: Install ffmpeg and fonts
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg fonts-dejavu-core
+      - name: Render, check and publish the video
+        run: python -m engine.build --session "$SESSION" --selection "$SELECTION" --out out
+      - name: Keep output for debugging if something failed
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: failed-build-output
+          path: out/
+          if-no-files-found: ignore
+          retention-days: 1
