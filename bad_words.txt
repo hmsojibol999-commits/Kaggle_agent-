@@ -4,3 +4,7 @@ distributor point
 pencil
 bicycle
 globe
+ocarina
+pangolin
+sextant
+kaleidoscope

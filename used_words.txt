@@ -7,3 +7,6 @@ tail
 screwdriver
 backpack
 microwave
+quokka
+axolotl
+abacus
