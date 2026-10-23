@@ -1,0 +1,12 @@
+{
+ "state": "ok",
+ "source": "groq",
+ "warnings": [
+  {
+   "code": "vision_unavailable",
+   "stage": "vision",
+   "detail": "vision model could not be used; photos were NOT checked"
+  }
+ ],
+ "at": "2026-10-23T10:20:52Z"
+}

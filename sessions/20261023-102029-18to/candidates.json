@@ -1,0 +1,406 @@
+{
+ "session": "20261023-102029-18to",
+ "created": "2026-10-23T10:20:52Z",
+ "category": "",
+ "source": "groq",
+ "words_per_video": 3,
+ "warnings": [
+  {
+   "code": "vision_unavailable",
+   "stage": "vision",
+   "detail": "vision model could not be used; photos were NOT checked"
+  }
+ ],
+ "words": [
+  {
+   "word": "quokka",
+   "search_query": "quokka marsupial animal",
+   "category": "animal",
+   "difficulty": 2,
+   "photos": [
+    {
+     "id": 8951847,
+     "w": 1280,
+     "h": 853,
+     "alt": "quokka, marsupial, mammal, wallaby, nature, australia, animal, fur, wildlife",
+     "photographer": "Storme22k",
+     "photographer_url": "https://pixabay.com/users/Storme22k-4337202/",
+     "url": "https://pixabay.com/photos/quokka-marsupial-mammal-wallaby-8951847/",
+     "thumb": "https://pixabay.com/get/g80438f8d2bc3be647e241c6092fb96353ad71a1169ee976c916d65c3a8b66f6890ccc937b67c29bdfac753b848b33d8f0b0e9f3302b7689f050b5954d458867e_640.jpg",
+     "large": "https://pixabay.com/get/g302fbd8899e76602f0dbf3aa8af2cb97ad3e1b030a752f9d8e82ca45e8a056bc8ba47698767098ec5491be5c2b5c7db2fe0dbc00b9a03ec15f9a92f9bb5d8cd9_1280.jpg",
+     "original": "https://pixabay.com/get/g302fbd8899e76602f0dbf3aa8af2cb97ad3e1b030a752f9d8e82ca45e8a056bc8ba47698767098ec5491be5c2b5c7db2fe0dbc00b9a03ec15f9a92f9bb5d8cd9_1280.jpg",
+     "score": 5.713,
+     "vision": "unsure"
+    },
+    {
+     "id": 8951881,
+     "w": 1280,
+     "h": 853,
+     "alt": "quokka, marsupial, mammal, wallaby, nature, australia, animal, fur, wildlife",
+     "photographer": "Storme22k",
+     "photographer_url": "https://pixabay.com/users/Storme22k-4337202/",
+     "url": "https://pixabay.com/photos/quokka-marsupial-mammal-wallaby-8951881/",
+     "thumb": "https://pixabay.com/get/gcf9e7c9a224e2dacc9188b7edc03e02f923d0a4ce39867a57fc6204479a537e38619912729d4859e888bad8e58a32527df29ad449e41250ada8d46305d86a86e_640.jpg",
+     "large": "https://pixabay.com/get/ged10307c81f1afeb656e952c87cb6ea5d4a5fcd9cb036c5b79f6b6d20e79e6cb194a713f7b098a89106780f8e810ba53386b6aca26af35e7bf2ca879f75e60b9_1280.jpg",
+     "original": "https://pixabay.com/get/ged10307c81f1afeb656e952c87cb6ea5d4a5fcd9cb036c5b79f6b6d20e79e6cb194a713f7b098a89106780f8e810ba53386b6aca26af35e7bf2ca879f75e60b9_1280.jpg",
+     "score": 5.713,
+     "vision": "unsure"
+    },
+    {
+     "id": 8951909,
+     "w": 1280,
+     "h": 853,
+     "alt": "animal, quokka, marsupial, mammal, wallaby, nature, australia, fur, wildlife",
+     "photographer": "Storme22k",
+     "photographer_url": "https://pixabay.com/users/Storme22k-4337202/",
+     "url": "https://pixabay.com/photos/animal-quokka-marsupial-mammal-8951909/",
+     "thumb": "https://pixabay.com/get/gab4685cce7f839814ad8c65bf28f0e35859f82c16ee16d415cfa8f3e27fec2abdafda61e5f5b2beb83577a7a797be9ebcc6a2ec349741700f90cfb4493f7dc11_640.jpg",
+     "large": "https://pixabay.com/get/g8f4c18174497d2065edbfcbc1df5b7380b497a8b738b7cf0eca742d7fb3fb77e99e433f7f915ae42e750380aee7ca2e3728524c14549591031a5798de1f02d1b_1280.jpg",
+     "original": "https://pixabay.com/get/g8f4c18174497d2065edbfcbc1df5b7380b497a8b738b7cf0eca742d7fb3fb77e99e433f7f915ae42e750380aee7ca2e3728524c14549591031a5798de1f02d1b_1280.jpg",
+     "score": 5.713,
+     "vision": "unsure"
+    },
+    {
+     "id": 2676171,
+     "w": 1280,
+     "h": 960,
+     "alt": "quokka, animal, wildlife, australia, nature, rottnest island, mammal, cute, native, nocturnal, wallaby, gray animals, gray island",
+     "photographer": "foursummers",
+     "photographer_url": "https://pixabay.com/users/foursummers-6130304/",
+     "url": "https://pixabay.com/photos/quokka-animal-wildlife-australia-2676171/",
+     "thumb": "https://pixabay.com/get/g58dfe4607e9721f3d4fcd2d4e3a4d50edb5be1c100c6787eb023fb20022a9d3e4e23aa4d70f6602aa85904195f12aa9f6273c1bbb9c9238693f527ccd29019ab_640.jpg",
+     "large": "https://pixabay.com/get/g1d41cf897295a87948e406636270f08ccc61c06ee4ddd492d72aaee944fdd421398d132319ec78a4c1a291e583b08a432f39fb9c3731d87de6410f99c184efb9_1280.jpg",
+     "original": "https://pixabay.com/get/g1d41cf897295a87948e406636270f08ccc61c06ee4ddd492d72aaee944fdd421398d132319ec78a4c1a291e583b08a432f39fb9c3731d87de6410f99c184efb9_1280.jpg",
+     "score": 5.713,
+     "vision": "unsure"
+    }
+   ],
+   "page": 1
+  },
+  {
+   "word": "ocarina",
+   "search_query": "ocarina wind instrument",
+   "category": "instrument",
+   "difficulty": 2,
+   "photos": [
+    {
+     "id": 4143664,
+     "w": 1280,
+     "h": 853,
+     "alt": "ocarina, music, instrument, sound, melody, classic, played, concert, porcelain, beautiful, wind, musician, ocarina, ocarina, ocarina, ocarin",
+     "photographer": "HeungSoon",
+     "photographer_url": "https://pixabay.com/users/HeungSoon-4523762/",
+     "url": "https://pixabay.com/photos/ocarina-music-instrument-sound-4143664/",
+     "thumb": "https://pixabay.com/get/g9ac757696d77979fb0eb0505e077768db389fd5f980686e3f8cc94815c56352729b1992132029be7572b191c22298cb0139fb4f39fcd45df507a1031ab42653e_640.jpg",
+     "large": "https://pixabay.com/get/ge557fbcd784fc7787d1273c392e5084b9b9de770dfd7dd6b694af4af9f19e92ee318509daa79926a7940da0456107dfd9003a1538c8f6015a34c56206b4dbe75_1280.jpg",
+     "original": "https://pixabay.com/get/ge557fbcd784fc7787d1273c392e5084b9b9de770dfd7dd6b694af4af9f19e92ee318509daa79926a7940da0456107dfd9003a1538c8f6015a34c56206b4dbe75_1280.jpg",
+     "score": 5.713,
+     "vision": "unsure"
+    },
+    {
+     "id": 2614469,
+     "w": 1280,
+     "h": 853,
+     "alt": "ocarina, instrument, wind instrument, ancient, ocarina, ocarina, ocarina, ocarina, ocarina",
+     "photographer": "musiking",
+     "photographer_url": "https://pixabay.com/users/musiking-3505464/",
+     "url": "https://pixabay.com/photos/ocarina-instrument-wind-instrument-2614469/",
+     "thumb": "https://pixabay.com/get/ge4a9038232c047b2f4a559f6df71104faf1ad175fcedce620aee32ff250eef4872c65da391acc956f87a54fdc122daab36a2b579020df4ee81050366da555688_640.jpg",
+     "large": "https://pixabay.com/get/g102c6a3d9e5a060275726ba975f4ce7b6f47455d4e446992f9e2ce8af79adfc979d257ac3d2ab279a535aa1901a10ec49ac06be502eea65cd8f495728b1c7108_1280.jpg",
+     "original": "https://pixabay.com/get/g102c6a3d9e5a060275726ba975f4ce7b6f47455d4e446992f9e2ce8af79adfc979d257ac3d2ab279a535aa1901a10ec49ac06be502eea65cd8f495728b1c7108_1280.jpg",
+     "score": 5.713,
+     "vision": "unsure"
+    },
+    {
+     "id": 2652942,
+     "w": 1280,
+     "h": 853,
+     "alt": "ocarina, flute, multicoloured, middle ages, instrument, music, musical instrument, wind instrument, craft, ocarina, ocarina, ocarina, ocarin",
+     "photographer": "Leo_65",
+     "photographer_url": "https://pixabay.com/users/Leo_65-402321/",
+     "url": "https://pixabay.com/photos/ocarina-flute-multicoloured-2652942/",
+     "thumb": "https://pixabay.com/get/g591490fb195286cfc08cf9a79ad26acc84d86f8a33a138f7c0a819754e46425cec4df4da94c246681831a5f97d18b79d4fa52624d0c697e4b97140c2789ed690_640.jpg",
+     "large": "https://pixabay.com/get/gdc2a8fd4099174208a7db422179f14af8a84ca4d7d98b89d4c14ae5f869bf9b7170a79aebbbb5456eb5473345e0fa60a918c726962acdc4412ae7489c015820c_1280.jpg",
+     "original": "https://pixabay.com/get/gdc2a8fd4099174208a7db422179f14af8a84ca4d7d98b89d4c14ae5f869bf9b7170a79aebbbb5456eb5473345e0fa60a918c726962acdc4412ae7489c015820c_1280.jpg",
+     "score": 5.713,
+     "vision": "unsure"
+    },
+    {
+     "id": 948370,
+     "w": 1280,
+     "h": 853,
+     "alt": "ocarina, wind instrument, ocarina forest, tng, ancient, ceramic, yellow, ocarina, ocarina, ocarina, ocarina, ocarina",
+     "photographer": "parkbonggyu",
+     "photographer_url": "https://pixabay.com/users/parkbonggyu-1427764/",
+     "url": "https://pixabay.com/photos/ocarina-wind-instrument-948370/",
+     "thumb": "https://pixabay.com/get/gd2799e9cf6262700061ab4d4cd351ab574f18796f86668e6b5ebe349bd5792266f70298b517901e144739b311bfe7f86_640.jpg",
+     "large": "https://pixabay.com/get/g6d537ecf43139eaaa848b4f1db1c5e02c6f48c1080e6b433a2e482cb707324e680f4267aabf250e667b5ea718c1263a00c1faec7c5c65171548533f13ac281af_1280.jpg",
+     "original": "https://pixabay.com/get/g6d537ecf43139eaaa848b4f1db1c5e02c6f48c1080e6b433a2e482cb707324e680f4267aabf250e667b5ea718c1263a00c1faec7c5c65171548533f13ac281af_1280.jpg",
+     "score": 5.713,
+     "vision": "unsure"
+    }
+   ],
+   "page": 1
+  },
+  {
+   "word": "abacus",
+   "search_query": "wooden abacus counting tool",
+   "category": "tool",
+   "difficulty": 1,
+   "photos": [
+    {
+     "id": 485704,
+     "w": 1280,
+     "h": 999,
+     "alt": "abacus, calculate, mathematics, computing tools, calculating machine, calculator, science, abacus, abacus, abacus, abacus, abacus",
+     "photographer": "succo",
+     "photographer_url": "https://pixabay.com/users/succo-96729/",
+     "url": "https://pixabay.com/photos/abacus-calculate-mathematics-485704/",
+     "thumb": "https://pixabay.com/get/gb3c1a7326eb3ad264e40601da450f06ffaa203b1369203c07eed31bd4aa51e889e0a0116c6d7323de3e6c0e0346794a6_640.jpg",
+     "large": "https://pixabay.com/get/g6cf9a5bd39ee8fa9110d72b747cfe48cf03de847fec9da17eb2201c270373fdaafae319f5da0e3cf6784cfa22840e930c809d9c41822bba67cca4f824e67ad68_1280.jpg",
+     "original": "https://pixabay.com/get/g6cf9a5bd39ee8fa9110d72b747cfe48cf03de847fec9da17eb2201c270373fdaafae319f5da0e3cf6784cfa22840e930c809d9c41822bba67cca4f824e67ad68_1280.jpg",
+     "score": 5.713,
+     "vision": "unsure"
+    },
+    {
+     "id": 1069213,
+     "w": 1280,
+     "h": 877,
+     "alt": "abacus, mathematics, count, wood, math, finance, education, calculator, accounting, calculation, learning, business, arithmetic, wooden, sub",
+     "photographer": "ClickerHappy",
+     "photographer_url": "https://pixabay.com/users/ClickerHappy-324082/",
+     "url": "https://pixabay.com/photos/abacus-mathematics-count-wood-math-1069213/",
+     "thumb": "https://pixabay.com/get/g272dd0cd1a3ec6f9546b128b6ded8cdfa68cb0c63f5e8bb1c6e4dae812aa8d067bacd1101fdc3faa0f83eb7ca212d3f541c2be69929cab56ee85f57ebc557640_640.jpg",
+     "large": "https://pixabay.com/get/ga00bfe7b2f88ad00738780975018d6061632c7ec2ef2a7fde5f1dc9e83f8e24ba580c7f3fad84cb452a87517c47042c7a50142147498dd9171c6552d0215ef03_1280.jpg",
+     "original": "https://pixabay.com/get/ga00bfe7b2f88ad00738780975018d6061632c7ec2ef2a7fde5f1dc9e83f8e24ba580c7f3fad84cb452a87517c47042c7a50142147498dd9171c6552d0215ef03_1280.jpg",
+     "score": 5.713,
+     "vision": "unsure"
+    },
+    {
+     "id": 4571739,
+     "w": 1280,
+     "h": 853,
+     "alt": "school, abacus, count, learn, education, wood, learning, math, abacus, abacus, abacus, math, math, math, math, math",
+     "photographer": "councilcle",
+     "photographer_url": "https://pixabay.com/users/councilcle-14038644/",
+     "url": "https://pixabay.com/photos/school-abacus-count-learn-4571739/",
+     "thumb": "https://pixabay.com/get/gcba7e657acb0b8f79830028829ca81eec11b135a598c12b67209debd0d977b03a177f100b101a23bd9321613c87e528252032dd2200d9e977cfd7a7513955185_640.jpg",
+     "large": "https://pixabay.com/get/g08e02cd95d6bc8dec0f209d12a1c935f5554563328a3f68c8a5791bf12c837bf804d53b1a6f5621d18b4421713351ddb0873cc6411ca86b8808f3b9f7b2d45f6_1280.jpg",
+     "original": "https://pixabay.com/get/g08e02cd95d6bc8dec0f209d12a1c935f5554563328a3f68c8a5791bf12c837bf804d53b1a6f5621d18b4421713351ddb0873cc6411ca86b8808f3b9f7b2d45f6_1280.jpg",
+     "score": 5.713,
+     "vision": "unsure"
+    },
+    {
+     "id": 7935,
+     "w": 1280,
+     "h": 960,
+     "alt": "abacus, computing tools, calculator, wooden balls, calculate, mathematics, raking stones, frame, balls, stones, to dye, multicoloured, colou",
+     "photographer": "Hans",
+     "photographer_url": "https://pixabay.com/users/Hans-2/",
+     "url": "https://pixabay.com/photos/abacus-computing-tools-calculator-7935/",
+     "thumb": "https://pixabay.com/get/g32a7634e449b240ab423dc55e86ba2f252fe7e8d64bc76b06a0280cf6b1e003cd9e4d504b58cd8382ae69f99cee6ab4a_640.jpg",
+     "large": "https://pixabay.com/get/gc79448ee0a719b9db2d374e42d3345ae5a198ac654c8378cfd84ec2f76dd4cbb48ac9e983b8050a039870916cdb9c736_1280.jpg",
+     "original": "https://pixabay.com/get/gc79448ee0a719b9db2d374e42d3345ae5a198ac654c8378cfd84ec2f76dd4cbb48ac9e983b8050a039870916cdb9c736_1280.jpg",
+     "score": 5.713,
+     "vision": "unsure"
+    }
+   ],
+   "page": 1
+  },
+  {
+   "word": "pangolin",
+   "search_query": "pangolin scaly mammal",
+   "category": "animal",
+   "difficulty": 3,
+   "photos": [
+    {
+     "id": 3297526,
+     "w": 1280,
+     "h": 853,
+     "alt": "panther chameleon, chameleon, close up, head, spur, dandruff, pangolin, schuppenkriechtier, terraristik, creature, madagascar, tropics, ordi",
+     "photographer": "aixklusiv",
+     "photographer_url": "https://pixabay.com/users/aixklusiv-8239922/",
+     "url": "https://pixabay.com/photos/panther-chameleon-chameleon-close-up-3297526/",
+     "thumb": "https://pixabay.com/get/g3eb71b9db79ba1e4085f544a8a7bb5089dda5a04e17a4531c4759d27e5469547624f90b3e354b2b07cbfd654517a81e120c370b492df785b67d031d96bf78ec0_640.jpg",
+     "large": "https://pixabay.com/get/g2cb88bc6209e937a9314d1d032ad939dffce98f9986bb437378f029eb13cbaa8d9aa9142fd49331e539d7934fff25ac7503145e708ba5138934ce8063ae9257e_1280.jpg",
+     "original": "https://pixabay.com/get/g2cb88bc6209e937a9314d1d032ad939dffce98f9986bb437378f029eb13cbaa8d9aa9142fd49331e539d7934fff25ac7503145e708ba5138934ce8063ae9257e_1280.jpg",
+     "score": 5.713,
+     "vision": "unsure"
+    },
+    {
+     "id": 10304118,
+     "w": 1280,
+     "h": 854,
+     "alt": "pangolin, endangered species, forest habitat, exotic animal, soft lighting, detailed texture, animal portrait, nature photography, animal sc",
+     "photographer": "Navanithe",
+     "photographer_url": "https://pixabay.com/users/Navanithe-17724027/",
+     "url": "https://pixabay.com/photos/pangolin-endangered-species-10304118/",
+     "thumb": "https://pixabay.com/get/g3b409ffef71259367882d7bcd7ac37824017cb968514d031dac1cbcbbe5cc1def8c2aa2da61ae820ae2db8af893d11cc404f489b42db395ed120dc8fea72b0ab_640.jpg",
+     "large": "https://pixabay.com/get/g93887740d47721bde4e9cc0c662c9deaaeceee2f7be9c9a1df7ed421fe07100f2c9548bb4ccd89dafc7715b19af811482bbcfaa4c1d6f2159ec457d13d924d57_1280.jpg",
+     "original": "https://pixabay.com/get/g93887740d47721bde4e9cc0c662c9deaaeceee2f7be9c9a1df7ed421fe07100f2c9548bb4ccd89dafc7715b19af811482bbcfaa4c1d6f2159ec457d13d924d57_1280.jpg",
+     "score": 3.713,
+     "vision": "unsure"
+    },
+    {
+     "id": 10229812,
+     "w": 956,
+     "h": 1280,
+     "alt": "pangolin, wildlife, nature, forest, animal, mother, baby, scales, rare, mammal, endangered, jungle, tropical, scaly, protection, conservatio",
+     "photographer": "GabruPawPixels",
+     "photographer_url": "https://pixabay.com/users/GabruPawPixels-54674217/",
+     "url": "https://pixabay.com/photos/pangolin-wildlife-nature-forest-10229812/",
+     "thumb": "https://pixabay.com/get/g8bf230d49d1fe1ef1618d9d43f0b6d1c8e770cdef4428732df27bf353742badffbd9d2db21b6a863b0cc8f04330ba43672f339076604ac245406449f162d5eaa_640.jpg",
+     "large": "https://pixabay.com/get/gfcf2ff452fcfac5b1f6450a05c0cfeb4a0d0da0c7257b13068be0bccd6bc50ad97ee033540c7f33f8343c5a2f56691cda78b2d93b29dee6c029768c15a3e1052_1280.jpg",
+     "original": "https://pixabay.com/get/gfcf2ff452fcfac5b1f6450a05c0cfeb4a0d0da0c7257b13068be0bccd6bc50ad97ee033540c7f33f8343c5a2f56691cda78b2d93b29dee6c029768c15a3e1052_1280.jpg",
+     "score": 2.659,
+     "vision": "unsure"
+    },
+    {
+     "id": 4763351,
+     "w": 1280,
+     "h": 853,
+     "alt": "lizard, multicoloured, head, view, exotic, reptile, dandruff, animal, reptiles, close up, creature, wildlife, dragon, nature, scaly, green, ",
+     "photographer": "Anrita1705",
+     "photographer_url": "https://pixabay.com/users/Anrita1705-11109462/",
+     "url": "https://pixabay.com/photos/lizard-multicoloured-head-view-4763351/",
+     "thumb": "https://pixabay.com/get/g4e29296cb0aaf29152485e33f0805f77469d4bd0f13c8d68fc7cdad4471431a89d090d20aea9a99cf8a856dd143f3301824d5978e90f4abcf225b49991d8d80c_640.jpg",
+     "large": "https://pixabay.com/get/gd1fbdbac68d9934bf0f9bdcc8c1193a6fa08bb4ee138230a1f87738ed6a68bb284b962dff14a8257162d570b03914445898f511be3dd1dd05a76dd0d18f212d1_1280.jpg",
+     "original": "https://pixabay.com/get/gd1fbdbac68d9934bf0f9bdcc8c1193a6fa08bb4ee138230a1f87738ed6a68bb284b962dff14a8257162d570b03914445898f511be3dd1dd05a76dd0d18f212d1_1280.jpg",
+     "score": 1.213,
+     "vision": "unsure"
+    }
+   ],
+   "page": 1
+  },
+  {
+   "word": "sextant",
+   "search_query": "sextant navigation instrument",
+   "category": "instrument",
+   "difficulty": 3,
+   "photos": [
+    {
+     "id": 7047793,
+     "w": 1280,
+     "h": 853,
+     "alt": "sextant, marine navigation, naval navigation, navigation instrument",
+     "photographer": "sharkolot",
+     "photographer_url": "https://pixabay.com/users/sharkolot-25467781/",
+     "url": "https://pixabay.com/photos/sextant-marine-navigation-7047793/",
+     "thumb": "https://pixabay.com/get/g6ef735bb60784ddacaac647ccf9f7ccf08109905b79e8597399dc89b38509dff5aaa56cfada25aa1464611c1aafb0faaeac83277ce5a371b4edd8099575db14a_640.jpg",
+     "large": "https://pixabay.com/get/gde6d1d76e48b844425ecfa215ece70600dc116fc5f5227d49e312d35419f79859db8f173cde28e6826bb4a1ce3b1699b3c6e25068af11b01257ddd7053ef0d71_1280.jpg",
+     "original": "https://pixabay.com/get/gde6d1d76e48b844425ecfa215ece70600dc116fc5f5227d49e312d35419f79859db8f173cde28e6826bb4a1ce3b1699b3c6e25068af11b01257ddd7053ef0d71_1280.jpg",
+     "score": 5.713,
+     "vision": "unsure"
+    },
+    {
+     "id": 999564,
+     "w": 1280,
+     "h": 853,
+     "alt": "instrument, old, sextant, protractor, map, travel, discovery, planning, sextant, sextant, sextant, sextant, sextant, protractor",
+     "photographer": "e-zara",
+     "photographer_url": "https://pixabay.com/users/e-zara-41678/",
+     "url": "https://pixabay.com/photos/instrument-old-sextant-protractor-999564/",
+     "thumb": "https://pixabay.com/get/g3ab08f7decc9ffd7cfd09054deeb5133ad25c5c7fc3b5ee2e03bbd976377d8e8106a87c906b1a31f05ea34faaa79f2cc_640.jpg",
+     "large": "https://pixabay.com/get/g59f030381abc7e387c68cf6f38758b1ee7a39ed280997945bcf7d5d72f586bc42d2f8d81b7c441216ec03dc9e3e15b87960e08c45be85368c6a7710ec543d8bc_1280.jpg",
+     "original": "https://pixabay.com/get/g59f030381abc7e387c68cf6f38758b1ee7a39ed280997945bcf7d5d72f586bc42d2f8d81b7c441216ec03dc9e3e15b87960e08c45be85368c6a7710ec543d8bc_1280.jpg",
+     "score": 5.713,
+     "vision": "unsure"
+    },
+    {
+     "id": 692733,
+     "w": 1280,
+     "h": 850,
+     "alt": "brass nautical sextant, stylish captain sextant, sextant, stylish gift for a sailor, sea symbol, nautical decoration, sextant in a wooden ca",
+     "photographer": "Marynistyka_Group",
+     "photographer_url": "https://pixabay.com/users/Marynistyka_Group-884854/",
+     "url": "https://pixabay.com/photos/brass-nautical-sextant-692733/",
+     "thumb": "https://pixabay.com/get/gbb07563cf06ac78e2f98a2670e9fda9023ed578ab1696a2246c6dfe4d8bb4201c765c417feae90c7298ea825584339fa_640.jpg",
+     "large": "https://pixabay.com/get/g2d6c27004a8e6e19e6e7d19222c9d0bf12f41a436ca38f25083ef3af9bd34a15fe09fe7d09c92d0edd39a589528acd100b1a6f21b8bd30f5fdf1cefb0e80cef5_1280.jpg",
+     "original": "https://pixabay.com/get/g2d6c27004a8e6e19e6e7d19222c9d0bf12f41a436ca38f25083ef3af9bd34a15fe09fe7d09c92d0edd39a589528acd100b1a6f21b8bd30f5fdf1cefb0e80cef5_1280.jpg",
+     "score": 5.713,
+     "vision": "unsure"
+    },
+    {
+     "id": 4230648,
+     "w": 1280,
+     "h": 905,
+     "alt": "vintage, rudder, sextant, sailing ships, map, anchor, nautical, antique, navigation, compass direction, story, finland, to travel, historica",
+     "photographer": "Darkmoon_Art",
+     "photographer_url": "https://pixabay.com/users/Darkmoon_Art-1664300/",
+     "url": "https://pixabay.com/photos/vintage-rudder-sextant-4230648/",
+     "thumb": "https://pixabay.com/get/g9bfd5e70713fc743d022262fb4af664ca63b163e5ba6c579f196fb8eb4860d496753b7dce3182e37642c2d4c158a64adc23d6dc80d6d0a3127abc441aace2057_640.jpg",
+     "large": "https://pixabay.com/get/gd26e102943130a792cc4256a747af0ea6331cffaddbc52b383357729e84e5d984e831fdd9b9e7544f70889503347a2ea453bc1c5a8fb32a16f3f4dcdcd8b69ce_1280.jpg",
+     "original": "https://pixabay.com/get/gd26e102943130a792cc4256a747af0ea6331cffaddbc52b383357729e84e5d984e831fdd9b9e7544f70889503347a2ea453bc1c5a8fb32a16f3f4dcdcd8b69ce_1280.jpg",
+     "score": 5.713,
+     "vision": "unsure"
+    }
+   ],
+   "page": 1
+  },
+  {
+   "word": "kaleidoscope",
+   "search_query": "kaleidoscope optical toy",
+   "category": "toy",
+   "difficulty": 1,
+   "photos": [
+    {
+     "id": 4496,
+     "w": 1280,
+     "h": 960,
+     "alt": "rabbit, kaleidoscope, art",
+     "photographer": "LoggaWiggler",
+     "photographer_url": "https://pixabay.com/users/LoggaWiggler-15/",
+     "url": "https://pixabay.com/photos/rabbit-kaleidoscope-art-4496/",
+     "thumb": "https://pixabay.com/get/g05fc8d60a4cc490a0647ef0d43db1d5f35db524285f239875c6de90ba522aca66c73cdd15a8881639fb0382527b5582c_640.jpg",
+     "large": "https://pixabay.com/get/g609519912759fe42f6eb9a496954ed7d35156547a3f931c9defe4d4f1cee921e4c5154e9afd3f4a222f2b1ca29ca41f5_1280.jpg",
+     "original": "https://pixabay.com/get/g609519912759fe42f6eb9a496954ed7d35156547a3f931c9defe4d4f1cee921e4c5154e9afd3f4a222f2b1ca29ca41f5_1280.jpg",
+     "score": 5.713,
+     "vision": "unsure"
+    },
+    {
+     "id": 4488,
+     "w": 1280,
+     "h": 960,
+     "alt": "rabbit, kaleidoscope, art",
+     "photographer": "LoggaWiggler",
+     "photographer_url": "https://pixabay.com/users/LoggaWiggler-15/",
+     "url": "https://pixabay.com/photos/rabbit-kaleidoscope-art-4488/",
+     "thumb": "https://pixabay.com/get/g3dfff29bfd686f905050392afc0d68f4d4b3709f31623d93a9d7c785ff506a8c70afcfbf02c8eafbea71ee27a9f585d7_640.jpg",
+     "large": "https://pixabay.com/get/g327a71edcef63c3011a25f24343b5e6541d35d13682ada06dcc92f33e0470939ea8bf6435314aa9d5cdafdde428d7c39_1280.jpg",
+     "original": "https://pixabay.com/get/g327a71edcef63c3011a25f24343b5e6541d35d13682ada06dcc92f33e0470939ea8bf6435314aa9d5cdafdde428d7c39_1280.jpg",
+     "score": 5.713,
+     "vision": "unsure"
+    },
+    {
+     "id": 4485,
+     "w": 1280,
+     "h": 960,
+     "alt": "ape, figure, kaleidoscope, art, kaleidoscope, kaleidoscope, kaleidoscope, kaleidoscope, kaleidoscope",
+     "photographer": "LoggaWiggler",
+     "photographer_url": "https://pixabay.com/users/LoggaWiggler-15/",
+     "url": "https://pixabay.com/photos/ape-figure-kaleidoscope-art-4485/",
+     "thumb": "https://pixabay.com/get/gd343867e3a09eeabcfb84d4f3823dcd11845cb8bf23b25def5cc7e924181ed19208b7d040cf5fbaf59830885ed6e0724_640.jpg",
+     "large": "https://pixabay.com/get/gff187ddb0abb2a09775a5f35802794c094b1b402f1e36f17ee847064425aba80b4558e3e61e33f715860680aea511b76_1280.jpg",
+     "original": "https://pixabay.com/get/gff187ddb0abb2a09775a5f35802794c094b1b402f1e36f17ee847064425aba80b4558e3e61e33f715860680aea511b76_1280.jpg",
+     "score": 5.713,
+     "vision": "unsure"
+    },
+    {
+     "id": 4493,
+     "w": 1280,
+     "h": 960,
+     "alt": "ape, kaleidoscope, art",
+     "photographer": "LoggaWiggler",
+     "photographer_url": "https://pixabay.com/users/LoggaWiggler-15/",
+     "url": "https://pixabay.com/photos/ape-kaleidoscope-art-4493/",
+     "thumb": "https://pixabay.com/get/gfe757a21aa18aa348cf1300b99965b5435b23c39ff9fa9ce8a71378f466d6211cddf3b329343730fb0d4cbb311693739_640.jpg",
+     "large": "https://pixabay.com/get/gc929531b9c6a5b834336c073e222c23edb36a93647f3d60545d588af5fa9be96d6e32e2d4aae65dea71de166fa61cb37_1280.jpg",
+     "original": "https://pixabay.com/get/gc929531b9c6a5b834336c073e222c23edb36a93647f3d60545d588af5fa9be96d6e32e2d4aae65dea71de166fa61cb37_1280.jpg",
+     "score": 5.713,
+     "vision": "unsure"
+    }
+   ],
+   "page": 1
+  }
+ ]
+}
