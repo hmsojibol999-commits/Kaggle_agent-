@@ -1,3 +1,6 @@
 slip coach
 housing
 distributor point
+pencil
+bicycle
+globe
