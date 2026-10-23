@@ -10,3 +10,6 @@ microwave
 quokka
 axolotl
 abacus
+narwhal
+theremin
+cuckoo clock
