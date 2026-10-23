@@ -1,6 +1,6 @@
 {
- "generated": "2026-10-23T07:46:14Z",
- "overall": "yellow",
+ "generated": "2026-10-23T07:54:33Z",
+ "overall": "green",
  "checks": [
   {
    "id": "secret_groq",
@@ -25,10 +25,10 @@
   },
   {
    "id": "groq_text_model",
-   "label": "Text model llama-3.3-70b-versatile",
-   "status": "warn",
-   "detail": "not in the list: built-in word list will be used",
-   "fix": "set Variable GROQ_TEXT_MODEL to a model from the list"
+   "label": "Text model openai/gpt-oss-120b",
+   "status": "ok",
+   "detail": "found",
+   "fix": ""
   },
   {
    "id": "groq_tts_model",
@@ -80,5 +80,5 @@
    "fix": ""
   }
  ],
- "run": "39919939820"
+ "run": "39920856214"
 }
