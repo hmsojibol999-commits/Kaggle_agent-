@@ -1,0 +1,17 @@
+{
+ "state": "ok",
+ "source": "wordnet",
+ "warnings": [
+  {
+   "code": "groq_bad_response",
+   "detail": "HTTP 400: {\"error\":{\"message\":\"Organization has been restricted. Please reach out to support if you believe this was in error.\",\"type\":\"invalid_request_error\",\"code\":\"organization_restricted\"}}\n",
+   "stage": "groq"
+  },
+  {
+   "code": "vision_unavailable",
+   "stage": "vision",
+   "detail": "vision model could not be used; photos were NOT checked"
+  }
+ ],
+ "at": "2026-10-26T18:18:38Z"
+}
