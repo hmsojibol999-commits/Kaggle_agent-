@@ -1,6 +1,6 @@
 {
- "generated": "2026-10-23T10:18:22Z",
- "overall": "green",
+ "generated": "2026-10-26T18:21:31Z",
+ "overall": "red",
  "checks": [
   {
    "id": "secret_groq",
@@ -19,30 +19,16 @@
   {
    "id": "groq_models",
    "label": "Groq model list",
-   "status": "ok",
-   "detail": "11 models; orpheus: canopylabs/orpheus-arabic-saudi, canopylabs/orpheus-v1-english",
-   "fix": ""
-  },
-  {
-   "id": "groq_text_model",
-   "label": "Text model openai/gpt-oss-120b",
-   "status": "ok",
-   "detail": "found",
-   "fix": ""
-  },
-  {
-   "id": "groq_tts_model",
-   "label": "TTS model canopylabs/orpheus-v1-english",
-   "status": "ok",
-   "detail": "found",
-   "fix": ""
+   "status": "fail",
+   "detail": "HTTP 400",
+   "fix": "retry later"
   },
   {
    "id": "groq_tts",
    "label": "Groq TTS test",
-   "status": "ok",
-   "detail": "voice autumn works",
-   "fix": ""
+   "status": "warn",
+   "detail": "tts_failed: HTTP 400: {\"error\":{\"message\":\"Organization has been restricted. Please reach out to support if you believe this was in error.\",\"type\":\"invalid_request_error\",\"code\":\"organization_restricted\"}}\n (edge-tts will be used instead)",
+   "fix": "accept the Orpheus terms in console.groq.com or ignore: fallback is automatic"
   },
   {
    "id": "pixabay",
@@ -80,5 +66,5 @@
    "fix": ""
   }
  ],
- "run": "39938056477"
+ "run": "40376706835"
 }
