@@ -1,17 +1,10 @@
 {
- "generated": "2026-10-31T17:08:42Z",
- "overall": "red",
+ "generated": "2026-10-31T17:16:22Z",
+ "overall": "green",
  "checks": [
   {
    "id": "secret_cloudflare",
    "label": "Secrets CLOUDFLARE_API_TOKEN + CLOUDFLARE_ACCOUNT_ID",
-   "status": "ok",
-   "detail": "set",
-   "fix": ""
-  },
-  {
-   "id": "secret_groq",
-   "label": "Secret GROQ_API_KEY",
    "status": "ok",
    "detail": "set",
    "fix": ""
@@ -33,23 +26,9 @@
   {
    "id": "cf_vision",
    "label": "Cloudflare photo check (vision)",
-   "status": "warn",
-   "detail": "error groq_model_missing",
-   "fix": "photo check is skipped automatically; or set Variable CF_VISION_MODEL"
-  },
-  {
-   "id": "groq_models",
-   "label": "Groq model list",
-   "status": "fail",
-   "detail": "HTTP 400",
-   "fix": "retry later"
-  },
-  {
-   "id": "groq_tts",
-   "label": "Groq TTS test",
-   "status": "warn",
-   "detail": "groq_model_missing: HTTP 400: {\"error\":{\"message\":\"Organization has been restricted. Please reach out to support if you believe this was in error.\",\"type\":\"invalid_request_error\",\"code\":\"organization_restricted\"}}\n (edge-tts will be used instead)",
-   "fix": "accept the Orpheus terms in console.groq.com or ignore: fallback is automatic"
+   "status": "ok",
+   "detail": "@cf/mistralai/mistral-small-3.1-24b-instruct: verdict yes / red square",
+   "fix": ""
   },
   {
    "id": "pixabay",
@@ -87,5 +66,5 @@
    "fix": ""
   }
  ],
- "run": "41223028289"
+ "run": "41223665049"
 }
