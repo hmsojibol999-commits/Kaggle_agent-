@@ -1,0 +1,7 @@
+{
+ "state": "error",
+ "code": "tts_failed",
+ "detail": "all voice engines failed: [tts_failed] edge-tts failed: No audio was received. Please verify that your parameters are correct.",
+ "stage": "tts",
+ "at": "2026-10-31T18:03:14Z"
+}
