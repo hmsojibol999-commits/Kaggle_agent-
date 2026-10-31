@@ -16,3 +16,6 @@ cuckoo clock
 galleon
 minaret
 felucca
+kite
+tambourine
+anvil
