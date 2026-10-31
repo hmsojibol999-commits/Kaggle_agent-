@@ -1,7 +1,14 @@
 {
- "generated": "2026-10-31T16:43:55Z",
+ "generated": "2026-10-31T17:06:42Z",
  "overall": "red",
  "checks": [
+  {
+   "id": "secret_cloudflare",
+   "label": "Secrets CLOUDFLARE_API_TOKEN + CLOUDFLARE_ACCOUNT_ID",
+   "status": "ok",
+   "detail": "set",
+   "fix": ""
+  },
   {
    "id": "secret_groq",
    "label": "Secret GROQ_API_KEY",
@@ -17,6 +24,20 @@
    "fix": ""
   },
   {
+   "id": "cf_text",
+   "label": "Cloudflare text model @cf/meta/llama-3.3-70b-instruct-fp8-fast",
+   "status": "ok",
+   "detail": "answered: ready",
+   "fix": ""
+  },
+  {
+   "id": "cf_vision",
+   "label": "Cloudflare photo check (vision)",
+   "status": "warn",
+   "detail": "error groq_model_missing",
+   "fix": "photo check is skipped automatically; or set Variable CF_VISION_MODEL"
+  },
+  {
    "id": "groq_models",
    "label": "Groq model list",
    "status": "fail",
@@ -27,7 +48,7 @@
    "id": "groq_tts",
    "label": "Groq TTS test",
    "status": "warn",
-   "detail": "tts_failed: HTTP 400: {\"error\":{\"message\":\"Organization has been restricted. Please reach out to support if you believe this was in error.\",\"type\":\"invalid_request_error\",\"code\":\"organization_restricted\"}}\n (edge-tts will be used instead)",
+   "detail": "groq_model_missing: HTTP 400: {\"error\":{\"message\":\"Organization has been restricted. Please reach out to support if you believe this was in error.\",\"type\":\"invalid_request_error\",\"code\":\"organization_restricted\"}}\n (edge-tts will be used instead)",
    "fix": "accept the Orpheus terms in console.groq.com or ignore: fallback is automatic"
   },
   {
@@ -66,5 +87,5 @@
    "fix": ""
   }
  ],
- "run": "41221014836"
+ "run": "41222864434"
 }
