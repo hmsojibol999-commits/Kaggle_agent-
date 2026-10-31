@@ -13,3 +13,6 @@ abacus
 narwhal
 theremin
 cuckoo clock
+galleon
+minaret
+felucca
