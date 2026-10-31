@@ -1,0 +1,411 @@
+{
+ "session": "20261031-172200-shs8",
+ "created": "2026-10-31T17:24:16Z",
+ "category": "",
+ "source": "wordnet",
+ "words_per_video": 3,
+ "warnings": [
+  {
+   "code": "groq_bad_response",
+   "detail": "parse: Expecting ',' delimiter: line 1 column 826 (char 825)",
+   "stage": "groq"
+  },
+  {
+   "code": "vision_unavailable",
+   "stage": "vision",
+   "detail": "vision model could not be used; photos were NOT checked"
+  }
+ ],
+ "words": [
+  {
+   "word": "disco",
+   "search_query": "disco",
+   "category": "object",
+   "difficulty": 2,
+   "photos": [
+    {
+     "id": 5663393,
+     "w": 1280,
+     "h": 853,
+     "alt": "disco, disco ball, party, to dance, glitter ball, club, dance club, mirror ball, light effect, mood, disco ball, disco ball, disco ball, dis",
+     "photographer": "JUVO_Des",
+     "photographer_url": "https://pixabay.com/users/JUVO_Des-4693673/",
+     "url": "https://pixabay.com/photos/disco-disco-ball-party-to-dance-5663393/",
+     "thumb": "https://pixabay.com/get/g65e6efae67d7de4019189d5ba1999834761688cd08662af111f79de15ecd6a1efdc0c765895c74869b929e1aeecc47f5ad328b945c940f4aee42ecac1ba24024_640.jpg",
+     "large": "https://pixabay.com/get/g4abfa2846a102701accf76b9e1db3dd08f6b59178497a4239556d31b62a37ab2ded329de65bece39ac1718bd7c6fc819108f2c37817a5ba55934f91394862047_1280.jpg",
+     "original": "https://pixabay.com/get/g4abfa2846a102701accf76b9e1db3dd08f6b59178497a4239556d31b62a37ab2ded329de65bece39ac1718bd7c6fc819108f2c37817a5ba55934f91394862047_1280.jpg",
+     "score": 5.713,
+     "vision": "unsure"
+    },
+    {
+     "id": 9933086,
+     "w": 1280,
+     "h": 855,
+     "alt": "disco, discoball, globe, sphere, sparkle, reflection, mirror, pieces",
+     "photographer": "jrydertr",
+     "photographer_url": "https://pixabay.com/users/jrydertr-13047018/",
+     "url": "https://pixabay.com/photos/disco-discoball-globe-sphere-9933086/",
+     "thumb": "https://pixabay.com/get/ge71860baebf244004a48622be885c67ca4857df1065ef717ab90762dab038700dc81f24218b0100bb494716f59a977b3c6c08c512df23445a0983546cf442572_640.jpg",
+     "large": "https://pixabay.com/get/gd91ffa745a28ac676026b45c404f28a871973a5b248dc8735d52e4c6270d4049631feacdc9bb497c82efaee745a667dcba65e7a52edff24c8cad7b790a46dfe9_1280.jpg",
+     "original": "https://pixabay.com/get/gd91ffa745a28ac676026b45c404f28a871973a5b248dc8735d52e4c6270d4049631feacdc9bb497c82efaee745a667dcba65e7a52edff24c8cad7b790a46dfe9_1280.jpg",
+     "score": 5.713,
+     "vision": "unsure"
+    },
+    {
+     "id": 2740936,
+     "w": 1280,
+     "h": 853,
+     "alt": "roller skating, disco, foreign, neon, mirror ball, the 80's, roller skating, disco, disco, disco, disco, disco",
+     "photographer": "Pharaoh_EZYPT",
+     "photographer_url": "https://pixabay.com/users/Pharaoh_EZYPT-3065661/",
+     "url": "https://pixabay.com/photos/roller-skating-disco-foreign-neon-2740936/",
+     "thumb": "https://pixabay.com/get/g35678ffd1e0bbe8a4a3767af60d77e7fadb38bd9a89eb0e59437da22e9c4cb0a2a3a844f9cba60a7615a2229ef40e23251e1ee9b2fc6b9eccee4a07c766b8c59_640.jpg",
+     "large": "https://pixabay.com/get/ge8d45a2743589a21c94b2a7eb9fd5f0af7097a87217b330774a75ec51d11a22791447e1aedeb25c9a271bdca2843ef631e3a7174af8ac3a31e498c4d608fb306_1280.jpg",
+     "original": "https://pixabay.com/get/ge8d45a2743589a21c94b2a7eb9fd5f0af7097a87217b330774a75ec51d11a22791447e1aedeb25c9a271bdca2843ef631e3a7174af8ac3a31e498c4d608fb306_1280.jpg",
+     "score": 5.713,
+     "vision": "unsure"
+    },
+    {
+     "id": 2722995,
+     "w": 1280,
+     "h": 800,
+     "alt": "disco, party, celebration, mirror ball, mirrors, club, to celebrate, light, dj, lightshow, bullet, disco, disco, disco, disco, disco",
+     "photographer": "Bru-nO",
+     "photographer_url": "https://pixabay.com/users/Bru-nO-1161770/",
+     "url": "https://pixabay.com/photos/disco-party-celebration-mirror-ball-2722995/",
+     "thumb": "https://pixabay.com/get/gff2e205dad713cb59a05bf331390b38b68435136484643bd963a5a5bd3c35b81df7af6b4fa5af944e77df0c20203821c072783806b3a2659400a941d4ee7fbb0_640.jpg",
+     "large": "https://pixabay.com/get/gdb7a55c361095a51b4f6759bbfe9345bfc255b550f46d0e4fd3cecb419740c17ff0965aa5f67748103f280a31725cdc055dbdf42d1f6acbeef92ac31f1ae3f05_1280.jpg",
+     "original": "https://pixabay.com/get/gdb7a55c361095a51b4f6759bbfe9345bfc255b550f46d0e4fd3cecb419740c17ff0965aa5f67748103f280a31725cdc055dbdf42d1f6acbeef92ac31f1ae3f05_1280.jpg",
+     "score": 5.713,
+     "vision": "unsure"
+    }
+   ],
+   "page": 1
+  },
+  {
+   "word": "square nut",
+   "search_query": "square nut",
+   "category": "object",
+   "difficulty": 2,
+   "photos": [
+    {
+     "id": 10427616,
+     "w": 1280,
+     "h": 1280,
+     "alt": "chocolate, fudge, almond, dessert, milk-chocolate, sweet, piece, nut, square, gourmet, delicate, delicious, milky, chocolate-slices, homemad",
+     "photographer": "u_pf4hgd17iv",
+     "photographer_url": "https://pixabay.com/users/u_pf4hgd17iv-47693595/",
+     "url": "https://pixabay.com/photos/chocolate-fudge-almond-dessert-10427616/",
+     "thumb": "https://pixabay.com/get/gc7310710be5b7781d30e86a496e765cb6e4289443feab7da60203ec4f0b3d98012ab02fc143726e9da512275f4e47c55ff5959a62769c75b46cf0b997469c168_640.jpg",
+     "large": "https://pixabay.com/get/g165dc8db6709016469400071f76094ad192e85417cd81fc580c027d6037bec5de8ac90899453aea9673eac5a3d0361aef840f4cd56c426c41db3366ac6e14a9d_1280.jpg",
+     "original": "https://pixabay.com/get/g165dc8db6709016469400071f76094ad192e85417cd81fc580c027d6037bec5de8ac90899453aea9673eac5a3d0361aef840f4cd56c426c41db3366ac6e14a9d_1280.jpg",
+     "score": 2.713,
+     "vision": "unsure"
+    },
+    {
+     "id": 5541729,
+     "w": 1280,
+     "h": 853,
+     "alt": "church, basilica, architecture, gothic architecture, gothic church, cathedral, old, ancient, historic, historical, main square, saint mary, ",
+     "photographer": "krystianwin",
+     "photographer_url": "https://pixabay.com/users/krystianwin-8237000/",
+     "url": "https://pixabay.com/photos/church-basilica-architecture-5541729/",
+     "thumb": "https://pixabay.com/get/gbd6b5e499f4174ef25ebc44eb4a2c84053156deffe08e5ed83a5a02a694bb99ca70662cb1494eb94da941614ba5a610e5f5e3e1c5be9b43a80ee61cd649233e2_640.jpg",
+     "large": "https://pixabay.com/get/gce88468a53c8d5230b9c86fe8c92ecaa3ff19f65d06f5b102c81e109363d2c8878cb3c2ea6859384985f1afee36a0ee3178c6a362dfb5d61078bd1ceca190c93_1280.jpg",
+     "original": "https://pixabay.com/get/gce88468a53c8d5230b9c86fe8c92ecaa3ff19f65d06f5b102c81e109363d2c8878cb3c2ea6859384985f1afee36a0ee3178c6a362dfb5d61078bd1ceca190c93_1280.jpg",
+     "score": 1.963,
+     "vision": "unsure"
+    },
+    {
+     "id": 1335353,
+     "w": 1280,
+     "h": 853,
+     "alt": "chocolate, swiss chocolate, sweets, yummy, nibble, sweet, nuts, milk, nourishment, brown, versatile, switzerland, lindt chocolate, ragusa, c",
+     "photographer": "anncapictures",
+     "photographer_url": "https://pixabay.com/users/anncapictures-1564471/",
+     "url": "https://pixabay.com/photos/chocolate-swiss-chocolate-sweets-1335353/",
+     "thumb": "https://pixabay.com/get/gd4b534ad6ebe9f5163ba5ce92ca5b1157cd5e7bd31790e9b03b8082a88ed651d03035026bac129d4e3f0d60c2484b8c1130f0729b267b8738a3bd0ad6390621c_640.jpg",
+     "large": "https://pixabay.com/get/gf8e9ea8651af005e5531da86fea8bdb28f92a388f4ce5e062128f5cee54d4a708495b3e9779bc4a09ded1d3674cf476e17a51db418451516782b2442da769deb_1280.jpg",
+     "original": "https://pixabay.com/get/gf8e9ea8651af005e5531da86fea8bdb28f92a388f4ce5e062128f5cee54d4a708495b3e9779bc4a09ded1d3674cf476e17a51db418451516782b2442da769deb_1280.jpg",
+     "score": 1.213,
+     "vision": "unsure"
+    },
+    {
+     "id": 1335361,
+     "w": 1280,
+     "h": 853,
+     "alt": "chocolate, swiss chocolate, sweets, yummy, nibble, sweet, nuts, milk, nourishment, brown, versatile, switzerland, lindt chocolate, ragusa, c",
+     "photographer": "anncapictures",
+     "photographer_url": "https://pixabay.com/users/anncapictures-1564471/",
+     "url": "https://pixabay.com/photos/chocolate-swiss-chocolate-sweets-1335361/",
+     "thumb": "https://pixabay.com/get/g674fdc69f50bd93c047507801bdf59c7cdcaa08173d2ac854e03c055b936579dbd6c2f74e4427206e69bf8f47c2a2b81167bf4c83c3bf10a88d851889b1d2b3b_640.jpg",
+     "large": "https://pixabay.com/get/gc23aa4439e7250996d9f18c8c7c4798734d9f8f8705df2e0a2333330cb9fa0d6754b9c91c3dbab4d14fe8b7461bae010df2c1310df4beede5149550247803bf4_1280.jpg",
+     "original": "https://pixabay.com/get/gc23aa4439e7250996d9f18c8c7c4798734d9f8f8705df2e0a2333330cb9fa0d6754b9c91c3dbab4d14fe8b7461bae010df2c1310df4beede5149550247803bf4_1280.jpg",
+     "score": 1.213,
+     "vision": "unsure"
+    }
+   ],
+   "page": 1
+  },
+  {
+   "word": "raincoat",
+   "search_query": "raincoat",
+   "category": "object",
+   "difficulty": 2,
+   "photos": [
+    {
+     "id": 6816827,
+     "w": 1280,
+     "h": 1280,
+     "alt": "woman, umbrella, weather, rain, raincoat, protection, parasol, smile, portrait, girl, nature, outdoors",
+     "photographer": "Photojog",
+     "photographer_url": "https://pixabay.com/users/Photojog-2673108/",
+     "url": "https://pixabay.com/photos/woman-umbrella-weather-rain-6816827/",
+     "thumb": "https://pixabay.com/get/g485f47aaa798e1d1e5a55aa281ed3570c7fb9d4bc1485099c8b6b31e8d87fe3a622122905eb7048db374cfb5500fed2c9f27d67b19e32d50f16fa808a6c80c55_640.jpg",
+     "large": "https://pixabay.com/get/gcfc0fbeee10f523a64d465275a0b03d74aae05ca2bf4844d9a6209dcd1e6e2c6368a92f40d70f3dc2238a459e4cd7f8109cdf78940bbafc8bb30ae52198c73c0_1280.jpg",
+     "original": "https://pixabay.com/get/gcfc0fbeee10f523a64d465275a0b03d74aae05ca2bf4844d9a6209dcd1e6e2c6368a92f40d70f3dc2238a459e4cd7f8109cdf78940bbafc8bb30ae52198c73c0_1280.jpg",
+     "score": 3.713,
+     "vision": "unsure"
+    },
+    {
+     "id": 9859319,
+     "w": 1087,
+     "h": 1280,
+     "alt": "bokeh, autumn, winter, rain, water drop, beautiful wallpaper, background, vote, umbrella, girl, water, to rain, woman, nature, raindrops, ra",
+     "photographer": "Ylanite_NietjuhArt",
+     "photographer_url": "https://pixabay.com/users/Ylanite_NietjuhArt-30460544/",
+     "url": "https://pixabay.com/photos/bokeh-autumn-winter-rain-9859319/",
+     "thumb": "https://pixabay.com/get/g761969a94dbfd053a8a2817bf56f6dd03430e5514a2d08532b48b71e54379139764f316b7acd6a6aa91ef8529cc8f1fb2a04101ea6ca295d09f56595227b77bb_640.jpg",
+     "large": "https://pixabay.com/get/g56d0e67af44466f952d17634e195e944f11773f8f0c883922dae4bf8be17bb09c72410c4095dbbb4a2b691efe5dd95563d8cd8eba4f41045e6b0061eed2e632f_1280.jpg",
+     "original": "https://pixabay.com/get/g56d0e67af44466f952d17634e195e944f11773f8f0c883922dae4bf8be17bb09c72410c4095dbbb4a2b691efe5dd95563d8cd8eba4f41045e6b0061eed2e632f_1280.jpg",
+     "score": 2.681,
+     "vision": "unsure"
+    },
+    {
+     "id": 4174727,
+     "w": 958,
+     "h": 1280,
+     "alt": "man, fashion model, rain, drops, drizzle, male, person, face, fashion, portrait, adult, beard, caucasian, nature, fashionable, expression, a",
+     "photographer": "Dimhou",
+     "photographer_url": "https://pixabay.com/users/Dimhou-5987327/",
+     "url": "https://pixabay.com/photos/man-fashion-model-rain-drops-4174727/",
+     "thumb": "https://pixabay.com/get/g0d3df6c0132b36d291f891de75fcceeb2c706aa13b3b1a74f51f92294089ef4e285f16260c71b0a08ee82bea3a308cf6d5f161ef911560fbca15046ca225feb0_640.jpg",
+     "large": "https://pixabay.com/get/g5c6a498395942b860d5a6a96bbe5a93bd1608dbe2e53c717eb6bda36f9625a9d9cfa0c73be6dbc495a3735586f0d4c17332edb3765b2498dc97fb171b9440067_1280.jpg",
+     "original": "https://pixabay.com/get/g5c6a498395942b860d5a6a96bbe5a93bd1608dbe2e53c717eb6bda36f9625a9d9cfa0c73be6dbc495a3735586f0d4c17332edb3765b2498dc97fb171b9440067_1280.jpg",
+     "score": 2.66,
+     "vision": "unsure"
+    },
+    {
+     "id": 9452765,
+     "w": 853,
+     "h": 1280,
+     "alt": "woman, park, nature, stroll, summer, positive, umbrella, forest, glade, raincoat, yellow, yellow boots, yellow raincoat",
+     "photographer": "Sunriseforever",
+     "photographer_url": "https://pixabay.com/users/Sunriseforever-6314823/",
+     "url": "https://pixabay.com/photos/woman-park-stroll-summer-positive-9452765/",
+     "thumb": "https://pixabay.com/get/g0173cdc4fa4cb489f0f9d45d357c8480d08af54af6208ea03d9b7407a69bc82e771eea5b2d0d74878a18a66ad61ab06a7b4a9bf966b6eac91ca6f3732881b0d7_640.jpg",
+     "large": "https://pixabay.com/get/g14341728157263af576b28962b7516422391f211a2cbd4e2313a781558828849966c6e5443f1e278333983a1b62c48b74df6b68fa152abf24ffe8a3bae758dd3_1280.jpg",
+     "original": "https://pixabay.com/get/g14341728157263af576b28962b7516422391f211a2cbd4e2313a781558828849966c6e5443f1e278333983a1b62c48b74df6b68fa152abf24ffe8a3bae758dd3_1280.jpg",
+     "score": 2.142,
+     "vision": "unsure"
+    }
+   ],
+   "page": 1
+  },
+  {
+   "word": "cluster bomb",
+   "search_query": "cluster bomb",
+   "category": "object",
+   "difficulty": 2,
+   "photos": [
+    {
+     "id": 63146,
+     "w": 1280,
+     "h": 956,
+     "alt": "hydrogen bomb, atomic bomb, nuclear explosion, mushroom cloud, ivy mike, weapon, explosion, world war, armageddon, weapons of mass destructi",
+     "photographer": "WikiImages",
+     "photographer_url": "https://pixabay.com/users/WikiImages-1897/",
+     "url": "https://pixabay.com/photos/hydrogen-bomb-atomic-bomb-63146/",
+     "thumb": "https://pixabay.com/get/ga5931fdf584e5e456c8b0628504f718926c9568cc968336b4013ab6f91e69b288181d68e2e684b520bc182996a27136d_640.jpg",
+     "large": "https://pixabay.com/get/gb651c1ae5a0c809fabd43542f07f34085778a053bca493d64aed70f8944d8df681149d650963dcf8c45cb93f08423524_1280.jpg",
+     "original": "https://pixabay.com/get/gb651c1ae5a0c809fabd43542f07f34085778a053bca493d64aed70f8944d8df681149d650963dcf8c45cb93f08423524_1280.jpg",
+     "score": 1.963,
+     "vision": "unsure"
+    },
+    {
+     "id": 6980911,
+     "w": 1280,
+     "h": 853,
+     "alt": "clouds, nature, explosion, bomb, sepia",
+     "photographer": "20583161",
+     "photographer_url": "https://pixabay.com/users/20583161-20583161/",
+     "url": "https://pixabay.com/photos/clouds-explosion-bomb-sepia-6980911/",
+     "thumb": "https://pixabay.com/get/g17b38d790a18e13da4e4b1af408150bcaac1c371d84bed0df65354dd62872600f2fd95c16a8e02f01af0d6b7d61045815a4c0f40c4ee56f1e8520f0edf39d792_640.jpg",
+     "large": "https://pixabay.com/get/g141292edc0014211a8ea0bc6ef2fc03868bc73e6c5aad7c56336ac798984240a3ffb2d722588d9d9f48a32ba0b2a04fdf3500c2e77a6fffe4a8a353955cc92af_1280.jpg",
+     "original": "https://pixabay.com/get/g141292edc0014211a8ea0bc6ef2fc03868bc73e6c5aad7c56336ac798984240a3ffb2d722588d9d9f48a32ba0b2a04fdf3500c2e77a6fffe4a8a353955cc92af_1280.jpg",
+     "score": 1.963,
+     "vision": "unsure"
+    },
+    {
+     "id": 602252,
+     "w": 1280,
+     "h": 853,
+     "alt": "gemstone, amethyst, semi precious stone, mac wallpaper, 4k wallpaper 1920x1080, free wallpaper, laptop wallpaper, violet, hd wallpaper, full",
+     "photographer": "Didgeman",
+     "photographer_url": "https://pixabay.com/users/Didgeman-153208/",
+     "url": "https://pixabay.com/photos/gemstone-amethyst-602252/",
+     "thumb": "https://pixabay.com/get/ge37be4d83e5eb0258baad1795fc2ad09be0314342ed52ce6679e5eb5ef1f4f74ea49975ac883aea92f18216046ceb481_640.jpg",
+     "large": "https://pixabay.com/get/g0d0f9c87d961f49fec6aefa5cd2e0597ef95bbac6cc693202598eb9f80ca84e3be6102c2d03b312163ca98f3e9eeebea2ab1dec80f1343c1ff8d1a9e8dde8cf1_1280.jpg",
+     "original": "https://pixabay.com/get/g0d0f9c87d961f49fec6aefa5cd2e0597ef95bbac6cc693202598eb9f80ca84e3be6102c2d03b312163ca98f3e9eeebea2ab1dec80f1343c1ff8d1a9e8dde8cf1_1280.jpg",
+     "score": 1.213,
+     "vision": "unsure"
+    },
+    {
+     "id": 3550733,
+     "w": 1280,
+     "h": 853,
+     "alt": "grapes, fruits, food, fresh, healthy, ripe, organic, sweet, produce, harvest, sunlight, fruits, food, food, food, food, food",
+     "photographer": "Bru-nO",
+     "photographer_url": "https://pixabay.com/users/Bru-nO-1161770/",
+     "url": "https://pixabay.com/photos/grapes-fruits-food-fresh-healthy-3550733/",
+     "thumb": "https://pixabay.com/get/g34389a0fe369ab32395ce5a35f1f3d453a5f8f904255bca770d82b585af74066aa23379a706987496198667a1f34e9b937fc598984ba5f817c812464891dc32e_640.jpg",
+     "large": "https://pixabay.com/get/g3720af0b444555e3d966b7370b24477f842f884e2bf0bedc99abf4b7a1d73ab95051bea00af0f56bc2a32edd7394ece6e93ba96d731d68bde516874d297d25e4_1280.jpg",
+     "original": "https://pixabay.com/get/g3720af0b444555e3d966b7370b24477f842f884e2bf0bedc99abf4b7a1d73ab95051bea00af0f56bc2a32edd7394ece6e93ba96d731d68bde516874d297d25e4_1280.jpg",
+     "score": 1.213,
+     "vision": "unsure"
+    }
+   ],
+   "page": 1
+  },
+  {
+   "word": "kris",
+   "search_query": "kris",
+   "category": "object",
+   "difficulty": 2,
+   "photos": [
+    {
+     "id": 587638,
+     "w": 1280,
+     "h": 1233,
+     "alt": "santa claus, saint nicholas, kris kringle, father christmas, santa, christmas, holiday decoration, white beard, fur coat, doll, mannequin, b",
+     "photographer": "JamesDeMers",
+     "photographer_url": "https://pixabay.com/users/JamesDeMers-3416/",
+     "url": "https://pixabay.com/photos/santa-claus-saint-nicholas-587638/",
+     "thumb": "https://pixabay.com/get/gfff9720245f14fcca5bc1e747b576c8c52f19fbc6381a08cbd43e98af0030e83b4c12ea9bd20b8e9e2e5266d4f585c45_640.jpg",
+     "large": "https://pixabay.com/get/g0c831ba51e40beac2a3357619f7bd21f8503dba54172625718d65563acccb83bfcd3009fbe15ed29d40a1bc95f827f3fc2f64113493e3b34d10635f1fb6da6ba_1280.jpg",
+     "original": "https://pixabay.com/get/g0c831ba51e40beac2a3357619f7bd21f8503dba54172625718d65563acccb83bfcd3009fbe15ed29d40a1bc95f827f3fc2f64113493e3b34d10635f1fb6da6ba_1280.jpg",
+     "score": 5.713,
+     "vision": "unsure"
+    },
+    {
+     "id": 8290285,
+     "w": 1280,
+     "h": 901,
+     "alt": "santa claus, christmas, holiday, st nicholas, father christmas, saint nick, kris kringle, papai noel",
+     "photographer": "PapaiNoelAbilioMachado",
+     "photographer_url": "https://pixabay.com/users/PapaiNoelAbilioMachado-29206627/",
+     "url": "https://pixabay.com/photos/santa-claus-christmas-holiday-8290285/",
+     "thumb": "https://pixabay.com/get/g4247c5cba8512bf76da775fb9f017f1da7cb843806ec35f025aa33ebdc73e9e6d97e9b49bdc9d782b9e6cc664ef0427b8241235485c44b586ab72115453da672_640.jpg",
+     "large": "https://pixabay.com/get/g58e51a9618ab224bd70f00b72ec0259f24d117af13407bc7c723d9ff71dccaf1c6c165a25ff4c887d9cf77cd3891071ed34b6b7a9bae41aae6b0739640948b9d_1280.jpg",
+     "original": "https://pixabay.com/get/g58e51a9618ab224bd70f00b72ec0259f24d117af13407bc7c723d9ff71dccaf1c6c165a25ff4c887d9cf77cd3891071ed34b6b7a9bae41aae6b0739640948b9d_1280.jpg",
+     "score": 5.713,
+     "vision": "unsure"
+    },
+    {
+     "id": 8290287,
+     "w": 1280,
+     "h": 901,
+     "alt": "santa claus, christmas, holiday, st nicholas, father christmas, saint nick, kris kringle, papai noel, brazil",
+     "photographer": "PapaiNoelAbilioMachado",
+     "photographer_url": "https://pixabay.com/users/PapaiNoelAbilioMachado-29206627/",
+     "url": "https://pixabay.com/photos/santa-claus-christmas-holiday-8290287/",
+     "thumb": "https://pixabay.com/get/ga1f213961cf8c32bd4d4856ef7a99e1702a19597adb0e52aeca6ffefacf9c2fb0ec86a9c98e771d736dd1d532ac00b72230b0f6934fd82a0a2eec07c2f9a8d6e_640.jpg",
+     "large": "https://pixabay.com/get/g7564132cb5fd5379660d5525d5e655e20d00ea5788b99cc8a45fbc99bc5186bb3892a5315bed3f41fb4ffeb9ec239e72c3c3075deb13f5ba25412610174abc2f_1280.jpg",
+     "original": "https://pixabay.com/get/g7564132cb5fd5379660d5525d5e655e20d00ea5788b99cc8a45fbc99bc5186bb3892a5315bed3f41fb4ffeb9ec239e72c3c3075deb13f5ba25412610174abc2f_1280.jpg",
+     "score": 5.713,
+     "vision": "unsure"
+    },
+    {
+     "id": 587640,
+     "w": 1022,
+     "h": 1280,
+     "alt": "santa claus, saint nicholas, kris kringle, father christmas, santa, christmas, holiday decoration, white beard, fur coat, doll, mannequin, w",
+     "photographer": "JamesDeMers",
+     "photographer_url": "https://pixabay.com/users/JamesDeMers-3416/",
+     "url": "https://pixabay.com/photos/santa-claus-saint-nicholas-587640/",
+     "thumb": "https://pixabay.com/get/gb3e02adae96038b7b987033191b21fd1a77255ed29513ef2e9000b342fa7e16d385080297a1785e61dc1e412faef0b98_640.jpg",
+     "large": "https://pixabay.com/get/g615d32fe9c2825a39a848fcced30b44996e01c2e8ee9aa991985b07a810cac6115f740b737e0b5b776531b7fbd568bdc1bcd151f1c13be70a10efb3b1d6d4afb_1280.jpg",
+     "original": "https://pixabay.com/get/g615d32fe9c2825a39a848fcced30b44996e01c2e8ee9aa991985b07a810cac6115f740b737e0b5b776531b7fbd568bdc1bcd151f1c13be70a10efb3b1d6d4afb_1280.jpg",
+     "score": 4.67,
+     "vision": "unsure"
+    }
+   ],
+   "page": 1
+  },
+  {
+   "word": "body lotion",
+   "search_query": "body lotion",
+   "category": "object",
+   "difficulty": 2,
+   "photos": [
+    {
+     "id": 768259,
+     "w": 1280,
+     "h": 1249,
+     "alt": "gift, present, bath, set, shower, gel, wellness, bath salt, scrub, lotion, body lotion, bow, bath salt, scrub, lotion, lotion, lotion, lotio",
+     "photographer": "FirminoGennarino",
+     "photographer_url": "https://pixabay.com/users/FirminoGennarino-917212/",
+     "url": "https://pixabay.com/photos/gift-present-bath-set-shower-gel-768259/",
+     "thumb": "https://pixabay.com/get/gc59cef29ddf6fa86229afc85f9b4805d85869170d1ab2307d09d0f5d81a1842c4ec0e16fa2f3aaff75b19536dcc88a4e_640.jpg",
+     "large": "https://pixabay.com/get/ga34015503b2b547f0e08f81c495f7f3e8e75cc621857baf71a59ff1e59a61a7bf15a7ca58ef19a710838fa248ff406a7078c51584760c4402dadf30f973894ec_1280.jpg",
+     "original": "https://pixabay.com/get/ga34015503b2b547f0e08f81c495f7f3e8e75cc621857baf71a59ff1e59a61a7bf15a7ca58ef19a710838fa248ff406a7078c51584760c4402dadf30f973894ec_1280.jpg",
+     "score": 5.713,
+     "vision": "unsure"
+    },
+    {
+     "id": 6391400,
+     "w": 960,
+     "h": 1280,
+     "alt": "cream, beauty, wellness, hand cream, hand, hands, personal hygiene, maintenance, skin care, feel good, body lotion, skin, cosmetics, soft sk",
+     "photographer": "m_krohn",
+     "photographer_url": "https://pixabay.com/users/m_krohn-22381850/",
+     "url": "https://pixabay.com/photos/cream-beauty-wellness-hand-cream-6391400/",
+     "thumb": "https://pixabay.com/get/g219b8d8c7d7f56457a1cc049bb57e8361c099e833076fa57dd6e999c650e6096b37300aae701721189110ac17a1bee96737e5e1b865fe60f810680627ab6b5a7_640.jpg",
+     "large": "https://pixabay.com/get/g3f6ee1855290549224d92d283d41790211fabbf450a4fb04d210dd6b6fe4fc1d2bb233d9f93c8ffa7e50849afcb0888c667ebaa61f3987cda805074e34cee2c0_1280.jpg",
+     "original": "https://pixabay.com/get/g3f6ee1855290549224d92d283d41790211fabbf450a4fb04d210dd6b6fe4fc1d2bb233d9f93c8ffa7e50849afcb0888c667ebaa61f3987cda805074e34cee2c0_1280.jpg",
+     "score": 2.66,
+     "vision": "unsure"
+    },
+    {
+     "id": 180845,
+     "w": 1280,
+     "h": 960,
+     "alt": "rose, rose flower, perfume, fragrance",
+     "photographer": "leomar",
+     "photographer_url": "https://pixabay.com/users/leomar-52640/",
+     "url": "https://pixabay.com/photos/rose-perfume-fragrance-180845/",
+     "thumb": "https://pixabay.com/get/g11c5ec18e588a645680f54d4f92666561c8baf69fd277bf39b15f6b05d98ac6bf4cd097166569cfb780745f7f09bc831_640.jpg",
+     "large": "https://pixabay.com/get/g36f18c97d4372930d91998fc495735ce12bb1047fdb18e4b44002b8368572bab6d4705d437874c037ca08c7922682bd1b2cffec0665eaa4ccd4265156e7acb81_1280.jpg",
+     "original": "https://pixabay.com/get/g36f18c97d4372930d91998fc495735ce12bb1047fdb18e4b44002b8368572bab6d4705d437874c037ca08c7922682bd1b2cffec0665eaa4ccd4265156e7acb81_1280.jpg",
+     "score": 1.213,
+     "vision": "unsure"
+    },
+    {
+     "id": 366073,
+     "w": 1280,
+     "h": 960,
+     "alt": "creme, skin care, cosmetic, black care, creme, creme, creme, creme, creme, skin care, skin care, skin care, skin care",
+     "photographer": "kornd",
+     "photographer_url": "https://pixabay.com/users/kornd-291024/",
+     "url": "https://pixabay.com/photos/creme-skin-care-cosmetic-black-care-366073/",
+     "thumb": "https://pixabay.com/get/g57a74f5926cf3645e660f7a94f3e2a4687903ecc3e7c0424c7683a503227f6f7518754bf5f38b585efda1169a171a64c_640.jpg",
+     "large": "https://pixabay.com/get/ge432891084e5da8a7272c1c32532eb7f49e502775a4f7aad15818b95f631e2747b6ed9d02489bb2ba026eba0faa7a090aefaf90df3629ab32fdd3c2db274d97d_1280.jpg",
+     "original": "https://pixabay.com/get/ge432891084e5da8a7272c1c32532eb7f49e502775a4f7aad15818b95f631e2747b6ed9d02489bb2ba026eba0faa7a090aefaf90df3629ab32fdd3c2db274d97d_1280.jpg",
+     "score": 1.213,
+     "vision": "unsure"
+    }
+   ],
+   "page": 1
+  }
+ ]
+}

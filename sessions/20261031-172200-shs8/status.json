@@ -1,0 +1,17 @@
+{
+ "state": "ok",
+ "source": "wordnet",
+ "warnings": [
+  {
+   "code": "groq_bad_response",
+   "detail": "parse: Expecting ',' delimiter: line 1 column 826 (char 825)",
+   "stage": "groq"
+  },
+  {
+   "code": "vision_unavailable",
+   "stage": "vision",
+   "detail": "vision model could not be used; photos were NOT checked"
+  }
+ ],
+ "at": "2026-10-31T17:24:16Z"
+}
