@@ -1,0 +1,33 @@
+# WordClip Studio settings (edit this file on GitHub: pencil icon -> Commit changes)
+# Model names and voices can ALSO be set as GitHub Actions Variables; a Variable wins over this file.
+
+channel_handle: "@Lingobits-Official"
+# How the voice SAYS the channel name in the outro ("follow ... for a new word every day").
+# Leave empty to derive it from channel_handle (@Lingobits-Official -> "Lingobits").
+# If the voice pronounces it badly, write it phonetically, e.g. "Lingo bits".
+channel_spoken_name: "Lingo bits"
+outro_follow: true                 # false = outro voice does not mention the channel
+words_per_video: 3                 # default 3 (timeline and checks are tuned for 3)
+theme: auto                        # auto | yellow | blue | green | purple | orange | teal
+use_vocal_tags: false              # true = add [cheerful] to Groq Orpheus text
+
+# AI provider: when CLOUDFLARE_API_TOKEN + CLOUDFLARE_ACCOUNT_ID secrets exist, Cloudflare Workers AI is used
+# for words + photo check (models: Variables CF_TEXT_MODEL / CF_VISION_MODEL); otherwise Groq.
+# Groq (can be overridden by Variables GROQ_TEXT_MODEL, GROQ_TTS_MODEL, ...)
+text_model: "openai/gpt-oss-120b"
+vision_model: "qwen/qwen3.6-27b"   # checks that each photo really shows the word
+vision_check: true                 # Prepare: drop photos that do not show the word
+vision_gate: true                  # Build: stop if a chosen photo clearly is not the word
+tts_model: "canopylabs/orpheus-v1-english"
+voice_question: "troy"           # female: autumn, diana, hannah
+voice_answer: "troy"               # male: austin, daniel, troy
+
+# Fallback voices (edge-tts)
+edge_voice_question: "en-US-AvaNeural"
+edge_voice_answer: "en-US-AndrewNeural"
+
+# Optional music: put an .mp3 into assets/music/ (only music you have the right to use)
+music_volume_lufs: -26
+duck_db: -10
+
+categories: [kitchen, tools, garden, office, bathroom, clothing, furniture, toys, sports, vehicles, food, electronics]

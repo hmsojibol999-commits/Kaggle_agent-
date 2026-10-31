@@ -1,0 +1,5 @@
+Poppins (Bold, Medium, Regular): Copyright the Poppins Project Authors (Indian Type Foundry),
+licensed under the SIL Open Font License 1.1 (https://openfontlicense.org).
+
+Optional: add Fredoka-Bold.ttf or Baloo2-Bold.ttf here (also OFL, from fonts.google.com) and the video title/labels use them automatically.
+If no font in this folder can be loaded the engine falls back to DejaVu Sans.
