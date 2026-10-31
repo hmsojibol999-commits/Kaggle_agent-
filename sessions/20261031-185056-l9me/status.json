@@ -1,0 +1,12 @@
+{
+ "state": "ok",
+ "source": "groq",
+ "warnings": [
+  {
+   "code": "topped_up",
+   "detail": "extra words added from curated list",
+   "stage": "words"
+  }
+ ],
+ "at": "2026-10-31T18:53:04Z"
+}

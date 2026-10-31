@@ -1,0 +1,378 @@
+{
+ "session": "20261031-185056-l9me",
+ "created": "2026-10-31T18:53:04Z",
+ "category": "",
+ "source": "groq",
+ "words_per_video": 3,
+ "warnings": [
+  {
+   "code": "topped_up",
+   "detail": "extra words added from curated list",
+   "stage": "words"
+  }
+ ],
+ "words": [
+  {
+   "word": "kite",
+   "search_query": "traditional kite toy",
+   "category": "toys and games",
+   "difficulty": 2,
+   "photos": [
+    {
+     "id": 6531880,
+     "w": 1280,
+     "h": 934,
+     "alt": "box kite, childhood, toy, kite, traditional, box kite, box kite, box kite, box kite, box kite",
+     "photographer": "ignartonosbg",
+     "photographer_url": "https://pixabay.com/users/ignartonosbg-21428489/",
+     "url": "https://pixabay.com/photos/box-kite-childhood-toy-kite-6531880/",
+     "thumb": "https://pixabay.com/get/g4c1f01e718781704a9560f0631d926d88c3eb163d0afe30b64173f851b781bf9dbddc42246b6df13177d73fc5ff06b22dfbc44058a325ad1a9f337bebfc59fb0_640.jpg",
+     "large": "https://pixabay.com/get/g1898a710502ff00bf97ba6b1a37dee15919d7e6d094c426ce6c4b518f829b858f80d602ed14659df82c7f7e87d0a211cf03ec856ef2b30b024b2686e79aff867_1280.jpg",
+     "original": "https://pixabay.com/get/g1898a710502ff00bf97ba6b1a37dee15919d7e6d094c426ce6c4b518f829b858f80d602ed14659df82c7f7e87d0a211cf03ec856ef2b30b024b2686e79aff867_1280.jpg",
+     "score": 5.713,
+     "vision": "yes"
+    },
+    {
+     "id": 6933598,
+     "w": 1280,
+     "h": 853,
+     "alt": "kite, toy, kite flying, freedom, activity, nature, sky, fun, leisure, summer, fly",
+     "photographer": "8618939",
+     "photographer_url": "https://pixabay.com/users/8618939-8618939/",
+     "url": "https://pixabay.com/photos/kite-toy-kite-flying-freedom-6933598/",
+     "thumb": "https://pixabay.com/get/g892bc109b7e85f934492a6485daf821d822147f616d527c0bdeda8d675649c0b8e4733885bc00c1dd9f8e058dbd38d5c0c3e7977074f26c96e0e9e5a15f1522b_640.jpg",
+     "large": "https://pixabay.com/get/gb8bd6c9a5dbc426208e2705be36b39fb8d35c7a1079394a094f585c0e4dac82134d13b30bc44b1b64c554911a8198e13d05fd4f10e8b63e4de9f46ee681f9ebd_1280.jpg",
+     "original": "https://pixabay.com/get/gb8bd6c9a5dbc426208e2705be36b39fb8d35c7a1079394a094f585c0e4dac82134d13b30bc44b1b64c554911a8198e13d05fd4f10e8b63e4de9f46ee681f9ebd_1280.jpg",
+     "score": 5.713,
+     "vision": "yes"
+    },
+    {
+     "id": 927205,
+     "w": 1270,
+     "h": 1280,
+     "alt": "kite, wind kite, colors, air, holiday, relaxation, freedom, kite, kite, kite, kite, kite",
+     "photographer": "Ben_Kerckx",
+     "photographer_url": "https://pixabay.com/users/Ben_Kerckx-69781/",
+     "url": "https://pixabay.com/photos/kite-wind-kite-colors-air-holiday-927205/",
+     "thumb": "https://pixabay.com/get/g28c1e3e6a588497d721b1e9f81682938dff15d79e19606881017635d59b45d32ba58edd7d35645a579b677aa118ab296_640.jpg",
+     "large": "https://pixabay.com/get/g16e20cd5c0347a5499fad3e30ff910d3c29eeed5b3e576c9d9ca0b39fc9d898757fa8d06561bd9eab6409eef19ade3e4712d928ba33f9d03b8406ff31ab1319c_1280.jpg",
+     "original": "https://pixabay.com/get/g16e20cd5c0347a5499fad3e30ff910d3c29eeed5b3e576c9d9ca0b39fc9d898757fa8d06561bd9eab6409eef19ade3e4712d928ba33f9d03b8406ff31ab1319c_1280.jpg",
+     "score": 5.712,
+     "vision": "yes"
+    }
+   ],
+   "page": 1
+  },
+  {
+   "word": "tambourine",
+   "search_query": "tambourine musical instrument",
+   "category": "musical instruments",
+   "difficulty": 2,
+   "photos": [
+    {
+     "id": 970343,
+     "w": 1280,
+     "h": 848,
+     "alt": "tambourine, instrument, percussion, rhythm, music, musician, studio, wooden, acoustic, sound, performance, traditional, orchestra, equipment",
+     "photographer": "ClickerHappy",
+     "photographer_url": "https://pixabay.com/users/ClickerHappy-324082/",
+     "url": "https://pixabay.com/photos/tambourine-instrument-percussion-970343/",
+     "thumb": "https://pixabay.com/get/g5f8038795fe7c07f11075909d85837279f2fa04ef678f44a86f77c5636b4dce80a8f18a56fd150d5924c996847fdf50d_640.jpg",
+     "large": "https://pixabay.com/get/gfcc80cf20fe289e955ff5ffb6fb22fbab8b6037b079e9e2daff1ef1c7b7bab3b3d2e2f3e957598b863a3c92779cdf0b78640b4f8ea4fb27352f67d2c63e45dd2_1280.jpg",
+     "original": "https://pixabay.com/get/gfcc80cf20fe289e955ff5ffb6fb22fbab8b6037b079e9e2daff1ef1c7b7bab3b3d2e2f3e957598b863a3c92779cdf0b78640b4f8ea4fb27352f67d2c63e45dd2_1280.jpg",
+     "score": 5.713,
+     "vision": "yes"
+    },
+    {
+     "id": 1594325,
+     "w": 1280,
+     "h": 857,
+     "alt": "percussion, tambourine, field drum, music, equipment, cymbal, brown music, percussion, percussion, percussion, percussion, percussion, tambo",
+     "photographer": "socalbrass",
+     "photographer_url": "https://pixabay.com/users/socalbrass-3100274/",
+     "url": "https://pixabay.com/photos/percussion-tambourine-field-drum-1594325/",
+     "thumb": "https://pixabay.com/get/ge8a77f88acfa4fd16c180cfef26b1154cc3a99f9fbf666ff0fa39ee34423d3163df9a8a92a7d71a7095df9501c519f508fc8739b54e3980d492c61e30d859fca_640.jpg",
+     "large": "https://pixabay.com/get/g0d626d730f3f9c948e913c983fdb1ef3e8bac7052578f0d2a7c62c6233b6b5680b9cc76ef8c610c4179e00d7cf18113d23782c3736e034e9024ed0fae55f7b55_1280.jpg",
+     "original": "https://pixabay.com/get/g0d626d730f3f9c948e913c983fdb1ef3e8bac7052578f0d2a7c62c6233b6b5680b9cc76ef8c610c4179e00d7cf18113d23782c3736e034e9024ed0fae55f7b55_1280.jpg",
+     "score": 5.713,
+     "vision": "yes"
+    },
+    {
+     "id": 1594327,
+     "w": 1280,
+     "h": 857,
+     "alt": "percussion, tambourine, field drum, music, equipment, cymbal, brown music, percussion, percussion, percussion, percussion, percussion, tambo",
+     "photographer": "socalbrass",
+     "photographer_url": "https://pixabay.com/users/socalbrass-3100274/",
+     "url": "https://pixabay.com/photos/percussion-tambourine-field-drum-1594327/",
+     "thumb": "https://pixabay.com/get/g2fd46b65daeaf44c121ef90f18e4856bfcc638b2d2c6f50ffa29f6ae691f40fc2de855344b3573e2aff1746433e6ba0a065abe4021a60b9ae72335a2a29d81cb_640.jpg",
+     "large": "https://pixabay.com/get/g978c0455f1f94c6b4e457d5b80fe3313a3cf9c5d022f5eb004c2d96d9f7460a1f6559d13f114a00fdd6aa8d406d179f357f4b12fb41b6fc91b27e9d2284bde66_1280.jpg",
+     "original": "https://pixabay.com/get/g978c0455f1f94c6b4e457d5b80fe3313a3cf9c5d022f5eb004c2d96d9f7460a1f6559d13f114a00fdd6aa8d406d179f357f4b12fb41b6fc91b27e9d2284bde66_1280.jpg",
+     "score": 5.713,
+     "vision": "yes"
+    }
+   ],
+   "page": 1
+  },
+  {
+   "word": "anvil",
+   "search_query": "anvil blacksmith tool",
+   "category": "blacksmith tools",
+   "difficulty": 2,
+   "photos": [
+    {
+     "id": 1516269,
+     "w": 1280,
+     "h": 853,
+     "alt": "horseshoe, glow, farrier, happiness, horses, hammer, anvil, pliers, wrought, forge, on the wall, decoration, hung up, lucky charm, deco, hor",
+     "photographer": "Foto-Rabe",
+     "photographer_url": "https://pixabay.com/users/Foto-Rabe-715168/",
+     "url": "https://pixabay.com/photos/horseshoe-glow-farrier-happiness-1516269/",
+     "thumb": "https://pixabay.com/get/g77cb63b007a0f7c6a3d9690f97533c68f190312c78eded94fd6c9ba78ad06b04344e0e5b49b2e9fae03533e3f47d97fbd14a9a68961d04dbe4b70d9d3ac855bc_640.jpg",
+     "large": "https://pixabay.com/get/g8aee9a95c2fb2f21e27e7f05121192ed42bc194533b2d3b2bdd86b46d191fa2ce535e68a7c2914248cc292a7386310593ed7c328735b10811236c483ab2ee731_1280.jpg",
+     "original": "https://pixabay.com/get/g8aee9a95c2fb2f21e27e7f05121192ed42bc194533b2d3b2bdd86b46d191fa2ce535e68a7c2914248cc292a7386310593ed7c328735b10811236c483ab2ee731_1280.jpg",
+     "score": 5.713,
+     "vision": "yes"
+    },
+    {
+     "id": 416186,
+     "w": 1280,
+     "h": 853,
+     "alt": "anvil, ironworks, blacksmith, forge, tool, rust, weathered, antique, old, metal, iron, craftsman, vintage, work, heavy, rusty, texture, grun",
+     "photographer": "nightowl",
+     "photographer_url": "https://pixabay.com/users/nightowl-29/",
+     "url": "https://pixabay.com/photos/anvil-ironworks-blacksmith-forge-416186/",
+     "thumb": "https://pixabay.com/get/ga92b168e9dd9cbe8e3a00c738fee9f0f71f0f7e5af61183ad84e07782859c803a97ca59895f68c43392dc9cb3e54431b_640.jpg",
+     "large": "https://pixabay.com/get/g9497286d51beebef82ccc8071f4e52baca7338207fd2faee5955f3350087b40bd8e163ff66efec95c53c9ceb29bb72c0bb55273bd03cc06a9f433375ed5473ae_1280.jpg",
+     "original": "https://pixabay.com/get/g9497286d51beebef82ccc8071f4e52baca7338207fd2faee5955f3350087b40bd8e163ff66efec95c53c9ceb29bb72c0bb55273bd03cc06a9f433375ed5473ae_1280.jpg",
+     "score": 5.713,
+     "vision": "yes"
+    },
+    {
+     "id": 2371002,
+     "w": 1280,
+     "h": 857,
+     "alt": "blacksmith, anvil, hammer, horseshoe, blacksmith, blacksmith, blacksmith, blacksmith, blacksmith, anvil",
+     "photographer": "jackmac34",
+     "photographer_url": "https://pixabay.com/users/jackmac34-483877/",
+     "url": "https://pixabay.com/photos/blacksmith-anvil-hammer-horseshoe-2371002/",
+     "thumb": "https://pixabay.com/get/gf410350d1cfe15734a4a1ff6c6c9d19df2e8df8a4528ce4f259d4705cf10d049094e6ca6ca751c04d154397b856b42fa99d3e7d710b91c6d3d81ed9de70338c6_640.jpg",
+     "large": "https://pixabay.com/get/g0c0ef45d3b4f6315ee3c331993966a645a03d06f2d2641c4f88ac0aa71d6358683ed346f182f3f997212a5f47c0be94cfb4b1b6ae9381b6b5e9a5d7a8750d754_1280.jpg",
+     "original": "https://pixabay.com/get/g0c0ef45d3b4f6315ee3c331993966a645a03d06f2d2641c4f88ac0aa71d6358683ed346f182f3f997212a5f47c0be94cfb4b1b6ae9381b6b5e9a5d7a8750d754_1280.jpg",
+     "score": 5.713,
+     "vision": "yes"
+    },
+    {
+     "id": 2450920,
+     "w": 1280,
+     "h": 787,
+     "alt": "anvil, ironworks, blacksmith, wrought, tool, rust, weathered, antique, old, metal, iron, workshop, work, art, bending, historical, fireplace",
+     "photographer": "Momentmal",
+     "photographer_url": "https://pixabay.com/users/Momentmal-5324081/",
+     "url": "https://pixabay.com/photos/anvil-ironworks-blacksmith-wrought-2450920/",
+     "thumb": "https://pixabay.com/get/gbeb289e8baa87eb3db686c14fa6328f566c39c6cbd2eb41682f9553ed0ea766feb692383acbf81245d1be0f8b3808b10a4a28d9328221efe7b5c03d85251caee_640.png",
+     "large": "https://pixabay.com/get/gffcc94496b647986644c337c65a73fddfb8775038a3eb513150fb51a1a8f826269543ec4f3e5c9953dab090e922cb99e318a085caca4b36a8f5f822ea1de3c9c_1280.png",
+     "original": "https://pixabay.com/get/gffcc94496b647986644c337c65a73fddfb8775038a3eb513150fb51a1a8f826269543ec4f3e5c9953dab090e922cb99e318a085caca4b36a8f5f822ea1de3c9c_1280.png",
+     "score": 5.713,
+     "vision": "yes"
+    }
+   ],
+   "page": 1
+  },
+  {
+   "word": "kimono",
+   "search_query": "kimono traditional clothing",
+   "category": "traditional clothing",
+   "difficulty": 2,
+   "photos": [
+    {
+     "id": 6683245,
+     "w": 993,
+     "h": 1280,
+     "alt": "kimono, costume, shrine, prayer, worship, architecture, serene, traditional, japan, kyoto, japan, japan, japan, japan, japan, kyoto",
+     "photographer": "GPoulsen",
+     "photographer_url": "https://pixabay.com/users/GPoulsen-6673015/",
+     "url": "https://pixabay.com/photos/kimono-costume-shrine-prayer-6683245/",
+     "thumb": "https://pixabay.com/get/g891ae991ac7d676614d5293d7d740ec10b5c1735f73fd20f9e4fa1d36589607b5cc9bc8483be7b53353ed41824415be770f22ae5c78ef57a02c19f2cee754cf0_640.jpg",
+     "large": "https://pixabay.com/get/g45eefcf44b2cd659d615de84cbef8e37a9123eebc2bc3eda112468fab6277cf0f160b5a638995633fee7060e48d6f515644b35d188dc6656aeac908568ee9688_1280.jpg",
+     "original": "https://pixabay.com/get/g45eefcf44b2cd659d615de84cbef8e37a9123eebc2bc3eda112468fab6277cf0f160b5a638995633fee7060e48d6f515644b35d188dc6656aeac908568ee9688_1280.jpg",
+     "score": 4.665,
+     "vision": "yes"
+    },
+    {
+     "id": 4944705,
+     "w": 960,
+     "h": 1280,
+     "alt": "japan, castle, kimono, japanese, palace, travel, matsumoto, building, sightseeing, asia, asian, culture, ancient, traditional, zen, geisha, ",
+     "photographer": "Caroline_Tran",
+     "photographer_url": "https://pixabay.com/users/Caroline_Tran-15521870/",
+     "url": "https://pixabay.com/photos/japan-castle-kimono-japanese-4944705/",
+     "thumb": "https://pixabay.com/get/g5b06695a7dc5648450c77a2fa2cf1dd5174f1ca3e1c327c6d2300ee0ea803ecfe0c5d71b7ccd1569a57dfebab6cc18decea4a8431b330db3f758da044b4e9e3e_640.jpg",
+     "large": "https://pixabay.com/get/g848259f34e951f38911bd110d3d7f71cc27915db56a7a1f0dae1a73d164db0697a596809aeed575b71b66930b9165d9bde288e9c659eac10414692464e922711_1280.jpg",
+     "original": "https://pixabay.com/get/g848259f34e951f38911bd110d3d7f71cc27915db56a7a1f0dae1a73d164db0697a596809aeed575b71b66930b9165d9bde288e9c659eac10414692464e922711_1280.jpg",
+     "score": 4.66,
+     "vision": "yes"
+    },
+    {
+     "id": 5507063,
+     "w": 1280,
+     "h": 999,
+     "alt": "women, kimono, costume, back, colorful, tradition, japanese, asia, kimono, kimono, kimono, kimono, kimono",
+     "photographer": "djedj",
+     "photographer_url": "https://pixabay.com/users/djedj-59194/",
+     "url": "https://pixabay.com/photos/women-kimono-costume-back-colorful-5507063/",
+     "thumb": "https://pixabay.com/get/gdfa7872cc34366d0dfa712ea28304ffded21afe73c97f4cbda20a9590945ffb9a8cf9a595ddc947b132264bd92408acdda39a04089edf402a3db485251ed73ac_640.jpg",
+     "large": "https://pixabay.com/get/g9baeef97ddc7b81b095a927c26ab5d1b9293ebb7bb2639d13cef4cf05dff2d155cbdab34b7e5ed2a245726f65991c7133df841d8579a8cd1e61e50c3cd51fee4_1280.jpg",
+     "original": "https://pixabay.com/get/g9baeef97ddc7b81b095a927c26ab5d1b9293ebb7bb2639d13cef4cf05dff2d155cbdab34b7e5ed2a245726f65991c7133df841d8579a8cd1e61e50c3cd51fee4_1280.jpg",
+     "score": 3.713,
+     "vision": "yes"
+    },
+    {
+     "id": 7601157,
+     "w": 960,
+     "h": 1280,
+     "alt": "convenience store, couple, footpath, japan, japanese, japanese fashion, kimono, man and woman, pavement, sidewalk, taito city, tokyo, tradit",
+     "photographer": "16944022",
+     "photographer_url": "https://pixabay.com/users/16944022-16944022/",
+     "url": "https://pixabay.com/photos/convenience-store-couple-footpath-7601157/",
+     "thumb": "https://pixabay.com/get/g75a79e603d2ac29365f53904cc2c0ba515f30904380939ec90611e5c0ff174ea61d13093390555c73f1791f15759b523b174ed111edc949ec907c9c65079cb67_640.jpg",
+     "large": "https://pixabay.com/get/gd4e2d678df51a6d081e5b3c7d6043abe0ec78bead3be3330a266eb4ea39700e51036f269fe4b5941f49fc90da2cd3b6c5443506b92fbd9b6272eccb700e44118_1280.jpg",
+     "original": "https://pixabay.com/get/gd4e2d678df51a6d081e5b3c7d6043abe0ec78bead3be3330a266eb4ea39700e51036f269fe4b5941f49fc90da2cd3b6c5443506b92fbd9b6272eccb700e44118_1280.jpg",
+     "score": 2.66,
+     "vision": "yes"
+    }
+   ],
+   "page": 1
+  },
+  {
+   "word": "artichoke",
+   "search_query": "artichoke",
+   "category": "food",
+   "difficulty": 2,
+   "photos": [
+    {
+     "id": 8117729,
+     "w": 1280,
+     "h": 853,
+     "alt": "artichoke, artichoke flower, flowering vegetables, vegetables, purple flower, artichoke plant, petals, blooming vegetables",
+     "photographer": "Nennieinszweidrei",
+     "photographer_url": "https://pixabay.com/users/Nennieinszweidrei-10084616/",
+     "url": "https://pixabay.com/photos/artichoke-artichoke-flower-8117729/",
+     "thumb": "https://pixabay.com/get/g6815c5e7871ebbf43680c0b7800dc04544e88b0465f5dbf5d11c58fc95abd512e7c5bd842517f6b90271cbf55b60c76d09fd1d11d58409bd8def57c8410669b0_640.jpg",
+     "large": "https://pixabay.com/get/gd8b60c3f4e7d4a6a288c97417cfbebb43862277a5b564ae0650ca3806346159a92a01442d51f87ac61f2685acffbe1235dcfa65c08913dfdef976a6768a1d7a3_1280.jpg",
+     "original": "https://pixabay.com/get/gd8b60c3f4e7d4a6a288c97417cfbebb43862277a5b564ae0650ca3806346159a92a01442d51f87ac61f2685acffbe1235dcfa65c08913dfdef976a6768a1d7a3_1280.jpg",
+     "score": 5.713,
+     "vision": "yes"
+    },
+    {
+     "id": 6664363,
+     "w": 1280,
+     "h": 853,
+     "alt": "artichoke, dried artichoke, vegetables, artichoke leaves, nature, garden",
+     "photographer": "Nennieinszweidrei",
+     "photographer_url": "https://pixabay.com/users/Nennieinszweidrei-10084616/",
+     "url": "https://pixabay.com/photos/artichoke-dried-artichoke-vegetables-6664363/",
+     "thumb": "https://pixabay.com/get/g25f76a3b2ae7d04a9eca094711fec3d6191afa7885a1a51ae0fe60fe2df2338fa551409f462dab240509776c27b112a391d4ea8d2138b9380648ac6e09a22ff5_640.jpg",
+     "large": "https://pixabay.com/get/g931b03a4412f1f30d85c3127af385dce89d3e69bb88056433ebf5cdd2011a660a12a614da010d253610bc336a61a130e39b3551b39c4ade31c025c253f8c8d34_1280.jpg",
+     "original": "https://pixabay.com/get/g931b03a4412f1f30d85c3127af385dce89d3e69bb88056433ebf5cdd2011a660a12a614da010d253610bc336a61a130e39b3551b39c4ade31c025c253f8c8d34_1280.jpg",
+     "score": 5.713,
+     "vision": "yes"
+    },
+    {
+     "id": 7456876,
+     "w": 1280,
+     "h": 853,
+     "alt": "artichoke, vegetables, food, flowering vegetables, artichoke plant, crop plant, artichoke, artichoke, artichoke, artichoke, artichoke",
+     "photographer": "manfredrichter",
+     "photographer_url": "https://pixabay.com/users/manfredrichter-4055600/",
+     "url": "https://pixabay.com/photos/artichoke-vegetables-food-7456876/",
+     "thumb": "https://pixabay.com/get/gb372d685baed14d176d4c228c5adf398eed9d0ef995c67326bd8aa0ddcadac43e4c49d615f9f9e4a9899a6d2f568d98655068e85fb0c54d94de3703d6cfa258d_640.jpg",
+     "large": "https://pixabay.com/get/g0f47558df050664e662b3b54ee1d58b63ba7a88c2c672f35fce87ebe9e7334a5bee95ac228de0f3cf09e3fb741fc7329b6c1b3a5287b0546d94e825aef55ffcb_1280.jpg",
+     "original": "https://pixabay.com/get/g0f47558df050664e662b3b54ee1d58b63ba7a88c2c672f35fce87ebe9e7334a5bee95ac228de0f3cf09e3fb741fc7329b6c1b3a5287b0546d94e825aef55ffcb_1280.jpg",
+     "score": 5.713,
+     "vision": "yes"
+    },
+    {
+     "id": 8055281,
+     "w": 1280,
+     "h": 851,
+     "alt": "plant, nature, flower wallpaper, artichoke, flower background, beautiful flowers, flower, close up",
+     "photographer": "lifeTHROUGHaLENS2021",
+     "photographer_url": "https://pixabay.com/users/lifeTHROUGHaLENS2021-20222976/",
+     "url": "https://pixabay.com/photos/plant-nature-artichoke-flower-8055281/",
+     "thumb": "https://pixabay.com/get/g4f2cf6d678804fa51c99b74a15300b39313a85a3d0813f98e26953632dc74f99ab7dfd5e02ee4ba2e2bb29b394c1a4c8b292b7eb5d8b0b52728dedcb59842c04_640.jpg",
+     "large": "https://pixabay.com/get/g7073ce38ed4c1b8fb2dd51f0ed4040a45898ea903e3dbd5469d2a4a3e750c99114892f50fa40b9c30260b71c5a9bf45b21d0546a9fc0644ba9268e34c5756b29_1280.jpg",
+     "original": "https://pixabay.com/get/g7073ce38ed4c1b8fb2dd51f0ed4040a45898ea903e3dbd5469d2a4a3e750c99114892f50fa40b9c30260b71c5a9bf45b21d0546a9fc0644ba9268e34c5756b29_1280.jpg",
+     "score": 5.713,
+     "vision": "yes"
+    }
+   ],
+   "page": 1
+  },
+  {
+   "word": "lantern",
+   "search_query": "lantern",
+   "category": "home",
+   "difficulty": 2,
+   "photos": [
+    {
+     "id": 6894507,
+     "w": 1280,
+     "h": 853,
+     "alt": "lantern, festival, lamp, decorate, new year, lantern, lantern, lantern, festival, festival, lamp, lamp, new year, new year, new year, new ye",
+     "photographer": "ymyphoto",
+     "photographer_url": "https://pixabay.com/users/ymyphoto-23007053/",
+     "url": "https://pixabay.com/photos/lantern-festival-lamp-decorate-6894507/",
+     "thumb": "https://pixabay.com/get/g7b8528b2b432fc682b21c8a9855077a9786148ce883e32a595aa0f364df6094e315a33da0994df69f4981d6688db7d319195dbf1ada82ac787f4f6abb2a8def8_640.jpg",
+     "large": "https://pixabay.com/get/g4cd3fb7a4138453e2da3894df999e47c906dabc38049b8025bfd4509e342d283879ab19184e0e8c98a0d1702417155990ee9ad30b78dc92f512fe261c0bbcb85_1280.jpg",
+     "original": "https://pixabay.com/get/g4cd3fb7a4138453e2da3894df999e47c906dabc38049b8025bfd4509e342d283879ab19184e0e8c98a0d1702417155990ee9ad30b78dc92f512fe261c0bbcb85_1280.jpg",
+     "score": 5.713,
+     "vision": "yes"
+    },
+    {
+     "id": 2146997,
+     "w": 1280,
+     "h": 857,
+     "alt": "lantern, background, free wallpaper, free background, mac wallpaper, decoration, light, windows wallpaper, wallpaper hd, full hd wallpaper, ",
+     "photographer": "josuedersoir",
+     "photographer_url": "https://pixabay.com/users/josuedersoir-4827501/",
+     "url": "https://pixabay.com/photos/lantern-background-decoration-light-2146997/",
+     "thumb": "https://pixabay.com/get/g2b9ae08d144cac1a0c54ae1652961a508e40053c51df4d2be8d1fe0ce30a28c6c2942e66a4c6823729028254a5e212b422be237094ec9aac66f0f1661ddfad7f_640.jpg",
+     "large": "https://pixabay.com/get/gadd8b38faf17c4deb01e7918772ec5959c713f6b3b1e539c89a1cda68113c7053fae2f24469691541a84bd3350a245f69d7cf2998bef0ffd9c3ffa11bd68cb3e_1280.jpg",
+     "original": "https://pixabay.com/get/gadd8b38faf17c4deb01e7918772ec5959c713f6b3b1e539c89a1cda68113c7053fae2f24469691541a84bd3350a245f69d7cf2998bef0ffd9c3ffa11bd68cb3e_1280.jpg",
+     "score": 5.713,
+     "vision": "yes"
+    },
+    {
+     "id": 5568727,
+     "w": 1280,
+     "h": 854,
+     "alt": "japanese lantern, shinto, japanese shrine, lantern, lamp, lampion, shrine, light, temple, buddhism, religion, kyoto, japan, asia, temple, ky",
+     "photographer": "djedj",
+     "photographer_url": "https://pixabay.com/users/djedj-59194/",
+     "url": "https://pixabay.com/photos/japanese-lantern-shinto-5568727/",
+     "thumb": "https://pixabay.com/get/g8fffc3854ee471c5b5936e34dcf20ff75a7a1f45f73a40b2a41114d7f4ac5f2a4a6cf1d75f7ec263e828125bc52dccd12f9a972264cfcdae4de82cd867e6883c_640.jpg",
+     "large": "https://pixabay.com/get/gfb5d63fce0e83afbf98cc979769c816d60572a4ba418742af1c87c38d1bb2f07b14a7b82784ee36dd7e1b5e73344afcd5ed37e240130db265e73b585450e31b9_1280.jpg",
+     "original": "https://pixabay.com/get/gfb5d63fce0e83afbf98cc979769c816d60572a4ba418742af1c87c38d1bb2f07b14a7b82784ee36dd7e1b5e73344afcd5ed37e240130db265e73b585450e31b9_1280.jpg",
+     "score": 5.713,
+     "vision": "yes"
+    },
+    {
+     "id": 8818967,
+     "w": 1280,
+     "h": 853,
+     "alt": "lantern, festival, chinese style, ancient rhyme, shop sign, eaves, night",
+     "photographer": "ymyphoto",
+     "photographer_url": "https://pixabay.com/users/ymyphoto-23007053/",
+     "url": "https://pixabay.com/photos/lantern-festival-chinese-style-8818967/",
+     "thumb": "https://pixabay.com/get/g24a54b4f925e13d19413cb178329af7eb22ee19e4e4e67a63fc755e4377563f4ea6a2a708ca78bace59ca65af7d0a8d12b9cb2fd124927e6d4cce22764c385f5_640.jpg",
+     "large": "https://pixabay.com/get/gb8edc8f38707c4414f060bc38449bccb626696b4ae385908ab1c4257aecdf70121d5e9b9a984c4f88eb34f3b8fe1064264b9c4702e082085f95da2960a7aa030_1280.jpg",
+     "original": "https://pixabay.com/get/gb8edc8f38707c4414f060bc38449bccb626696b4ae385908ab1c4257aecdf70121d5e9b9a984c4f88eb34f3b8fe1064264b9c4702e082085f95da2960a7aa030_1280.jpg",
+     "score": 5.713,
+     "vision": "yes"
+    }
+   ],
+   "page": 1
+  }
+ ]
+}
