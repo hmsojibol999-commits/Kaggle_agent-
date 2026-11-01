@@ -1,0 +1,47 @@
+name: More images
+run-name: "More images ${{ inputs.session_id }} ${{ inputs.word }}"
+on:
+  workflow_dispatch:
+    inputs:
+      session_id:
+        description: "Session id"
+        required: true
+      word:
+        description: "Word that needs more photos"
+        required: true
+concurrency:
+  group: wordclip
+  cancel-in-progress: false
+permissions:
+  contents: write
+jobs:
+  more:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+      USE_GROQ: ${{ vars.USE_GROQ }}
+      CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+      CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+      CF_TEXT_MODEL: ${{ vars.CF_TEXT_MODEL }}
+      CF_VISION_MODEL: ${{ vars.CF_VISION_MODEL }}
+      PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
+      GROQ_TEXT_MODEL: ${{ vars.GROQ_TEXT_MODEL }}
+      GROQ_TTS_MODEL: ${{ vars.GROQ_TTS_MODEL }}
+      GROQ_TTS_VOICE_QUESTION: ${{ vars.GROQ_TTS_VOICE_QUESTION }}
+      GROQ_TTS_VOICE_ANSWER: ${{ vars.GROQ_TTS_VOICE_ANSWER }}
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      PYTHONUNBUFFERED: "1"
+      SESSION: ${{ inputs.session_id }}
+      WORD: ${{ inputs.word }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+      - name: Install Python packages
+        run: pip install -r requirements.txt
+      - name: Fetch next page of photos
+        run: python -m engine.prepare --session "$SESSION" --more "$WORD"

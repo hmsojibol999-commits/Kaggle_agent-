@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+out/
+state/
+voice-out/
+.DS_Store
