@@ -19,3 +19,6 @@ felucca
 kite
 tambourine
 anvil
+turnip
+shears
+bandstand
