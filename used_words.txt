@@ -22,3 +22,6 @@ anvil
 turnip
 shears
 bandstand
+tarot cards
+espresso machine
+caftan

@@ -1,0 +1,21 @@
+{
+ "state": "done",
+ "tag": "video-20261101-080250",
+ "words": [
+  "tarot cards",
+  "espresso machine",
+  "caftan"
+ ],
+ "theme": "orange",
+ "voices": {
+  "edge": 9
+ },
+ "seconds": 113,
+ "at": "2026-11-01T08:02:50Z",
+ "flagged": [
+  "tarot cards",
+  "espresso machine",
+  "caftan"
+ ],
+ "url": "https://github.com/hmsojibol999-commits/Kaggle_agent-/releases/tag/video-20261101-080250"
+}
