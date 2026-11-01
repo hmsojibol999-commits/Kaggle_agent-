@@ -1,0 +1,7 @@
+requests>=2.31
+pyyaml>=6.0
+pillow>=10.0
+numpy>=1.26
+edge-tts>=6.1
+nltk>=3.8
+wordfreq>=3.0
