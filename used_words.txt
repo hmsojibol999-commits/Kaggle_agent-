@@ -28,3 +28,6 @@ caftan
 cinnamon sticks
 peeler
 jaguar
+okapi
+pufferfish
+hygrometer

@@ -10,3 +10,4 @@ sextant
 kaleidoscope
 gimbal
 nectarine
+clock tower
