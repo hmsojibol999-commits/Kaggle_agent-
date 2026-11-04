@@ -31,3 +31,6 @@ jaguar
 okapi
 pufferfish
 hygrometer
+weighing scales
+seahorse
+toboggan
