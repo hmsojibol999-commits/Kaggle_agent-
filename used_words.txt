@@ -34,3 +34,6 @@ hygrometer
 weighing scales
 seahorse
 toboggan
+colosseum
+mudskipper
+ginger root

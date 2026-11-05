@@ -11,3 +11,4 @@ kaleidoscope
 gimbal
 nectarine
 clock tower
+turquoise stone
