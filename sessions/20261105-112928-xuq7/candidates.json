@@ -1,0 +1,392 @@
+{
+ "session": "20261105-112928-xuq7",
+ "created": "2026-11-05T11:30:19Z",
+ "category": "",
+ "source": "builtin",
+ "words_per_video": 3,
+ "warnings": [
+  {
+   "code": "vision_unavailable",
+   "stage": "vision",
+   "detail": "vision model could not be used; photos were NOT checked"
+  }
+ ],
+ "words": [
+  {
+   "word": "colosseum",
+   "search_query": "colosseum",
+   "category": "buildings",
+   "difficulty": 2,
+   "photos": [
+    {
+     "id": 9505450,
+     "w": 1280,
+     "h": 852,
+     "alt": "italy, rome, colosseum, sunset, nature, ancient architecture, travel, roman arena, tourists",
+     "photographer": "MARTINOPHUC",
+     "photographer_url": "https://pixabay.com/users/MARTINOPHUC-13713779/",
+     "url": "https://pixabay.com/photos/italy-rome-colosseum-sunset-9505450/",
+     "thumb": "https://pixabay.com/get/g4a47269c07714758bb5ba290ad1393b1aeeb5e362335a4546d917021c09b3b328d824c84133f3f2095ecefbf4ab907469e2df8a8de9d65f195856e3941942081_640.jpg",
+     "large": "https://pixabay.com/get/gedd6bca62aa36cfd8b266509b0c148912fc60751e38f192055361b3020e801165be158bd3f6649727df2441e9359e3f0714a64be53c62906fedd1d40c4eb2de1_1280.jpg",
+     "original": "https://pixabay.com/get/gedd6bca62aa36cfd8b266509b0c148912fc60751e38f192055361b3020e801165be158bd3f6649727df2441e9359e3f0714a64be53c62906fedd1d40c4eb2de1_1280.jpg",
+     "score": 5.713,
+     "vision": "yes"
+    },
+    {
+     "id": 5773684,
+     "w": 1280,
+     "h": 853,
+     "alt": "colosseum, amphitheatre, monument, ruins, perspective, roman, rome, italy, architecture, italian, city, coliseum, historical, culture, colos",
+     "photographer": "Midicloriano",
+     "photographer_url": "https://pixabay.com/users/Midicloriano-6132331/",
+     "url": "https://pixabay.com/photos/colosseum-amphitheatre-monument-5773684/",
+     "thumb": "https://pixabay.com/get/g37e641abad294fcd29d15e1cb69ed63f76f1a2fa137ae7cf44e79dc7d3a4eb5e2c4d96d7e1b2546d1e0ab94544dda263204663efb729f12691b189c496e67e03_640.jpg",
+     "large": "https://pixabay.com/get/gc3afe5e3ef06fd763e597b610eaccfb80a7b920d4b0ace75c58e5c1cbfe00bf0d6a1941d21e2877c1476492381fc8e24bf8f851cec4b07ba4fcf613a850e3270_1280.jpg",
+     "original": "https://pixabay.com/get/gc3afe5e3ef06fd763e597b610eaccfb80a7b920d4b0ace75c58e5c1cbfe00bf0d6a1941d21e2877c1476492381fc8e24bf8f851cec4b07ba4fcf613a850e3270_1280.jpg",
+     "score": 5.713,
+     "vision": "yes"
+    },
+    {
+     "id": 3550739,
+     "w": 1280,
+     "h": 853,
+     "alt": "rome, italy colosseum, ancient, metropolis, old, building, arena, rome, rome, rome, rome, rome",
+     "photographer": "Trimlack",
+     "photographer_url": "https://pixabay.com/users/Trimlack-9445537/",
+     "url": "https://pixabay.com/photos/rome-italy-colosseum-ancient-3550739/",
+     "thumb": "https://pixabay.com/get/g24fba40c4efe61d0a7d76ab5e57a14227c762cd321376e8634c1f0bb3d7367c1c551bfb283f603e97f511115e259a8d9f0d91a1922e9d307e4cbe4bd06bc44b7_640.jpg",
+     "large": "https://pixabay.com/get/ged2819f022c96fb8c795f3a0a9c8b643f60d9fc47d9ce39a8aa83981077bbe995b355d3da6829bd83d7d53fa0caef66f908d376e569be7d6b30992bc70d7b483_1280.jpg",
+     "original": "https://pixabay.com/get/ged2819f022c96fb8c795f3a0a9c8b643f60d9fc47d9ce39a8aa83981077bbe995b355d3da6829bd83d7d53fa0caef66f908d376e569be7d6b30992bc70d7b483_1280.jpg",
+     "score": 5.713,
+     "vision": "yes"
+    },
+    {
+     "id": 5579937,
+     "w": 1280,
+     "h": 853,
+     "alt": "colosseum, ruins, moon, moonlight, landmark, building, facade, architecture, tourist attraction, tourist destination, night sky, rome, night",
+     "photographer": "ELG21",
+     "photographer_url": "https://pixabay.com/users/ELG21-3764790/",
+     "url": "https://pixabay.com/photos/colosseum-ruins-moon-moonlight-5579937/",
+     "thumb": "https://pixabay.com/get/g962fbf2286b1462b9bebe38d84488ce6ce020c34946bf191dd74b3db7914409a4efaaccc5a1df0090dc1e2f3f34addb0ebcfccbfd4116a8efc799fbbd332d8df_640.jpg",
+     "large": "https://pixabay.com/get/g37a2bcfb98ce30b62e8b3d3848bd62fd5ba9a85c882626697a5aa87a1b1099d6c64d6a38de32ab79c593bbc13007488629830e44354e767eea0bab20bcc72271_1280.jpg",
+     "original": "https://pixabay.com/get/g37a2bcfb98ce30b62e8b3d3848bd62fd5ba9a85c882626697a5aa87a1b1099d6c64d6a38de32ab79c593bbc13007488629830e44354e767eea0bab20bcc72271_1280.jpg",
+     "score": 5.713,
+     "vision": "yes"
+    }
+   ],
+   "page": 1
+  },
+  {
+   "word": "mudskipper",
+   "search_query": "mudskipper",
+   "category": "animals",
+   "difficulty": 3,
+   "photos": [
+    {
+     "id": 8800566,
+     "w": 1280,
+     "h": 1249,
+     "alt": "mudskipper, fish, amphibian, animal, periophthalmus, sea, amphibious, creature, mangrove, nature, skipper, mudskipper fish, climbing",
+     "photographer": "PetrGanaj",
+     "photographer_url": "https://pixabay.com/users/PetrGanaj-16058207/",
+     "url": "https://pixabay.com/photos/mudskipper-fish-amphibian-animal-8800566/",
+     "thumb": "https://pixabay.com/get/gd3400311c200ca01163846710b17be56a6273de8350c09790d57e36fe977be392930c66a6fb9b95e2587e47fae22e64f44c409ff418062dc441f54dd9d9da4a2_640.jpg",
+     "large": "https://pixabay.com/get/g0efefaa504f7a1587751575738ffe2ad2c0fa7a12ebd00a3761c8ab8eb68fec124319dc6fdb26a12973231517583596c5cd20bb0ee02be27deb51af555466c51_1280.jpg",
+     "original": "https://pixabay.com/get/g0efefaa504f7a1587751575738ffe2ad2c0fa7a12ebd00a3761c8ab8eb68fec124319dc6fdb26a12973231517583596c5cd20bb0ee02be27deb51af555466c51_1280.jpg",
+     "score": 5.713,
+     "vision": "yes"
+    },
+    {
+     "id": 3267901,
+     "w": 1280,
+     "h": 853,
+     "alt": "mudskipper, fish, water, pool, nature, outdoors, river, wet, environment, reflection, aquatic, mudskipper, mudskipper, mudskipper, mudskippe",
+     "photographer": "vinsky2002",
+     "photographer_url": "https://pixabay.com/users/vinsky2002-1151065/",
+     "url": "https://pixabay.com/photos/mudskipper-fish-water-pool-nature-3267901/",
+     "thumb": "https://pixabay.com/get/gd82ffe76e0a4f89a6df8a60fb3e9ab00ba7bd0af942231edc20c931aba63572f8d91373e52b5e3a1079c3399b83213be3755feeb23b48f22f92fa4b84b9694fc_640.jpg",
+     "large": "https://pixabay.com/get/g76f914415264b55876ddbc92327ca6ab91f513d7c1fe3ce495472d8f8f140848e7735d00e26d6790b62840b1fdc3812123f0189a2a826df9738fdd6566d45ca0_1280.jpg",
+     "original": "https://pixabay.com/get/g76f914415264b55876ddbc92327ca6ab91f513d7c1fe3ce495472d8f8f140848e7735d00e26d6790b62840b1fdc3812123f0189a2a826df9738fdd6566d45ca0_1280.jpg",
+     "score": 5.713,
+     "vision": "yes"
+    },
+    {
+     "id": 6632470,
+     "w": 1280,
+     "h": 855,
+     "alt": "fish, mudskipper, amphibious fish, nature, animal, macro, mudskipper, mudskipper, mudskipper, mudskipper, mudskipper",
+     "photographer": "makabera",
+     "photographer_url": "https://pixabay.com/users/makabera-6773476/",
+     "url": "https://pixabay.com/photos/fish-mudskipper-amphibious-fish-6632470/",
+     "thumb": "https://pixabay.com/get/g4332f944badc803b9a0333682321e07f637181043ce898b3c2aa075f3e9d66782f27ac7e05a523a43e6d14d6f393f67780b80ff4ad96b485eeb3614df02b84e1_640.jpg",
+     "large": "https://pixabay.com/get/g5a43c8cd90bff35541e7a77ae7e1eb9b36bc26359d5915625ddf4390ce60780644784ee4cc440fec056d452c20aa1ab8631d809a8951e77775c4cb017c8732bc_1280.jpg",
+     "original": "https://pixabay.com/get/g5a43c8cd90bff35541e7a77ae7e1eb9b36bc26359d5915625ddf4390ce60780644784ee4cc440fec056d452c20aa1ab8631d809a8951e77775c4cb017c8732bc_1280.jpg",
+     "score": 5.713,
+     "vision": "yes"
+    },
+    {
+     "id": 92489,
+     "w": 1280,
+     "h": 960,
+     "alt": "mudskipper, fish, animal, water, nature, mudskipper, mudskipper, mudskipper, mudskipper, mudskipper",
+     "photographer": "7854",
+     "photographer_url": "https://pixabay.com/users/7854-7854/",
+     "url": "https://pixabay.com/photos/mudskipper-fish-animal-water-92489/",
+     "thumb": "https://pixabay.com/get/g14620b3ea99dcd459a11b811617c430b9402a66038b54cbf771e8768d9015e9f7930be6691851b0620b65bc21ce72c35_640.jpg",
+     "large": "https://pixabay.com/get/g5abee8e51395a22838087224cf91d2134171d04433d8faa0f1d67d30c1f8bf0918249f41868ef14deed537f539b948a0_1280.jpg",
+     "original": "https://pixabay.com/get/g5abee8e51395a22838087224cf91d2134171d04433d8faa0f1d67d30c1f8bf0918249f41868ef14deed537f539b948a0_1280.jpg",
+     "score": 5.713,
+     "vision": "yes"
+    }
+   ],
+   "page": 1
+  },
+  {
+   "word": "turquoise stone",
+   "search_query": "turquoise stone",
+   "category": "nature",
+   "difficulty": 3,
+   "photos": [
+    {
+     "id": 1307644,
+     "w": 1280,
+     "h": 853,
+     "alt": "azalea, stack of stones, stack, stones, cool backgrounds, blossom, windows wallpaper, bloom, beautiful flowers, pink, purple, full hd wallpa",
+     "photographer": "TanteTati",
+     "photographer_url": "https://pixabay.com/users/TanteTati-77004/",
+     "url": "https://pixabay.com/photos/azalea-stack-of-stones-stack-stones-1307644/",
+     "thumb": "https://pixabay.com/get/ge5bdce288da6e8efbdd14eb3524cd89e04999b28272bf46440fd0452d80d1dddf3126c2f87359ae249b54a89a541dfa9b26a1762ee09fbd76191de2e78704827_640.jpg",
+     "large": "https://pixabay.com/get/g88cc649953ee7f17f300201b6c418375818c6c284d18a6e41ad3bdd27cacc49895cb715db5358bf681ab6de50db8535197c96156fb36e58a12a87ca55f6cab15_1280.jpg",
+     "original": "https://pixabay.com/get/g88cc649953ee7f17f300201b6c418375818c6c284d18a6e41ad3bdd27cacc49895cb715db5358bf681ab6de50db8535197c96156fb36e58a12a87ca55f6cab15_1280.jpg",
+     "score": 2.713,
+     "vision": "unsure"
+    },
+    {
+     "id": 1307643,
+     "w": 1280,
+     "h": 853,
+     "alt": "azalea, beautiful flowers, stack of stones, stack, hd wallpaper, stones, blossom, mac wallpaper, bloom, cool backgrounds, pink, purple, flow",
+     "photographer": "TanteTati",
+     "photographer_url": "https://pixabay.com/users/TanteTati-77004/",
+     "url": "https://pixabay.com/photos/azalea-stack-of-stones-stack-stones-1307643/",
+     "thumb": "https://pixabay.com/get/g7f77647d021b055996604400c93fc4956e6a7e0c6a55a846303e09d0a0537379b31c54d8eb3f0cb63c35470b2727b84d47973f996228acf5765cd2828cd06c19_640.jpg",
+     "large": "https://pixabay.com/get/g84846ecbaf8d3faced12e5665050d8a567d16e6cddecee2dd3d6d43ce841bf51d3d48fadabb4ed7bfbd0527ea652bfba288f1a68526d62996e77430a81c29775_1280.jpg",
+     "original": "https://pixabay.com/get/g84846ecbaf8d3faced12e5665050d8a567d16e6cddecee2dd3d6d43ce841bf51d3d48fadabb4ed7bfbd0527ea652bfba288f1a68526d62996e77430a81c29775_1280.jpg",
+     "score": 2.713,
+     "vision": "unsure"
+    },
+    {
+     "id": 4703033,
+     "w": 1280,
+     "h": 853,
+     "alt": "quartz, crystal, turquoise, blue, geode, faceted, mineral, semiprecious, geology, stone, teal, pointy, resource, rock, transparent, see thro",
+     "photographer": "Curious_Collectibles",
+     "photographer_url": "https://pixabay.com/users/Curious_Collectibles-11004713/",
+     "url": "https://pixabay.com/photos/quartz-crystal-turquoise-blue-4703033/",
+     "thumb": "https://pixabay.com/get/gc0fc2a1a9c4529c7ac4e50cb4f541a7eab0917418e45d948e5dba15d813f9fe8eb3ad77d2609adef0b921bc9ddf248330bbe455756a2d56e1084e7d25cbe9cd8_640.jpg",
+     "large": "https://pixabay.com/get/g036c3c4bbeceac48628ebec227529982a56c788b7c559aad029babb28834379f7f44bdf38616ce19527adcdff5181aef638f35c127b63eb1e54cbbc3cc223bf1_1280.jpg",
+     "original": "https://pixabay.com/get/g036c3c4bbeceac48628ebec227529982a56c788b7c559aad029babb28834379f7f44bdf38616ce19527adcdff5181aef638f35c127b63eb1e54cbbc3cc223bf1_1280.jpg",
+     "score": 2.713,
+     "vision": "unsure"
+    },
+    {
+     "id": 4165437,
+     "w": 1280,
+     "h": 853,
+     "alt": "water, beautiful wallpaper, background, waterfall, blue, 4k wallpaper 1920x1080, nature, laptop wallpaper, liquid, wallpaper 4k, ocean, free",
+     "photographer": "Olga1205",
+     "photographer_url": "https://pixabay.com/users/Olga1205-2573607/",
+     "url": "https://pixabay.com/photos/water-background-waterfall-blue-4165437/",
+     "thumb": "https://pixabay.com/get/gca921a3e7f5337fc536a95627fb598cce9d3f655da503840c61747ddbf5e0104a11c016b23c86ebe62dee977e175b7265e05b672d7c4e08300f9fb2bc7a64582_640.jpg",
+     "large": "https://pixabay.com/get/g1aa43111f3c95013dffabfd606ae252ae754f5284e727e43d383f91c4a26a2f91ea72c45b5a3b92eb1b77bdcf9acd41c63e33388ee190f79a683f11da06012dc_1280.jpg",
+     "original": "https://pixabay.com/get/g1aa43111f3c95013dffabfd606ae252ae754f5284e727e43d383f91c4a26a2f91ea72c45b5a3b92eb1b77bdcf9acd41c63e33388ee190f79a683f11da06012dc_1280.jpg",
+     "score": 2.713,
+     "vision": "unsure"
+    }
+   ],
+   "page": 1
+  },
+  {
+   "word": "ginger root",
+   "search_query": "ginger root",
+   "category": "food",
+   "difficulty": 2,
+   "photos": [
+    {
+     "id": 7888804,
+     "w": 1280,
+     "h": 960,
+     "alt": "ginger, natural remedies, herb, free wallpaper, wallpaper hd, medicine, full hd wallpaper, ginger root, healthy, vegetable, fresh, raw, beau",
+     "photographer": "Janvanbizar",
+     "photographer_url": "https://pixabay.com/users/Janvanbizar-22575084/",
+     "url": "https://pixabay.com/photos/ginger-natural-remedies-herb-7888804/",
+     "thumb": "https://pixabay.com/get/g51eb681c1af774411b45f732d274db2729f958a4796ccd5d1066a41e58b98c8c7fa88096fea6ff39f8a19bc6fdad9892d35e780c4be31e21fd0391be411ca6c3_640.jpg",
+     "large": "https://pixabay.com/get/gec6410ac36d098dc65086868b15cd14721e3128982b3c493c59c84edb717244025dd3bdd0ffcbe1d54d49a8526eaa79a6ead9087e8508034aac13b90f00a7940_1280.jpg",
+     "original": "https://pixabay.com/get/gec6410ac36d098dc65086868b15cd14721e3128982b3c493c59c84edb717244025dd3bdd0ffcbe1d54d49a8526eaa79a6ead9087e8508034aac13b90f00a7940_1280.jpg",
+     "score": 5.713,
+     "vision": "yes"
+    },
+    {
+     "id": 2842826,
+     "w": 1280,
+     "h": 1087,
+     "alt": "ginger, rhizome, ginger root, zingiber officinale, ingber, imber, immerwurzel, ginger plants, underground, seasoning, ginger rhizome, culina",
+     "photographer": "anaterate",
+     "photographer_url": "https://pixabay.com/users/anaterate-2348028/",
+     "url": "https://pixabay.com/photos/ginger-rhizome-ginger-root-2842826/",
+     "thumb": "https://pixabay.com/get/g3df337930bb087c54ec2e6fc27625822b3117ac3b05078b06279f4130507a7826afebc2e09fa642d7af0e40a109c9238231e861597e658c1f0efd1b9090bc8a7_640.png",
+     "large": "https://pixabay.com/get/g40f011d6d4a0f930e957eb30ebf9cdae4e097961fe4fafdf0bbffdc8ff9b516782e6a86bfec05ff243d387aecae49d94a2723af86faa22a0403b7b474fb45c5c_1280.png",
+     "original": "https://pixabay.com/get/g40f011d6d4a0f930e957eb30ebf9cdae4e097961fe4fafdf0bbffdc8ff9b516782e6a86bfec05ff243d387aecae49d94a2723af86faa22a0403b7b474fb45c5c_1280.png",
+     "score": 5.713,
+     "vision": "yes"
+    },
+    {
+     "id": 3966502,
+     "w": 1280,
+     "h": 1150,
+     "alt": "ginger, ginger tea, hot drink, drink, ginger root, ginger, ginger, ginger, ginger, ginger, ginger tea, ginger tea",
+     "photographer": "congerdesign",
+     "photographer_url": "https://pixabay.com/users/congerdesign-509903/",
+     "url": "https://pixabay.com/photos/ginger-ginger-tea-hot-drink-drink-3966502/",
+     "thumb": "https://pixabay.com/get/g4027de41b832aea74d8d0097b033937d1d82e3484252eeeb20b6df15905fb93ce4d7484726aa076eef65300408d50e56a9befc555f6df4d9d86573741f86519f_640.jpg",
+     "large": "https://pixabay.com/get/g1a4a8fa703a23c22807c1b46315845198e1981c9016ac2e0e156aa074fe188d30928ebaf3d6eaa95cfe0ef9ba600e199c4edb911eaeae03a86fffb6a9a141251_1280.jpg",
+     "original": "https://pixabay.com/get/g1a4a8fa703a23c22807c1b46315845198e1981c9016ac2e0e156aa074fe188d30928ebaf3d6eaa95cfe0ef9ba600e199c4edb911eaeae03a86fffb6a9a141251_1280.jpg",
+     "score": 5.713,
+     "vision": "yes"
+    },
+    {
+     "id": 356104,
+     "w": 1280,
+     "h": 1280,
+     "alt": "ginger, ginger root, vegetables, cooking, spices, healthy, food, green food, green cooking, green vegetables, green healthy, ginger, ginger,",
+     "photographer": "margenauer",
+     "photographer_url": "https://pixabay.com/users/margenauer-271373/",
+     "url": "https://pixabay.com/photos/ginger-ginger-root-vegetables-356104/",
+     "thumb": "https://pixabay.com/get/gf778aef2a4d2c2d14b9e88c6d41a0c60d3a962949fbbad2e06f920716f19b6b247ab1e0826cc7a1fe023ced401a75eae_640.jpg",
+     "large": "https://pixabay.com/get/g0c085b43211b9c50ea68557dbe9ff65256b9ea0894665678e7dde7d28aa78aaca321869ce7bdf365509a2cbc9737a7aa6e2bd0dbe2434aab1a57bfe34cc0fc09_1280.jpg",
+     "original": "https://pixabay.com/get/g0c085b43211b9c50ea68557dbe9ff65256b9ea0894665678e7dde7d28aa78aaca321869ce7bdf365509a2cbc9737a7aa6e2bd0dbe2434aab1a57bfe34cc0fc09_1280.jpg",
+     "score": 5.713,
+     "vision": "yes"
+    }
+   ],
+   "page": 1
+  },
+  {
+   "word": "telegraph",
+   "search_query": "telegraph",
+   "category": "office",
+   "difficulty": 3,
+   "photos": [
+    {
+     "id": 7632650,
+     "w": 1280,
+     "h": 1005,
+     "alt": "telegraph, ship engine room, maritime, seafaring, shipping, telegraph, telegraph, telegraph, telegraph, telegraph",
+     "photographer": "minka2507",
+     "photographer_url": "https://pixabay.com/users/minka2507-3728206/",
+     "url": "https://pixabay.com/photos/telegraph-ship-engine-room-maritime-7632650/",
+     "thumb": "https://pixabay.com/get/gd0cdcb290be7e46e7715be589ff4a836cf1d6dd68da71194cd3ea2687ddbb6ef871d19b2dadc95f5f741ef03b163d3cd01248795e9d73975ac918d9cb6d0d8bd_640.jpg",
+     "large": "https://pixabay.com/get/gfcf9324179b997d7580d344b2580b576f07067f63c4a3c27eb29ca1af02eacb3685d9312641c05f8d7bc67848cc2b1dd579da58db0731b28093e7de2617b3080_1280.jpg",
+     "original": "https://pixabay.com/get/gfcf9324179b997d7580d344b2580b576f07067f63c4a3c27eb29ca1af02eacb3685d9312641c05f8d7bc67848cc2b1dd579da58db0731b28093e7de2617b3080_1280.jpg",
+     "score": 5.713,
+     "vision": "yes"
+    },
+    {
+     "id": 2656245,
+     "w": 1280,
+     "h": 848,
+     "alt": "ship, operation, captain, command bridge, steering, lever, machines telegraph",
+     "photographer": "onkelramirez1",
+     "photographer_url": "https://pixabay.com/users/onkelramirez1-1490122/",
+     "url": "https://pixabay.com/photos/ship-operation-captain-2656245/",
+     "thumb": "https://pixabay.com/get/g5550d07835c52823f205bde5fde098e9ae310ae9175284e373ebaefd3dee3e2ca2d86af31ab5f3a038d91014a585ad404c2621ddd893d5b1b5b100c5d284c3cd_640.jpg",
+     "large": "https://pixabay.com/get/g68807e454d52d24cc5d68db27496205eeb1a89a4dd89e79c5d9d7ead81bbda2db253191aaafcb9dd0b027635215dde3d8435a5143199db444d37b475f5e6c1cb_1280.jpg",
+     "original": "https://pixabay.com/get/g68807e454d52d24cc5d68db27496205eeb1a89a4dd89e79c5d9d7ead81bbda2db253191aaafcb9dd0b027635215dde3d8435a5143199db444d37b475f5e6c1cb_1280.jpg",
+     "score": 5.713,
+     "vision": "yes"
+    },
+    {
+     "id": 692735,
+     "w": 1280,
+     "h": 853,
+     "alt": "brass machine telegraph, sea symbol, the captain's bridge, nautical decoration, command full speed ahead, nautical gift",
+     "photographer": "Marynistyka_Group",
+     "photographer_url": "https://pixabay.com/users/Marynistyka_Group-884854/",
+     "url": "https://pixabay.com/photos/brass-machine-telegraph-sea-symbol-692735/",
+     "thumb": "https://pixabay.com/get/g2b1f33179a5782fa80615b8778c760f21ba1ded5add271baa89cc2ce34040f28a5fb44a6eff3db8340fd7cb0bcb6e956_640.jpg",
+     "large": "https://pixabay.com/get/g893303c611d754932a3cd4c93d266e2ac61e6062d75bca2434e90d21b7b8a2896a8ce8c9de638af3593fd60d9ff07354973ae8213f09a0ed24d934e462fe3111_1280.jpg",
+     "original": "https://pixabay.com/get/g893303c611d754932a3cd4c93d266e2ac61e6062d75bca2434e90d21b7b8a2896a8ce8c9de638af3593fd60d9ff07354973ae8213f09a0ed24d934e462fe3111_1280.jpg",
+     "score": 5.713,
+     "vision": "yes"
+    }
+   ],
+   "page": 1
+  },
+  {
+   "word": "kale",
+   "search_query": "kale",
+   "category": "food",
+   "difficulty": 3,
+   "photos": [
+    {
+     "id": 5975540,
+     "w": 1280,
+     "h": 848,
+     "alt": "kale, fresh, vegetables, nature, green, vitamins, leaves, green leaves, green vegetables, healthy, fresh vegetables, produce, organic",
+     "photographer": "Kathas_Fotos",
+     "photographer_url": "https://pixabay.com/users/Kathas_Fotos-11174123/",
+     "url": "https://pixabay.com/photos/kale-fresh-vegetables-green-5975540/",
+     "thumb": "https://pixabay.com/get/g3b26d7f1fdc37054f218d164ad82017fa9af07d4a94814b905209aabb81636fef6383623a2a323c8f2b9f7d9aa45b3f7196ab713729b2a4d9fa3784d0b206de4_640.jpg",
+     "large": "https://pixabay.com/get/g1e2c543f7803be20b1b3d3c0ad926cfcf04b7b7f2fd673c65b5773b38f96683457611f604c2dad596114dde92dbf0986f957adc98fff707ba08b57adcdf79a4f_1280.jpg",
+     "original": "https://pixabay.com/get/g1e2c543f7803be20b1b3d3c0ad926cfcf04b7b7f2fd673c65b5773b38f96683457611f604c2dad596114dde92dbf0986f957adc98fff707ba08b57adcdf79a4f_1280.jpg",
+     "score": 5.713,
+     "vision": "yes"
+    },
+    {
+     "id": 7769954,
+     "w": 1280,
+     "h": 854,
+     "alt": "green cabbage, kale, agriculture, vegetable, vegan, food, kale, kale, kale, kale, kale",
+     "photographer": "jhenning",
+     "photographer_url": "https://pixabay.com/users/jhenning-8658480/",
+     "url": "https://pixabay.com/photos/green-cabbage-kale-agriculture-7769954/",
+     "thumb": "https://pixabay.com/get/g76242b1cb791af502af4b21a04d9ad73430b4ea0317b0b7cbec93b121170ea70ef279305871c3e70235ac7a9740f3f4947be2fdb46391819c4baf9f115d7b2fb_640.jpg",
+     "large": "https://pixabay.com/get/g29f7d32fd8fba2eafc0c2351948895b642b53ca5fd03ea4537435ff8086b3c2533037189bf482a756c2e9506629d61cd84e360baba1232ee6d32754e43b2db5f_1280.jpg",
+     "original": "https://pixabay.com/get/g29f7d32fd8fba2eafc0c2351948895b642b53ca5fd03ea4537435ff8086b3c2533037189bf482a756c2e9506629d61cd84e360baba1232ee6d32754e43b2db5f_1280.jpg",
+     "score": 5.713,
+     "vision": "yes"
+    },
+    {
+     "id": 8527355,
+     "w": 1280,
+     "h": 854,
+     "alt": "kale, cabbage, agriculture, vegetable, food",
+     "photographer": "jhenning",
+     "photographer_url": "https://pixabay.com/users/jhenning-8658480/",
+     "url": "https://pixabay.com/photos/kale-cabbage-agriculture-vegetable-8527355/",
+     "thumb": "https://pixabay.com/get/gf6cb7584f33ae9643873532ad1fd7fd6628df2333453433603fce6f544a4c0855fc262b759a9696f92619a8b672906d30fc74e8b30a408cecbd1800bb005f654_640.jpg",
+     "large": "https://pixabay.com/get/gf78d862480616a31bd8acd46aeed53ab6d91c3f14ed592d1b74e6b9ef1adec0b442d50168eba2d664de19068e73d75148d20bfecee5b5decd120e33f792f20e3_1280.jpg",
+     "original": "https://pixabay.com/get/gf78d862480616a31bd8acd46aeed53ab6d91c3f14ed592d1b74e6b9ef1adec0b442d50168eba2d664de19068e73d75148d20bfecee5b5decd120e33f792f20e3_1280.jpg",
+     "score": 5.713,
+     "vision": "yes"
+    },
+    {
+     "id": 2317181,
+     "w": 1280,
+     "h": 853,
+     "alt": "kale, garlic, chips from kale, nature, leaves, cabbage, a vegetable, fluted leaves, vegetables, healthy, iron, lettuce, green",
+     "photographer": "pompi",
+     "photographer_url": "https://pixabay.com/users/pompi-2101529/",
+     "url": "https://pixabay.com/photos/kale-garlic-chips-from-kale-leaves-2317181/",
+     "thumb": "https://pixabay.com/get/ga2f4772f7e3685990c7d313b7b938bb5e609acc0ddbd81010a8c341dbbc04e64670b56ae96d71a06c74a74a2484d055d7b87c2afcfd76478fa16d76395c1241f_640.jpg",
+     "large": "https://pixabay.com/get/gc5c6a1f55b4b0c231c161284c898adbf48a729ad60417f7d4d0ca95e766d3024e4e025857a59f9bd0dacbc284284bc35c347bf6f9e1e9ebdf17f943ec7e0750c_1280.jpg",
+     "original": "https://pixabay.com/get/gc5c6a1f55b4b0c231c161284c898adbf48a729ad60417f7d4d0ca95e766d3024e4e025857a59f9bd0dacbc284284bc35c347bf6f9e1e9ebdf17f943ec7e0750c_1280.jpg",
+     "score": 5.713,
+     "vision": "yes"
+    }
+   ],
+   "page": 1
+  }
+ ]
+}

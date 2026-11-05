@@ -1,0 +1,12 @@
+{
+ "state": "ok",
+ "source": "builtin",
+ "warnings": [
+  {
+   "code": "vision_unavailable",
+   "stage": "vision",
+   "detail": "vision model could not be used; photos were NOT checked"
+  }
+ ],
+ "at": "2026-11-05T11:30:19Z"
+}
