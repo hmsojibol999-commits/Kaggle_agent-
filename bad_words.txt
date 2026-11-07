@@ -12,3 +12,4 @@ gimbal
 nectarine
 clock tower
 turquoise stone
+skeleton model
