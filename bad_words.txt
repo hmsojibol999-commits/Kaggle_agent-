@@ -13,3 +13,6 @@ nectarine
 clock tower
 turquoise stone
 skeleton model
+pickaxe
+whale shark
+pretzel bread

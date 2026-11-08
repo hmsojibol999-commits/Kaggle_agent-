@@ -43,3 +43,6 @@ test tube
 dune buggy
 dominoes
 hibiscus
+hatchet
+ziggurat
+gramophone
