@@ -46,3 +46,6 @@ hibiscus
 hatchet
 ziggurat
 gramophone
+dugong
+showerhead
+beaver
