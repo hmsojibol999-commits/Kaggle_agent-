@@ -395,6 +395,202 @@
     }
    ],
    "page": 1
+  },
+  {
+   "word": "pretzel",
+   "search_query": "pretzel",
+   "category": "food",
+   "difficulty": 2,
+   "photos": [
+    {
+     "id": 2759994,
+     "w": 1280,
+     "h": 853,
+     "alt": "pretzels, baked goods, crispy, salty, delicious, nibble, salt pretzel, snacks, treats, stack, tasty, eat, food, food photography, pretzels, ",
+     "photographer": "Couleur",
+     "photographer_url": "https://pixabay.com/users/Couleur-1195798/",
+     "url": "https://pixabay.com/photos/pretzels-baked-goods-crispy-salty-2759994/",
+     "thumb": "https://pixabay.com/get/ge1eeee908268c69b1b532b6405b7ec3708344e75e7021225913f8189ee06fb58a472c119a767230575ec3453ad1ebc22080396c0586dd12f20d48e7e0c41cdb1_640.jpg",
+     "large": "https://pixabay.com/get/ga5697cc5b2140ca47eb13e62198570ba0f180972761382b15bd51ac0a817894fd776e1bc20ac6751a780f1c34cedf3ea62e1628e6d0169c40423115adf05139e_1280.jpg",
+     "original": "https://pixabay.com/get/ga5697cc5b2140ca47eb13e62198570ba0f180972761382b15bd51ac0a817894fd776e1bc20ac6751a780f1c34cedf3ea62e1628e6d0169c40423115adf05139e_1280.jpg",
+     "score": 5.713,
+     "vision": "yes"
+    },
+    {
+     "id": 9764757,
+     "w": 1280,
+     "h": 811,
+     "alt": "pretzel, pastries, snack, oktoberfest, peanuts, nuts, crisps, forks",
+     "photographer": "Melanie_HH",
+     "photographer_url": "https://pixabay.com/users/Melanie_HH-24847938/",
+     "url": "https://pixabay.com/photos/pretzel-pastries-snack-oktoberfest-9764757/",
+     "thumb": "https://pixabay.com/get/gddd59d84985ebd87ff45f2f3677515852049289d89e82551a56983ef765185a825084270dd00ecac30ed126f27791b35ab9049b6972b0eaedb9e5b13f42d0a3d_640.jpg",
+     "large": "https://pixabay.com/get/gf7268f45704f4e5dd298ed4c4c9d62651d77a06c151f4928560aeaf6bac830070a7ef1e61591a3ab60f3b97461b4c5bb20580dee08749129ecd49346ab106f90_1280.jpg",
+     "original": "https://pixabay.com/get/gf7268f45704f4e5dd298ed4c4c9d62651d77a06c151f4928560aeaf6bac830070a7ef1e61591a3ab60f3b97461b4c5bb20580dee08749129ecd49346ab106f90_1280.jpg",
+     "score": 5.713,
+     "vision": "yes"
+    },
+    {
+     "id": 2273216,
+     "w": 1280,
+     "h": 872,
+     "alt": "pretzel, salt, lye roll, yummy, meal, crispy, loaf, food, nourishment, pastries, salty, snack food, pretzels, specialty, salted, bavarian, s",
+     "photographer": "Alexas_Fotos",
+     "photographer_url": "https://pixabay.com/users/Alexas_Fotos-686414/",
+     "url": "https://pixabay.com/photos/pretzel-salt-lye-roll-yummy-meal-2273216/",
+     "thumb": "https://pixabay.com/get/ga3fa636a0473aeebe78cd4c5b4519fbe13365cb7f6b0828e99cead3891be468b50090204c9b5389eaac970c7b3921088760f117c009a90b812d03c2d3a082f77_640.jpg",
+     "large": "https://pixabay.com/get/g8aaff6ae2024da15db4240e91d9042e1dcfab948e17784acbb3e73fec8d485cafdbc24dd50e4d06c239dab4637f52f997251850e53944674ee426d6bf3604d0a_1280.jpg",
+     "original": "https://pixabay.com/get/g8aaff6ae2024da15db4240e91d9042e1dcfab948e17784acbb3e73fec8d485cafdbc24dd50e4d06c239dab4637f52f997251850e53944674ee426d6bf3604d0a_1280.jpg",
+     "score": 5.713,
+     "vision": "yes"
+    },
+    {
+     "id": 2369132,
+     "w": 1280,
+     "h": 850,
+     "alt": "wiesnbreze, breze, pretzel, gigantic, the shade, giant pretzel, yummy, salty, baked goods, lye roll, specialty, tradition, oktoberfest, cris",
+     "photographer": "Alexas_Fotos",
+     "photographer_url": "https://pixabay.com/users/Alexas_Fotos-686414/",
+     "url": "https://pixabay.com/photos/wiesnbreze-breze-pretzel-gigantic-2369132/",
+     "thumb": "https://pixabay.com/get/g9ac342de33e7514310f9c9aa61e1ee8a9ab52fc0d3b71ee9882790002a10c5907023097e7c49422d4fd462ef29b119f053f7d22d6f7d29ac0dcbb5e62e096036_640.jpg",
+     "large": "https://pixabay.com/get/g4d40feb7c10647b8ce9d24901e4e28ff55e0f309a0e6fa0984c57c790307b7411469b95d0481deb5407f8caacce1441773d4bffb6ec57a70e4d4fccc5cb8fa10_1280.jpg",
+     "original": "https://pixabay.com/get/g4d40feb7c10647b8ce9d24901e4e28ff55e0f309a0e6fa0984c57c790307b7411469b95d0481deb5407f8caacce1441773d4bffb6ec57a70e4d4fccc5cb8fa10_1280.jpg",
+     "score": 5.713,
+     "vision": "yes"
+    }
+   ],
+   "page": 1
+  },
+  {
+   "word": "elevator",
+   "search_query": "elevator",
+   "category": "buildings",
+   "difficulty": 2,
+   "photos": [
+    {
+     "id": 1928727,
+     "w": 1280,
+     "h": 853,
+     "alt": "lost places, elevator, underground, dark, gloomy, weird, mood, mystical, spooky, darkness, shadow, horror, fear, nightmare, door, open, lift",
+     "photographer": "Tama66",
+     "photographer_url": "https://pixabay.com/users/Tama66-1032521/",
+     "url": "https://pixabay.com/photos/lost-places-elevator-underground-1928727/",
+     "thumb": "https://pixabay.com/get/gb660387953cd6e5efc3e11360e5fbb91251ca2c0622cc0b241a2c48b16eea5fca59a104d3b52bc76874359ca8cf0780a86737c2d478157d9214fdb8524f472b8_640.jpg",
+     "large": "https://pixabay.com/get/g21dd7a984a22c0d9e9dad928d438c2a4959822915f3d1d76abf4b23ba9f09ed785a0babdcf0b0a0e5e9ed86446751c9729462f994f5f81d198a6380fef13c807_1280.jpg",
+     "original": "https://pixabay.com/get/g21dd7a984a22c0d9e9dad928d438c2a4959822915f3d1d76abf4b23ba9f09ed785a0babdcf0b0a0e5e9ed86446751c9729462f994f5f81d198a6380fef13c807_1280.jpg",
+     "score": 5.713,
+     "vision": "yes"
+    },
+    {
+     "id": 939515,
+     "w": 1280,
+     "h": 853,
+     "alt": "elevator, nice view, building, door, inside, elevator, elevator, elevator, elevator, elevator",
+     "photographer": "nakataza02",
+     "photographer_url": "https://pixabay.com/users/nakataza02-1406119/",
+     "url": "https://pixabay.com/photos/elevator-nice-view-building-door-939515/",
+     "thumb": "https://pixabay.com/get/g5fb69c1455f4a13233622a8eecf0b8d0d6f4c8ce32acf9a49e4705be1b607713b390c8fd6538332017b7cf0f20e7d8b1_640.jpg",
+     "large": "https://pixabay.com/get/gd3607e5d90765a9a8a9b544ad1db0d1ecc45aada1466e59b48a593f2381e9e56d1bd579f62dc6b5f1a424bd4793a659ce644b9320cefc6185d31222cb4830ee0_1280.jpg",
+     "original": "https://pixabay.com/get/gd3607e5d90765a9a8a9b544ad1db0d1ecc45aada1466e59b48a593f2381e9e56d1bd579f62dc6b5f1a424bd4793a659ce644b9320cefc6185d31222cb4830ee0_1280.jpg",
+     "score": 5.713,
+     "vision": "yes"
+    },
+    {
+     "id": 5001019,
+     "w": 1280,
+     "h": 852,
+     "alt": "elevator, lift, freight elevator, hamburg, old elbe tunnel, old, historical, passenger elevator, stairwell, rise, ride, descent, elevator, e",
+     "photographer": "Tama66",
+     "photographer_url": "https://pixabay.com/users/Tama66-1032521/",
+     "url": "https://pixabay.com/photos/elevator-lift-freight-elevator-5001019/",
+     "thumb": "https://pixabay.com/get/g62ac34af512c01830dfa231fc2571bd979d5b7697b253e130558980c50f21871b1f285cd194a407e2cd9b9d3dc2e943fddc10b8076301f790a27a2945127940c_640.jpg",
+     "large": "https://pixabay.com/get/gdcf0823bde24e09bd30c5d209af857bea1e8ce7ec0c4facdc132cb9f382a0408e54bb8fcb092b66eff9269a9c80f60d602487d16ed355ebb3f0c47f4c2c81ae2_1280.jpg",
+     "original": "https://pixabay.com/get/gdcf0823bde24e09bd30c5d209af857bea1e8ce7ec0c4facdc132cb9f382a0408e54bb8fcb092b66eff9269a9c80f60d602487d16ed355ebb3f0c47f4c2c81ae2_1280.jpg",
+     "score": 5.713,
+     "vision": "yes"
+    },
+    {
+     "id": 8003030,
+     "w": 1280,
+     "h": 844,
+     "alt": "elevator, building, hotel, architecture, elevator, elevator, elevator, elevator, elevator, hotel, hotel",
+     "photographer": "wal_172619",
+     "photographer_url": "https://pixabay.com/users/wal_172619-12138562/",
+     "url": "https://pixabay.com/photos/elevator-building-hotel-8003030/",
+     "thumb": "https://pixabay.com/get/g309785c9315db44509639bc71b888a1675d96d2e01628658df5d66eebca570745b1f7652b2ea80d60f49b194eda02c950e9219bb58e05505787766faf0577385_640.jpg",
+     "large": "https://pixabay.com/get/g2a9ec7ec47d1e708bcd236cc8b14479b388625874eb89cafc9a7c34bf321de38d1c0a2c12aa8c2bc619dce32f4f822a2922abf3f6fda15150d710b7a7e4fc8dd_1280.jpg",
+     "original": "https://pixabay.com/get/g2a9ec7ec47d1e708bcd236cc8b14479b388625874eb89cafc9a7c34bf321de38d1c0a2c12aa8c2bc619dce32f4f822a2922abf3f6fda15150d710b7a7e4fc8dd_1280.jpg",
+     "score": 5.713,
+     "vision": "yes"
+    }
+   ],
+   "page": 1
+  },
+  {
+   "word": "bocce balls",
+   "search_query": "bocce balls",
+   "category": "games",
+   "difficulty": 3,
+   "photos": [
+    {
+     "id": 1041042,
+     "w": 1280,
+     "h": 850,
+     "alt": "boules, balls, sports, to play, game, bocce, pétanque, boules, boules, boules, boules, boules, bocce, pétanque, pétanque, pétanque, pétanque",
+     "photographer": "idee-scheibe",
+     "photographer_url": "https://pixabay.com/users/idee-scheibe-1291732/",
+     "url": "https://pixabay.com/photos/boules-balls-sports-to-play-game-1041042/",
+     "thumb": "https://pixabay.com/get/gceab66a9ce3f85098004fed83e1aaba1f379e8f1e236a4cd49840ef22e5e80ab3f1316bb95c540112c601e87d0ac9474f7ca7f76a8800abb36b9d7f7456cc42c_640.jpg",
+     "large": "https://pixabay.com/get/g35e7713eb37ef95f5348fea9f1d86aa31dab0e72abfb16c1f4a1bae76ad996512e43ab2c5612497c9cb00e6aef09844e48cdee99cf02b6d4d6ea95b48db8b900_1280.jpg",
+     "original": "https://pixabay.com/get/g35e7713eb37ef95f5348fea9f1d86aa31dab0e72abfb16c1f4a1bae76ad996512e43ab2c5612497c9cb00e6aef09844e48cdee99cf02b6d4d6ea95b48db8b900_1280.jpg",
+     "score": 2.713,
+     "vision": "yes"
+    },
+    {
+     "id": 3058654,
+     "w": 1280,
+     "h": 793,
+     "alt": "boule, france, balls, gravel place, boule balls, boule, boule, boule, boule, boule",
+     "photographer": "Juergen_Sieber",
+     "photographer_url": "https://pixabay.com/users/Juergen_Sieber-7527139/",
+     "url": "https://pixabay.com/photos/boule-france-balls-gravel-place-3058654/",
+     "thumb": "https://pixabay.com/get/g563c191a03184d935030e982d158a516b59871f9c0a876cec8d90a029247259e4af4a36b12820908ca01679b0ea9c0c203a62886d7cd90b768455b1818119bf9_640.jpg",
+     "large": "https://pixabay.com/get/g8e157c4495b4ba2395d43a539f04cc2fc119d00b3e9f0989e30155ffe6390dcd10d87606e35e288ba7dcf72681c219cffa1534c2241b0dfa26f4ad62e0958a6f_1280.jpg",
+     "original": "https://pixabay.com/get/g8e157c4495b4ba2395d43a539f04cc2fc119d00b3e9f0989e30155ffe6390dcd10d87606e35e288ba7dcf72681c219cffa1534c2241b0dfa26f4ad62e0958a6f_1280.jpg",
+     "score": 1.963,
+     "vision": "yes"
+    },
+    {
+     "id": 4309803,
+     "w": 1280,
+     "h": 853,
+     "alt": "balls, game, hobbies, fun, petanque, france",
+     "photographer": "Pat_Photographies",
+     "photographer_url": "https://pixabay.com/users/Pat_Photographies-298457/",
+     "url": "https://pixabay.com/photos/balls-game-hobbies-fun-petanque-4309803/",
+     "thumb": "https://pixabay.com/get/g4a2247b1237dc3aac0f3e4f7464462ebcaefd353d14adb523c4bd6b30b5ae1fdeda999f7690c930e160ff802bc58fa628826d924844ffc043b5dbfb79a7b3b6b_640.jpg",
+     "large": "https://pixabay.com/get/g007befae08071e02254eeabd44b605d70c30a86f3b98adf29216fd0f35b24bbaf15bc5e149f4c643b5ef00384fc0b0db092b4dfc847963d8972bda2396c7fa6c_1280.jpg",
+     "original": "https://pixabay.com/get/g007befae08071e02254eeabd44b605d70c30a86f3b98adf29216fd0f35b24bbaf15bc5e149f4c643b5ef00384fc0b0db092b4dfc847963d8972bda2396c7fa6c_1280.jpg",
+     "score": 1.963,
+     "vision": "yes"
+    },
+    {
+     "id": 2680711,
+     "w": 1280,
+     "h": 850,
+     "alt": "petanque, balls, play, leisure, sport, jack, game, close up, petanque, petanque, petanque, petanque, petanque",
+     "photographer": "caropat",
+     "photographer_url": "https://pixabay.com/users/caropat-3683851/",
+     "url": "https://pixabay.com/photos/petanque-balls-play-leisure-sport-2680711/",
+     "thumb": "https://pixabay.com/get/g5b2dc8b203ebdbc2919f80977011733797797f1f41d718d2b4a6f4973f7dcf00e3ef6094102b9e41fbcaef6f5a34a2bd55196a025013c9aa4d0071763ead32ba_640.jpg",
+     "large": "https://pixabay.com/get/g0f1852f880dfdd097557d877886864d234e4437d0979f51e9b0e3359b90fcf1f0559f3d9ec986c4f6bb62e8796f7f358edb6016f36b20507ef644f725dc56964_1280.jpg",
+     "original": "https://pixabay.com/get/g0f1852f880dfdd097557d877886864d234e4437d0979f51e9b0e3359b90fcf1f0559f3d9ec986c4f6bb62e8796f7f358edb6016f36b20507ef644f725dc56964_1280.jpg",
+     "score": 1.963,
+     "vision": "yes"
+    }
+   ],
+   "page": 1
   }
- ]
+ ],
+ "updated": "2026-11-09T11:57:34Z"
 }
