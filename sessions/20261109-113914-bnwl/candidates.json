@@ -590,7 +590,188 @@
     }
    ],
    "page": 1
+  },
+  {
+   "word": "ammonite",
+   "search_query": "ammonite",
+   "category": "nature",
+   "difficulty": 3,
+   "photos": [
+    {
+     "id": 111498,
+     "w": 1280,
+     "h": 853,
+     "alt": "fossil, ammonite, petrification, snail, shell, spiral, stone, fossil, fossil, fossil, fossil, fossil, spiral, spiral",
+     "photographer": "Makro_Wayland",
+     "photographer_url": "https://pixabay.com/users/Makro_Wayland-31946/",
+     "url": "https://pixabay.com/photos/fossil-ammonite-petrification-snail-111498/",
+     "thumb": "https://pixabay.com/get/g8ebd8a4bc5b529acf8574d0f1b0145604668ed163da827c78c7b1dfba66cd7ec97c9c6283c4b0c18ae3760e401519501_640.jpg",
+     "large": "https://pixabay.com/get/ge404be91ef74a18ed1cead4f265505898ce8283a675a07807193118098297f2f37d374e1e9f6ca531417a78b703b016b1584b69edd5cbfbb7031dcf28ac2b680_1280.jpg",
+     "original": "https://pixabay.com/get/ge404be91ef74a18ed1cead4f265505898ce8283a675a07807193118098297f2f37d374e1e9f6ca531417a78b703b016b1584b69edd5cbfbb7031dcf28ac2b680_1280.jpg",
+     "score": 5.713,
+     "vision": "yes"
+    },
+    {
+     "id": 3371828,
+     "w": 1280,
+     "h": 960,
+     "alt": "desktop, ammonite, fossil, gem, natural, ammonite, ammonite, ammonite, ammonite, ammonite, fossil",
+     "photographer": "artyangel",
+     "photographer_url": "https://pixabay.com/users/artyangel-5887741/",
+     "url": "https://pixabay.com/photos/desktop-ammonite-fossil-gem-3371828/",
+     "thumb": "https://pixabay.com/get/g24b8fb139e8b511bc36c18c77e833f38352d5c86864109999fb63856b6ec3f2496fec61263f33d5d4c3fb398577c451eb6ac4a4d51b56f8684b8d0abab3f88fc_640.jpg",
+     "large": "https://pixabay.com/get/gf3c3c929bea4d638eb7f4720eb9b360c515bbf7e81b056125cd5b5c9ba2255f839c6192cf35c1762037b9e4289d97ffe0e550001f57d01a124dbcdff57a611e0_1280.jpg",
+     "original": "https://pixabay.com/get/gf3c3c929bea4d638eb7f4720eb9b360c515bbf7e81b056125cd5b5c9ba2255f839c6192cf35c1762037b9e4289d97ffe0e550001f57d01a124dbcdff57a611e0_1280.jpg",
+     "score": 5.713,
+     "vision": "yes"
+    },
+    {
+     "id": 1969912,
+     "w": 1280,
+     "h": 960,
+     "alt": "fossil, museum, ammonite, fossil, fossil, fossil, fossil, fossil",
+     "photographer": "laurentarroues",
+     "photographer_url": "https://pixabay.com/users/laurentarroues-1969901/",
+     "url": "https://pixabay.com/photos/fossil-museum-ammonite-1969912/",
+     "thumb": "https://pixabay.com/get/g9d8ca8e0bf82fb5dce644ec2ba3b41423973195e54892d7cd77260324def825558bd3e3e84f6f644f5d21af4977991f25d81f88162162f77ed8d6959dc5edf21_640.jpg",
+     "large": "https://pixabay.com/get/g2e0a0aad7282952a365c4b8b4dbf4ccae4da777fdfa0d7ca75995af547ab948bdc3a9faf35e00130d081ebcc70948163490ff9a27fb3102bbb4f207a688c69fa_1280.jpg",
+     "original": "https://pixabay.com/get/g2e0a0aad7282952a365c4b8b4dbf4ccae4da777fdfa0d7ca75995af547ab948bdc3a9faf35e00130d081ebcc70948163490ff9a27fb3102bbb4f207a688c69fa_1280.jpg",
+     "score": 5.713,
+     "vision": "yes"
+    },
+    {
+     "id": 3538474,
+     "w": 1280,
+     "h": 894,
+     "alt": "petrification, fossilized, ammonite, cephalopods, ammonoidea, extinct, limestone, petrified, geology, paleontology, sediment, shell, ammonit",
+     "photographer": "anaterate",
+     "photographer_url": "https://pixabay.com/users/anaterate-2348028/",
+     "url": "https://pixabay.com/photos/petrification-fossilized-ammonite-3538474/",
+     "thumb": "https://pixabay.com/get/g4bf00b9895741f150a6b1b8512c5aaf6b0222260a9b174226abde1cbf6472930096deecab2bb1afc67b5af9eff539c505800f41da2c3d45950b11b3cd3c3c814_640.jpg",
+     "large": "https://pixabay.com/get/g8959ec2cdb2eed5b2f07ac7ddc6d8a19db03b82b404b4525d15ad36b345350724b841fd374494f2ed221f31ad3d36d83ab7cc4bd77896b548ae1500a9f49f93d_1280.jpg",
+     "original": "https://pixabay.com/get/g8959ec2cdb2eed5b2f07ac7ddc6d8a19db03b82b404b4525d15ad36b345350724b841fd374494f2ed221f31ad3d36d83ab7cc4bd77896b548ae1500a9f49f93d_1280.jpg",
+     "score": 5.713,
+     "vision": "yes"
+    }
+   ],
+   "page": 1
+  },
+  {
+   "word": "beaver",
+   "search_query": "beaver animal",
+   "category": "animals",
+   "difficulty": 2,
+   "photos": [
+    {
+     "id": 9726168,
+     "w": 1280,
+     "h": 853,
+     "alt": "beaver, nature, animal, rodent, mammal, wildlife, water, nutria, beaver rat, wild, flow, fur, species",
+     "photographer": "wvrede",
+     "photographer_url": "https://pixabay.com/users/wvrede-17806843/",
+     "url": "https://pixabay.com/photos/beaver-nature-animal-rodent-mammal-9726168/",
+     "thumb": "https://pixabay.com/get/gfe3a3e0abd2eb36a77ac905e521c736858f189fe1ff525a116be33ad060523c800adf145b8cb619ff13fce231704fb3e2de8abade65990061c7fd7608d3e3f0c_640.jpg",
+     "large": "https://pixabay.com/get/g16ec4a63d8c6603b786c69c4bcbe0ed54f0ff34926e3daa740e6f3d529e01bbbe17bec5f61846c2520fa9f8c38963fcddb17ce35355e8aa394a5ac3de8cd6428_1280.jpg",
+     "original": "https://pixabay.com/get/g16ec4a63d8c6603b786c69c4bcbe0ed54f0ff34926e3daa740e6f3d529e01bbbe17bec5f61846c2520fa9f8c38963fcddb17ce35355e8aa394a5ac3de8cd6428_1280.jpg",
+     "score": 5.713,
+     "vision": "yes"
+    },
+    {
+     "id": 8084155,
+     "w": 1280,
+     "h": 853,
+     "alt": "eurasian beaver, beaver, rodent, clover, grass, meadow, lawn, mammal, fur, sunset, nature, eurasian beaver, beaver, beaver, beaver, beaver, ",
+     "photographer": "sharkolot",
+     "photographer_url": "https://pixabay.com/users/sharkolot-25467781/",
+     "url": "https://pixabay.com/photos/eurasian-beaver-beaver-rodent-8084155/",
+     "thumb": "https://pixabay.com/get/ge6dc914109ae0df9b50100803ebd0c70b3415579b27a35b2360616a2a0c4d16b3ba7330795e7e8efb24ed55abecdac3ea74ee8aea48f3049c5af498263050a7e_640.jpg",
+     "large": "https://pixabay.com/get/g7365a0d3fd0d10cb0cf59a1b4005cdedd7ace4ea9cd689aedf711c1523e49d79215b143976562eacc068c9e385772da78499c59ea4ac91b02a2c7f79fff2fe3e_1280.jpg",
+     "original": "https://pixabay.com/get/g7365a0d3fd0d10cb0cf59a1b4005cdedd7ace4ea9cd689aedf711c1523e49d79215b143976562eacc068c9e385772da78499c59ea4ac91b02a2c7f79fff2fe3e_1280.jpg",
+     "score": 5.713,
+     "vision": "yes"
+    },
+    {
+     "id": 7148457,
+     "w": 1280,
+     "h": 914,
+     "alt": "beaver, river, canada, wildlife, wilderness, nature, forest, animal, marsh, beaver, beaver, beaver, beaver, beaver",
+     "photographer": "14062968",
+     "photographer_url": "https://pixabay.com/users/14062968-14062968/",
+     "url": "https://pixabay.com/photos/beaver-river-canada-wildlife-7148457/",
+     "thumb": "https://pixabay.com/get/g9c342e459d17bf369c8e1a4f76711cea0e24b94b374d04d180a9e8d228d2cc94eaad9b14a82406122b5972c4a7c3cf0a2c61a12582623e93e7469b4f4ddd06f3_640.jpg",
+     "large": "https://pixabay.com/get/g95562020a6ba7160acb047234f26d9dabb430319e7224e521816a265c9410cfa5fb2728af8b06ed841120890605307b69f6cc30598ce8b74ffe7158cae928540_1280.jpg",
+     "original": "https://pixabay.com/get/g95562020a6ba7160acb047234f26d9dabb430319e7224e521816a265c9410cfa5fb2728af8b06ed841120890605307b69f6cc30598ce8b74ffe7158cae928540_1280.jpg",
+     "score": 5.713,
+     "vision": "yes"
+    },
+    {
+     "id": 3064498,
+     "w": 1280,
+     "h": 850,
+     "alt": "nutria, beaver rat, rodent, water rat, rodent species, waters, animal, water, sunbathing, nature, wildlife, wildpark poing",
+     "photographer": "Ralphs_Fotos",
+     "photographer_url": "https://pixabay.com/users/Ralphs_Fotos-1767157/",
+     "url": "https://pixabay.com/photos/nutria-beaver-rat-rodent-water-rat-3064498/",
+     "thumb": "https://pixabay.com/get/gc24735d7fcdccd543b3f8ea21305972e977a64bbe66441718f7b5a5d49c2a75e14f1959ee59eeda49494b6c655387b88278a3222406ae7dff486dadf501b69a3_640.jpg",
+     "large": "https://pixabay.com/get/g70da683b5fd472bc711130acb94bad96d944b1a7447948fed077fa52ec51d6ac4b6cf7f1cbb7481aba52063b8a29bd6d0bc6c56cce6e618691e536fccb7acbec_1280.jpg",
+     "original": "https://pixabay.com/get/g70da683b5fd472bc711130acb94bad96d944b1a7447948fed077fa52ec51d6ac4b6cf7f1cbb7481aba52063b8a29bd6d0bc6c56cce6e618691e536fccb7acbec_1280.jpg",
+     "score": 5.713,
+     "vision": "yes"
+    }
+   ],
+   "page": 1
+  },
+  {
+   "word": "cranberry",
+   "search_query": "cranberry",
+   "category": "food",
+   "difficulty": 2,
+   "photos": [
+    {
+     "id": 22024,
+     "w": 1280,
+     "h": 853,
+     "alt": "backdrop, background, laptop wallpaper, berry, cranberry, wallpaper 4k, diet, 4k wallpaper, eating, food, fresh, hd wallpaper, cool backgrou",
+     "photographer": "PublicDomainPictures",
+     "photographer_url": "https://pixabay.com/users/PublicDomainPictures-14/",
+     "url": "https://pixabay.com/photos/backdrop-background-berry-cranberry-22024/",
+     "thumb": "https://pixabay.com/get/g882e9f42decbf7b0acc205f4964e27c33c4bd6993fceea3ccaebce408bb92a0bd8f1d634cffc75bc7b8dd3a45ad3f8de_640.jpg",
+     "large": "https://pixabay.com/get/g098fc5ed80b58a2d7f41836befa3c7418ab45b74dcf641a046a394fd587458fb47d8916dc1d81a931779685ecb6afde2_1280.jpg",
+     "original": "https://pixabay.com/get/g098fc5ed80b58a2d7f41836befa3c7418ab45b74dcf641a046a394fd587458fb47d8916dc1d81a931779685ecb6afde2_1280.jpg",
+     "score": 5.713,
+     "vision": "yes"
+    },
+    {
+     "id": 5752417,
+     "w": 1280,
+     "h": 853,
+     "alt": "cranberries, fruit, plant, vines, dwarf shrubs, dust, garden, nature, closeup, cranberries, garden, garden, garden, garden, garden",
+     "photographer": "ivyeirlys",
+     "photographer_url": "https://pixabay.com/users/ivyeirlys-18370291/",
+     "url": "https://pixabay.com/photos/cranberries-fruit-plant-vines-5752417/",
+     "thumb": "https://pixabay.com/get/ge8194027a46f259abc379341325233e222a672e041a9b8902e5499677b608b72571ccdbb30d91ba73f4fd33e40d3919b31efd95d33894edd3e9b340ffe4c8b49_640.jpg",
+     "large": "https://pixabay.com/get/gc6a020a4c17eb3762008e806fbb340d9b34dcefc63ab0b8525965cb02c2dd6cfc357113286fc0e2adbe00f3095f9f8806eb033431db973e6462c68a4d7215f22_1280.jpg",
+     "original": "https://pixabay.com/get/gc6a020a4c17eb3762008e806fbb340d9b34dcefc63ab0b8525965cb02c2dd6cfc357113286fc0e2adbe00f3095f9f8806eb033431db973e6462c68a4d7215f22_1280.jpg",
+     "score": 1.213,
+     "vision": "yes"
+    },
+    {
+     "id": 1851161,
+     "w": 1280,
+     "h": 853,
+     "alt": "berries, cranberries, red, close up, food, fruits, healthy, nutrition, sweet, ripe, fresh, produce, organic, harvest, cranberries, cranberri",
+     "photographer": "Pexels",
+     "photographer_url": "https://pixabay.com/users/Pexels-2286921/",
+     "url": "https://pixabay.com/photos/berries-cranberries-red-close-up-1851161/",
+     "thumb": "https://pixabay.com/get/ga7220826d6bd070eae9ee070ae55680cdf35a73bc0dd6d6fdd30cfbf6657ef4518dc3cd2eb6f0058bcf987c31e28a87f5e30d9ae21db9ea546f2403867fee6fd_640.jpg",
+     "large": "https://pixabay.com/get/g34c77542fb4b2881400f5a93a765dfeb89a5a8382c34d74e932d9d62dcf49f7dc39b9a34968721691da53645c63e499c6213614394fddfacd674db0cebd13348_1280.jpg",
+     "original": "https://pixabay.com/get/g34c77542fb4b2881400f5a93a765dfeb89a5a8382c34d74e932d9d62dcf49f7dc39b9a34968721691da53645c63e499c6213614394fddfacd674db0cebd13348_1280.jpg",
+     "score": 1.213,
+     "vision": "yes"
+    }
+   ],
+   "page": 1
   }
  ],
- "updated": "2026-11-09T11:57:34Z"
+ "updated": "2026-11-09T12:01:16Z"
 }
