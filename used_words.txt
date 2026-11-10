@@ -49,3 +49,6 @@ gramophone
 dugong
 showerhead
 beaver
+meringue
+python snake
+toucan
