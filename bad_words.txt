@@ -27,3 +27,8 @@ ammonite
 suspension bridge
 grandfather clock
 tennis racket
+outrigger canoe
+forge
+flatiron
+geyser
+paint tin
