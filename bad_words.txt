@@ -32,3 +32,6 @@ forge
 flatiron
 geyser
 paint tin
+observatory dome
+hedgehog
+crepe

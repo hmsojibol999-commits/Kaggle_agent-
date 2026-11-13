@@ -58,3 +58,6 @@ bee eater
 dhow
 moped
 tram
+stethoscope
+moray eel
+celeriac
