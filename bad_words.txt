@@ -35,3 +35,6 @@ paint tin
 observatory dome
 hedgehog
 crepe
+puppet
+x ray
+magnifier

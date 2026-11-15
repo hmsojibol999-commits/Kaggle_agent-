@@ -61,3 +61,6 @@ tram
 stethoscope
 moray eel
 celeriac
+garlic bulb
+yuzu
+excavator
