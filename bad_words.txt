@@ -38,3 +38,4 @@ crepe
 puppet
 x ray
 magnifier
+kaftan

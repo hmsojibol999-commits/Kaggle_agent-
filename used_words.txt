@@ -67,3 +67,6 @@ excavator
 switchboard
 dumpling
 baguette
+knight helmet
+marmoset
+zeppelin
